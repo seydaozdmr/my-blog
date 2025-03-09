@@ -20,11 +20,8 @@ export async function generateStaticParams() {
   }))
 }
 
-export default async function ServicePage({ 
-  params 
-}: { 
-  params: { slug: string } 
-}) {
+
+export default async function ServicePage({ params }: { params: { slug: string } }) {
   const service = await getServiceBySlug(params.slug)
   return (
     <article className="container">
@@ -32,4 +29,4 @@ export default async function ServicePage({
       <div dangerouslySetInnerHTML={{ __html: service.content }} />
     </article>
   )
-} 
+}
