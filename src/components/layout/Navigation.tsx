@@ -21,11 +21,11 @@ export function Navigation() {
           <div className="flex-shrink-0 flex items-center">
             <Link href="/">
               <Image
-                src="/images/logo.jpg"
+                src="/images/logo3.png"
                 alt="Logo"
-                width={160}
-                height={53}
-                className="h-12 w-auto"
+                width={200}
+                height={70}
+                className="h-15 w-auto"
               />
             </Link>
           </div>
