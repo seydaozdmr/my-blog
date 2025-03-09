@@ -165,6 +165,15 @@ export function HeroSlider({ services }: HeroSliderProps) {
             className="overflow-hidden" 
             style={{ height: CONTAINER_HEIGHT }}
           >
+            {scrollPosition < 0 && (
+              <button 
+                onClick={() => handleSliderScroll('up')} 
+                className="w-full text-white hover:bg-white/20 rounded-lg p-2 mb-2"
+              >
+                ↑
+              </button>
+            )}
+
             <motion.div
               drag="y"
               dragConstraints={{ 
@@ -173,9 +182,9 @@ export function HeroSlider({ services }: HeroSliderProps) {
               }}
               dragElastic={0.1}
               dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
-              onDragEnd={handleDrag}
+              onDrag={handleDrag}
               animate={{
-                y: calculateScrollPosition(visibleRange.start)
+                y: calculateScrollPosition(currentIndex)
               }}
               transition={{
                 y: { type: "spring", stiffness: 300, damping: 30 }
