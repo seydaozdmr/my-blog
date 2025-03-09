@@ -15,10 +15,10 @@ export function HeroSlider({ services }: HeroSliderProps) {
   const [visibleRange, setVisibleRange] = useState({ start: 0, end: 3 })
   const [scrollPosition, setScrollPosition] = useState(0)
 
-  const ITEM_HEIGHT = 84
+  const ITEM_HEIGHT = 92
   const ITEM_MARGIN = 8
   const VISIBLE_ITEMS = 3
-  const CONTAINER_HEIGHT = (ITEM_HEIGHT + ITEM_MARGIN) * VISIBLE_ITEMS - ITEM_MARGIN
+  const CONTAINER_HEIGHT = (ITEM_HEIGHT + ITEM_MARGIN) * VISIBLE_ITEMS
 
   const slideVariants = {
     enter: (direction: number) => ({
@@ -37,17 +37,15 @@ export function HeroSlider({ services }: HeroSliderProps) {
     })
   }
 
-  // calculateScrollPosition'u useCallback ile sarmalayalım
   const calculateScrollPosition = useCallback((index: number) => {
-    if (index < VISIBLE_ITEMS) {
-      return 0
+    if (index >= VISIBLE_ITEMS) {
+      const position = -((index - (VISIBLE_ITEMS - 1)) * (ITEM_HEIGHT + ITEM_MARGIN))
+      const maxScroll = -((services.length - VISIBLE_ITEMS) * (ITEM_HEIGHT + ITEM_MARGIN))
+      return Math.max(maxScroll, position)
     }
-    const newPosition = -(index - (VISIBLE_ITEMS - 1)) * (ITEM_HEIGHT + ITEM_MARGIN)
-    const maxScroll = -((services.length - VISIBLE_ITEMS) * (ITEM_HEIGHT + ITEM_MARGIN))
-    return Math.max(maxScroll, newPosition)
-  }, [services.length, ITEM_HEIGHT, ITEM_MARGIN, VISIBLE_ITEMS])
+    return 0
+  }, [ITEM_HEIGHT, ITEM_MARGIN, VISIBLE_ITEMS, services.length])
 
-  // Otomatik geçiş ve scroll pozisyonu güncelleme
   useEffect(() => {
     const timer = setInterval(() => {
       const nextIndex = (currentIndex + 1) % services.length
@@ -73,7 +71,6 @@ export function HeroSlider({ services }: HeroSliderProps) {
     return () => clearInterval(timer)
   }, [currentIndex, services.length, calculateScrollPosition])
 
-  // Button scroll için ayrı fonksiyon
   const handleSliderScroll = (direction: 'up' | 'down') => {
     if (direction === 'up' && visibleRange.start > 0) {
       setVisibleRange(prev => ({
@@ -104,7 +101,6 @@ export function HeroSlider({ services }: HeroSliderProps) {
 
   return (
     <div className="relative h-screen w-full overflow-hidden">
-      {/* Arka plan görseli */}
       <AnimatePresence initial={false} custom={direction}>
         <motion.div
           key={currentIndex}
@@ -130,7 +126,6 @@ export function HeroSlider({ services }: HeroSliderProps) {
         </motion.div>
       </AnimatePresence>
 
-      {/* İçerik */}
       <div className="relative z-10 flex h-full">
         <div className="container mx-auto px-4 flex items-center">
           <div className="max-w-2xl text-white">
@@ -148,7 +143,6 @@ export function HeroSlider({ services }: HeroSliderProps) {
           </div>
         </div>
 
-        {/* Updated Slider Navigation */}
         <div className="absolute right-0 top-1/2 -translate-y-1/2 
                       bg-white/10 backdrop-blur-sm p-4 rounded-l-lg 
                       max-w-md">
@@ -184,10 +178,10 @@ export function HeroSlider({ services }: HeroSliderProps) {
               dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
               onDrag={handleDrag}
               animate={{
-                y: calculateScrollPosition(currentIndex)
+                y: scrollPosition
               }}
               transition={{
-                y: { type: "spring", stiffness: 300, damping: 30 }
+                y: { type: "spring", stiffness: 300, damping: 30, mass: 0.8 }
               }}
               className="space-y-2"
             >
@@ -197,24 +191,14 @@ export function HeroSlider({ services }: HeroSliderProps) {
                   onClick={() => {
                     setDirection(idx > currentIndex ? 1 : -1)
                     setCurrentIndex(idx)
-                    // Tıklama ile seçim yaparken görünür aralığı güncelle
-                    if (idx >= visibleRange.end - 1) {
-                      setVisibleRange(prev => ({
-                        start: prev.start + 1,
-                        end: prev.end + 1
-                      }))
-                    } else if (idx < visibleRange.start) {
-                      setVisibleRange(prev => ({
-                        start: prev.start - 1,
-                        end: prev.end - 1
-                      }))
-                    }
+                    setScrollPosition(calculateScrollPosition(idx))
                   }}
-                  className={`cursor-pointer p-4 transition-all h-[84px] ${
+                  className={`cursor-pointer p-4 transition-all ${
                     idx === currentIndex
                       ? 'bg-white text-black'
                       : 'text-white hover:bg-white/20'
                   } rounded-lg`}
+                  style={{ height: ITEM_HEIGHT }}
                 >
                   <h3 className="text-sm font-medium">{service.title}</h3>
                   <p className="text-xs mt-1 line-clamp-2">
