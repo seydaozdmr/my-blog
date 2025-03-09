@@ -2,7 +2,7 @@
 id: 4
 title: "Bakım - Montaj"
 description: "Mekanik sistemlerin kurulumu, periyodik bakımı ve arıza onarımlarında hızlı ve etkili çözümler sunmaktayız. Uzman ekibimiz, detaylı analizler yaparak, ekipmanların ve yapıların optimum performansla çalışmasını güvence altına alır. Tüm süreçlerimiz, iş güvenliği ve kalite standartlarına uygun şekilde yürütülmektedir."
-image: "/images/blog-3.jpg"
+image: "/images/blog-5.jpg"
 order: 4
 ---
 
