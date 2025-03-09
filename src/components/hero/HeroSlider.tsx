@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { motion, AnimatePresence, PanInfo } from 'framer-motion'
 import { IService } from '@/types/service'
 import Link from 'next/link'
@@ -37,15 +37,15 @@ export function HeroSlider({ services }: HeroSliderProps) {
     })
   }
 
-  // Scroll pozisyonunu hesapla
-  const calculateScrollPosition = (index: number) => {
+  // calculateScrollPosition'u useCallback ile sarmalayalım
+  const calculateScrollPosition = useCallback((index: number) => {
     if (index < VISIBLE_ITEMS) {
       return 0
     }
     const newPosition = -(index - (VISIBLE_ITEMS - 1)) * (ITEM_HEIGHT + ITEM_MARGIN)
     const maxScroll = -((services.length - VISIBLE_ITEMS) * (ITEM_HEIGHT + ITEM_MARGIN))
     return Math.max(maxScroll, newPosition)
-  }
+  }, [services.length, ITEM_HEIGHT, ITEM_MARGIN, VISIBLE_ITEMS])
 
   // Otomatik geçiş ve scroll pozisyonu güncelleme
   useEffect(() => {
@@ -71,7 +71,7 @@ export function HeroSlider({ services }: HeroSliderProps) {
       setCurrentIndex(nextIndex)
     }, 5000)
     return () => clearInterval(timer)
-  }, [currentIndex, services.length])
+  }, [currentIndex, services.length, calculateScrollPosition])
 
   // Button scroll için ayrı fonksiyon
   const handleSliderScroll = (direction: 'up' | 'down') => {
@@ -93,7 +93,7 @@ export function HeroSlider({ services }: HeroSliderProps) {
     }
   }
 
-  const handleDrag = (event: any, info: PanInfo) => {
+  const handleDrag = (event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
     const swipeThreshold = 50
     if (info.offset.y < -swipeThreshold && visibleRange.end < services.length) {
       handleSliderScroll('down')
