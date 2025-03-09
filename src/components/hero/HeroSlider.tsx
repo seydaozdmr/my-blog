@@ -52,7 +52,7 @@ export function HeroSlider({ services }: HeroSliderProps) {
 
   return (
     <div className="relative h-screen w-full overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-[#134074] to-[#0B2545]" />
+      <div className="absolute inset-0 bg-black/30 z-10" />
       
       <div className="absolute inset-0 z-0">
         {services.map((service, idx) => (
@@ -60,7 +60,7 @@ export function HeroSlider({ services }: HeroSliderProps) {
             key={`bg-${service.id}`}
             initial={{ opacity: 0 }}
             animate={{ 
-              opacity: idx === currentIndex ? 0.5 : 0,
+              opacity: idx === currentIndex ? 1 : 0,
               scale: idx === currentIndex ? 1 : 1.1 
             }}
             transition={{ duration: 0.8 }}
@@ -71,17 +71,22 @@ export function HeroSlider({ services }: HeroSliderProps) {
                 src={service.image}
                 alt={service.title}
                 fill
-                objectFit="cover"
-                className="opacity-50"
+                sizes="100vw"
+                priority={idx === 0}
+                quality={95}
+                style={{ 
+                  objectFit: 'cover',
+                }}
+                className="w-full h-full"
               />
             )}
           </motion.div>
         ))}
       </div>
       
-      <div className="absolute inset-0 z-10">
+      <div className="absolute inset-0 z-20">
         <div className="container mx-auto h-full flex items-center">
-          <div className="max-w-xl">
+          <div className="max-w-xl backdrop-blur-sm bg-black/30 p-8 rounded-lg">
             <div className="text-white mb-8">
               <motion.h2
                 initial={{ opacity: 0, y: 20 }}
@@ -105,8 +110,8 @@ export function HeroSlider({ services }: HeroSliderProps) {
       </div>
 
       <div className="absolute right-0 top-1/2 -translate-y-1/2 
-                    bg-white/10 backdrop-blur-sm p-4 rounded-l-lg 
-                    max-w-md z-20">
+                    bg-black/60 backdrop-blur-sm p-4 rounded-l-lg 
+                    max-w-md z-30">
         <div 
           className="overflow-hidden" 
           style={{ height: CONTAINER_HEIGHT }}
@@ -139,7 +144,7 @@ export function HeroSlider({ services }: HeroSliderProps) {
                 className={`cursor-pointer p-4 transition-all h-[100px] ${
                   idx === currentIndex
                     ? 'bg-white text-black'
-                    : 'text-white hover:bg-white/20'
+                    : 'text-white hover:bg-gray-700'
                 } rounded-lg`}
               >
                 <h3 className="text-sm font-medium mb-2">{service.title}</h3>
