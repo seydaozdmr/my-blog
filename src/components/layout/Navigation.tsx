@@ -9,7 +9,7 @@ export function Navigation() {
 
   const menuItems = [
     { label: 'Ana Sayfa', path: '/' },
-    { label: 'Hizmetlerimiz', path: '/services' },
+    { label: 'Hizmetlerimiz', path: '/products' },
     { label: 'Hakkımızda', path: '/about' },
     { label: 'İletişim', path: '/contact' }
   ]

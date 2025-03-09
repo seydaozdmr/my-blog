@@ -13,7 +13,7 @@ interface Service {
 }
 
 export const metadata: Metadata = {
-  title: 'Ürünlerimiz',
+  title: 'Hizmetlerimiz',
   description: 'Sunduğumuz ürün ve hizmetler hakkında detaylı bilgi'
 }
 
@@ -23,7 +23,7 @@ export default async function ProductsPage() {
   return (
     <section className="py-12">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold mb-12 text-center">Ürünlerimiz</h1>
+        <h1 className="text-4xl font-bold mb-12 text-center">Hizmetlerimiz</h1>
         <ProductList services={services} />
       </div>
     </section>
