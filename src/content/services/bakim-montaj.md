@@ -1,26 +1,35 @@
 ---
 id: 4
-title: "Bakım - Montaj"
-description: "Mekanik sistemlerin kurulumu, periyodik bakımı ve arıza onarımlarında hızlı ve etkili çözümler sunmaktayız. Uzman ekibimiz, detaylı analizler yaparak, ekipmanların ve yapıların optimum performansla çalışmasını güvence altına alır. Tüm süreçlerimiz, iş güvenliği ve kalite standartlarına uygun şekilde yürütülmektedir."
+title: "Acil Durum Ağaç Kesimi"
+description: "Fırtına, aşırı rüzgar veya kötü hava koşulları nedeniyle zarar görmüş veya devrilmek üzere olan ağaçlar, çevre için büyük bir tehdit oluşturabilir."
 image: "/images/blog-5.jpg"
 order: 4
 ---
 
-# Köprü ve Viyadük Işıklandırma Hizmetlerimiz
 
-Profesyonel ekibimiz ile köprü ve viyadüklerde:
+Acil durum ağaç kesimi hizmetimiz, bu tür ağaçların güvenli bir şekilde ve hızla kesilmesini sağlar. Ekiplerimiz, zarar görmüş ağacın etrafındaki çevreyi koruyarak, ağaçları kontrollü bir şekilde kesip, tehlikeyi ortadan kaldırır.
 
-- LED aydınlatma sistemleri
-- Kablo döşeme işlemleri
-- Bakım ve onarım çalışmaları
-- Enerji verimliliği çözümleri
 
-gibi hizmetler sunmaktayız.
+## Çim Biçme
 
-## Neden Biz?
+Bahçenizin estetik görünümünü korumak ve sağlıklı bir peyzaj oluşturmak için çim biçme hizmeti sunuyoruz. Düzenli olarak yapılan çim biçme, çimlerinizin daha verimli büyümesini sağlar ve bahçenizin görünümünü güzelleştirir.
 
-- 20 yıllık deneyim
-- Uzman ekip
-- Modern ekipman
-- Güvenlik odaklı çalışma
-- 7/24 teknik destek
+
+## Yabani Ot Temizliği
+
+Yabani otlar, peyzajın estetik görünümünü bozar ve bitkilerin sağlıklı büyümesini engeller. Yabani ot temizliği hizmetimizle, bahçenizdeki istenmeyen bitkileri ve otları temizleriz, böylece alanınız daha düzenli ve sağlıklı olur.
+
+
+## Ağaç Süsleme
+Ağaçlarınızın dekoratif bir hale gelmesini sağlamak için ağaç süsleme hizmeti sunuyoruz. İster bahçenizdeki ağaçları güzelleştirmek, ister özel günlerde etkinlikler için süslemek isteyin, profesyonel ekibimizle estetik ve dikkat çekici süslemeler yapıyoruz.
+
+## Kedi Kurtarma
+Ağaçlar, bazen kedilerin tırmanıp mahsur kaldığı yerler haline gelebilir. Biz, bu tür durumlarda ücretsiz olarak ağaçlardan küçük dostlarımızı kurtarıyoruz. Kedi kurtarma işlemi, güvenli ve dikkatli bir şekilde gerçekleştirilir.
+
+### Ağaç Şekillendirme
+Ağaç şekillendirme, estetik bir görünüm elde etmek ve ağacın sağlığını korumak için yapılan bir işlemdir. Bu hizmetimizle, ağaçlarınıza özel şekiller vererek, bahçenize farklı bir hava katıyoruz. Hem doğal hem de sanatsal bir görünüm oluşturmak için çeşitli şekillendirme teknikleri kullanıyoruz.
+
+### Ağaçlardan Drone vb. Kurtarma
+Bazı durumlarda, yüksek ağaçlarda mahsur kalan drone, kameralar veya diğer ekipmanlar kurtarılmak zorunda kalabilir. Bu tür kurtarma işlemleri, uzman tırmanıcılarımız tarafından güvenli bir şekilde gerçekleştirilir, cihazlarınız zarar görmeden ağaçlardan alınır.
+
+Her biri alanında uzman ekibimizle, doğaya zarar vermeden güvenli ve kaliteli hizmetler sunuyoruz. Bahçenizin bakımını profesyonel ellerde yapmak için bizimle iletişime geçebilirsiniz.

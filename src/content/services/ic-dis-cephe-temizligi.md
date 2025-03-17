@@ -1,26 +1,15 @@
 ---
 id: 3
-title: "İç - Dış Cephe Temizliği"
-description: "Biga Demir Enerji, iple erişim sistemleri kullanarak yüksek yapıların iç ve dış cephelerinde profesyonel temizlik hizmetleri sunar. "
+title: "Kontrollü Ağaç Kesimi"
+description: "Ağaç kesimi, uzmanlık gerektiren bir iştir."
 image: "/images/blog-6.jpg"
 order: 3
 ---
 
-# Köprü ve Viyadük Işıklandırma Hizmetlerimiz
 
-Profesyonel ekibimiz ile köprü ve viyadüklerde:
+Özellikle yakın çevrede yapılar, elektrik direkleri veya peyzaj çalışmalarının bulunduğu alanlarda güvenli bir şekilde işlem yapmak büyük önem taşır. Kontrollü ağaç kesimi hizmetimizde, ağaçları üstten alta doğru iplerle bağlayarak kesiyoruz. Bu teknik, ağacın istenilen alana düşmeden, çevredeki yapılara veya diğer objelere zarar vermeden güvenli bir şekilde kesilmesini sağlar. Böylece hem çevre güvenliği hem de iş güvenliği en üst düzeyde sağlanmış olur.
 
-- LED aydınlatma sistemleri
-- Kablo döşeme işlemleri
-- Bakım ve onarım çalışmaları
-- Enerji verimliliği çözümleri
 
-gibi hizmetler sunmaktayız.
+## Ağaç Budama
 
-## Neden Biz?
-
-- 20 yıllık deneyim
-- Uzman ekip
-- Modern ekipman
-- Güvenlik odaklı çalışma
-- 7/24 teknik destek
+Ağaçların sağlıklı bir şekilde büyümesi için düzenli budama yapılması gerekmektedir. Ağaç budama hizmetimiz, hem ağaçların genel sağlığını korumaya yardımcı olur hem de tehlikeli hale gelmiş dalların ortadan kaldırılmasını sağlar. Özellikle yüksek ağaçlarda güvenliği sağlamak adına dikkatli ve profesyonel bir yaklaşım sergileriz. Ayrıca, her tür meyve ağacını da budayarak, verimli ve sağlıklı bir şekilde gelişmelerini sağlarız. Budama işlemi sırasında kullanılan ekipmanlar ve teknikler, her ağacın türüne ve ihtiyaçlarına göre özelleştirilir.

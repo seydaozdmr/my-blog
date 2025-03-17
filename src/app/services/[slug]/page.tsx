@@ -1,11 +1,7 @@
 import { Metadata } from 'next'
 import { getServiceBySlug, getAllServices } from '../../../lib/mdUtils'
 
-export async function generateMetadata({ 
-  params 
-}: { 
-  params: { slug: string } 
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: { slug: string } }) {
   const service = await getServiceBySlug(params.slug)
   return {
     title: service.title,
