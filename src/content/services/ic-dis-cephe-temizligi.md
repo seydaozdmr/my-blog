@@ -4,6 +4,7 @@ title: "Kontrollü Ağaç Kesimi"
 description: "Ağaç kesimi, uzmanlık gerektiren bir iştir."
 image: "/images/blog-6.jpg"
 order: 3
+key: "ic-dis-cephe-temizligi"
 ---
 
 

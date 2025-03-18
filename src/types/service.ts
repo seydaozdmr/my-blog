@@ -7,6 +7,7 @@ export interface IService {
   content: string;
   slug: string;
   date: string;
+  key: string;
 }
 
 export interface IServiceCard {

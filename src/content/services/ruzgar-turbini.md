@@ -4,6 +4,7 @@ title: "Palmiye Budama"
 description: "Palmiye budama hizmetleri"
 image: "/images/blog-2.jpg"
 order: 2
+key: "ruzgar-turbini"
 ---
 
 # Palmiye Budama Hizmetlerimiz

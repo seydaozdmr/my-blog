@@ -11,6 +11,7 @@ interface Service {
   description?: string
   content: string
   image?: string
+  key: string
 }
 
 interface ProductListProps {
@@ -32,7 +33,7 @@ export function ProductList({ services }: ProductListProps) {
         <div className="bg-black/60 backdrop-blur-sm rounded-lg overflow-hidden">
           <div className="max-h-[600px] overflow-y-auto">
             {services.map((service) => (
-              <div
+              <div id={service.key}
                 key={service.id}
                 onClick={() => setSelectedId(service.id)}
                 className={`cursor-pointer p-4 transition-all ${
@@ -55,6 +56,7 @@ export function ProductList({ services }: ProductListProps) {
       <div className="md:w-2/3 lg:w-3/4">
         <AnimatePresence mode="wait">
           <motion.div
+            id={selectedService?.key}
             key={selectedId}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

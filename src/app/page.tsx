@@ -16,7 +16,7 @@ export default async function Home() {
           {services.map((service) => (
             <Link
               key={service.id}
-              href={`/services/${service.slug}`}
+              href={`/products?#${service.slug}`}
               className="group block"
             >
               <div className="relative h-64 mb-4 overflow-hidden rounded-lg">

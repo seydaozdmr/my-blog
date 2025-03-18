@@ -4,6 +4,7 @@ title: "Acil Durum Ağaç Kesimi"
 description: "Fırtına, aşırı rüzgar veya kötü hava koşulları nedeniyle zarar görmüş veya devrilmek üzere olan ağaçlar, çevre için büyük bir tehdit oluşturabilir."
 image: "/images/blog-5.jpg"
 order: 4
+key: "bakim-montaj"
 ---
 
 

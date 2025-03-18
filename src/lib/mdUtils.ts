@@ -21,7 +21,8 @@ export async function getAllServices(): Promise<IService[]> {
         content: content,
         image: data.image,
         slug: fileName.replace(/\.md$/, ''),
-        date: data.date
+        date: data.date,
+        key: data.key
       };
     });
 
@@ -44,6 +45,7 @@ export async function getServiceBySlug(slug: string): Promise<IService> {
     image: data.image,
     slug: slug,
     date: data.date,
-    order: data.order
+    order: data.order,
+    key: data.key
   };
 }

@@ -4,6 +4,7 @@ title: "Güvenli Çalışma"
 description: "Ne kadar güvenli çalışıyoruz?"
 image: "/images/blog-1.jpg"
 order: 1
+key: "kopru-aydinlatma"
 ---
 
 # Ne kadar güvenli çalışıyoruz?
