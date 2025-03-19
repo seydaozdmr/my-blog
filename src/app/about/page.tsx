@@ -20,7 +20,7 @@ export default function AboutPage() {
           <div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image 
-                src="/images/about.jpg" 
+                src="/images/about2.jpg" 
                 alt="About us" 
                 fill 
                 sizes="(max-width: 768px) 100vw, 50vw"
