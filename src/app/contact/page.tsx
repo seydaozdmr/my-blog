@@ -31,7 +31,7 @@ export default function ContactPage() {
                 <FaPhone className="text-primary mt-1 mr-3 text-xl" />
                 <div>
                   <h3 className="font-medium">Telefon</h3>
-                  <p className="text-gray-600">+90 (242) 123 45 67</p>
+                  <p className="text-gray-600">+90 (551) 167 22 28</p>
                 </div>
               </div>
               
@@ -48,7 +48,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-medium">Çalışma Saatleri</h3>
                   <p className="text-gray-600">Pazartesi - Cuma: 09:00 - 18:00</p>
-                  <p className="text-gray-600">Cumartesi: 09:00 - 13:00</p>
+                  <p className="text-gray-600">Cumartesi: 09:00 - 18:00</p>
                 </div>
               </div>
             </div>
@@ -90,7 +90,7 @@ export default function ContactPage() {
               style={{ border: 0 }} 
               allowFullScreen 
               loading="lazy"
-              title="Firma Lokasyonu"
+              title="CrownPro Lokasyonu"
             ></iframe>
           </div>
         </div>
