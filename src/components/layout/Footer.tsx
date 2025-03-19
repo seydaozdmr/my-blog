@@ -28,7 +28,7 @@ export function Footer() {
                 </a>
               </p>
               <p>
-                <a href="mailto:info@sirketadi.com" className="hover:text-white transition-colors">
+                <a href="mailto:crownturkey@crownproturkey.com" className="hover:text-white transition-colors">
                   info@crownpro.com
                 </a>
               </p>
@@ -39,26 +39,9 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Bizi Takip Edin</h3>
             <div className="flex space-x-4">
+            
               <a 
-                href="https://facebook.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-                aria-label="Facebook"
-              >
-                <FaFacebook size={24} />
-              </a>
-              <a 
-                href="https://twitter.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-                aria-label="Twitter"
-              >
-                <FaTwitter size={24} />
-              </a>
-              <a 
-                href="https://instagram.com" 
+                href="https://www.instagram.com/crownproturkiye/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -66,15 +49,7 @@ export function Footer() {
               >
                 <FaInstagram size={24} />
               </a>
-              <a 
-                href="https://linkedin.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-                aria-label="LinkedIn"
-              >
-                <FaLinkedin size={24} />
-              </a>
+              
             </div>
           </div>
         </div>
