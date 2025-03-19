@@ -1,6 +1,5 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
-import { motion } from 'framer-motion'
 
 export const metadata: Metadata = {
   title: 'Hakkımızda',
