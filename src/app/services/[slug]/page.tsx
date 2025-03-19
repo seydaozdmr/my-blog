@@ -1,4 +1,3 @@
-import { Metadata } from 'next'
 import { getServiceBySlug, getAllServices } from '../../../lib/mdUtils'
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {

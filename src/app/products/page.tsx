@@ -1,16 +1,8 @@
 import { Metadata } from 'next'
 
-import { getServices } from '@/lib/services'
 import { ProductList } from './ProductList'
 import { getAllServices } from '@/lib/mdUtils'
 
-interface Service {
-  id: string
-  title?: string
-  description?: string
-  content: string
-  image?: string
-}
 
 export const metadata: Metadata = {
   title: 'Hizmetlerimiz',

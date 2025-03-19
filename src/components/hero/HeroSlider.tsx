@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
-import { motion, AnimatePresence, PanInfo } from 'framer-motion'
+import { motion,  PanInfo } from 'framer-motion'
 import { IService } from '@/types/service'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -36,7 +36,7 @@ export function HeroSlider({ services }: HeroSliderProps) {
   useEffect(() => {
     const timer = setInterval(() => {
       const nextIndex = (currentIndex + 1) % services.length
-      
+      console.log(direction);
       if (nextIndex === 0) {
         setDirection(-1)
         setScrollPosition(0)

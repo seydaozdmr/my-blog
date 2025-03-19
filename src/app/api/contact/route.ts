@@ -22,7 +22,7 @@ export async function POST(request: Request) {
     try {
       await rateLimiter.consume(ip);
     } catch (error) {
-      // Rate limit aşıldı
+      console.log(error);
       return NextResponse.json(
         { error: 'Çok fazla mesaj gönderdiniz. Lütfen bir süre bekleyip tekrar deneyin.' },
         { status: 429 }

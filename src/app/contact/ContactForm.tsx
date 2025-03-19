@@ -69,6 +69,7 @@ export default function ContactForm() {
         });
       }
     } catch (error) {
+      console.log(error);
       setStatus({
         submitted: false,
         submitting: false,
