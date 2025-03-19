@@ -23,7 +23,7 @@ export default function ContactPage() {
                 <FaMapMarkerAlt className="text-primary mt-1 mr-3 text-xl" />
                 <div>
                   <h3 className="font-medium">Adres</h3>
-                  <p className="text-gray-600">Ataşehir, İstanbul, Türkiye</p>
+                  <p className="text-gray-600">Muratpaşa, Antalya, Türkiye</p>
                 </div>
               </div>
               
@@ -31,7 +31,7 @@ export default function ContactPage() {
                 <FaPhone className="text-primary mt-1 mr-3 text-xl" />
                 <div>
                   <h3 className="font-medium">Telefon</h3>
-                  <p className="text-gray-600">+90 (216) 123 45 67</p>
+                  <p className="text-gray-600">+90 (242) 123 45 67</p>
                 </div>
               </div>
               
@@ -84,7 +84,7 @@ export default function ContactPage() {
           <h2 className="text-2xl font-semibold mb-6">Konum</h2>
           <div className="aspect-video w-full rounded-lg overflow-hidden">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48170.55262315011!2d29.06797571878277!3d40.98969723930274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac790b17ba89d%3A0xd58d68f89ab054e1!2sAta%C5%9Fehir%2C%20%C4%B0stanbul!5e0!3m2!1str!2str!4v1613735590877!5m2!1str!2str" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102123.83619428958!2d30.65089354179688!3d36.89023849999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39aaeddadadc1%3A0x95c69f73f9e32e33!2sAntalya%20Merkez%2C%20Antalya!5e0!3m2!1str!2str!4v1682343456789!5m2!1str!2str" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
