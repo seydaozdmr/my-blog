@@ -3,7 +3,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import { motion,  PanInfo } from 'framer-motion'
 import { IService } from '@/types/service'
-import Link from 'next/link'
 import Image from 'next/image'
 
 interface HeroSliderProps {
@@ -27,7 +26,7 @@ export function HeroSlider({ services }: HeroSliderProps) {
     return 0
   }, [ITEM_HEIGHT, ITEM_MARGIN, VISIBLE_ITEMS])
 
-  const handleDrag = (event: any, info: PanInfo) => {
+  const handleDrag = (event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
     const newPosition = scrollPosition + info.offset.y
     const maxScroll = -((services.length - VISIBLE_ITEMS) * (ITEM_HEIGHT + ITEM_MARGIN))
     setScrollPosition(Math.max(maxScroll, Math.min(0, newPosition)))
