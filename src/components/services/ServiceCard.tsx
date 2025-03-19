@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { IServiceCard } from '@/types/services'
+import { IServiceCard } from '@/types/service'
 
 export function ServiceCard({ title, description, image, slug }: IServiceCard) {
   return (
