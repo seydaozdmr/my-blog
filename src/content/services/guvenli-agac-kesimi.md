@@ -4,7 +4,7 @@ title: "Güvenli Çalışma"
 description: "Ne kadar güvenli çalışıyoruz?"
 image: "/images/blog-1.jpg"
 order: 1
-key: "kopru-aydinlatma"
+key: "guvenli-agac-kesimi"
 ---
 
 # Ne kadar güvenli çalışıyoruz?
