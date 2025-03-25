@@ -19,11 +19,11 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">İletişim</h3>
             <address className="not-italic text-gray-400">
-              <p className="mb-2">Atatürk Cad. No:123</p>
+              <p className="mb-2">Muratpaşa, Antalya</p>
               <p className="mb-2">Antalya, Türkiye</p>
               <p className="mb-2">
-                <a href="tel:+902121234567" className="hover:text-white transition-colors">
-                  +90 (212) 123 45 67
+                <a href="tel:+905511672228" className="hover:text-white transition-colors">
+                  +90 (551) 167 22 28
                 </a>
               </p>
               <p>
