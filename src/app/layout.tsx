@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     default: 'CrownPro - Ana Sayfa',
   },
   description: 'Antalya Ağaç Budama Hizmetleri',
-  keywords: ['agac', 'ağaç budama', 'ağaç kesme', 'ağaç bakımı', 'ağaç kesme hizmeti', 'ağaç budama hizmeti', 'ağaç kesme fiyatları', 'ağaç budama fiyatları'],
+  keywords: ['agac', 'ağaç budama', 'ağaç kesme', 'ağaç bakımı', 'ağaç kesme hizmeti', 'ağaç budama hizmeti', 'ağaç kesme fiyatları', 'ağaç budama fiyatları', 'yuksek tirmanis', 'yuksek tirmanis budama', 'yuksek tirmanis kesme', 'yuksek tirmanis bakımı', 'yuksek tirmanis hizmeti', 'yuksek tirmanis fiyatları', 'yuksek tirmanis budama fiyatları', 'yuksek tirmanis kesme fiyatları', 'yuksek tirmanis bakımı fiyatları','tirmanis', 'tirmanis budama', 'tirmanis kesme', 'tirmanis bakımı', 'tirmanis hizmeti', 'tirmanis fiyatları', 'tirmanis budama fiyatları', 'tirmanis kesme fiyatları', 'tirmanis bakımı fiyatları'],
   robots: {
     index: true,
     follow: true,
