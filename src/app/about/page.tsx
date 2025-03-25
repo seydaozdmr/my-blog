@@ -39,6 +39,9 @@ export default function AboutPage() {
               Bizim için güvenlik, kalite ve çevreye saygı her şeyden önce gelir. Yüksek ağaçlarla çalışmak, özel ekipmanlar ve tırmanış teknikleri gerektiren bir iştir. Ekip olarak, her projede en ileri düzeyde güvenlik önlemleri alır, çevreye zarar vermemek için titizlikle çalışırız. Müşterilerimize en iyi hizmeti sunmak için her zaman yenilikçi çözümler üretir, her tür ağaç bakımı ve peyzaj hizmetlerini profesyonelce gerçekleştiririz.
               </p>
               <p>İster palmiye budama, ister ağaç kesme, ister genel peyzaj bakımı olsun, sizin ve çevreniz için en iyi sonuçları elde etmek için buradayız. Biz, doğa ile çalışmayı seven ve bu alandaki her projeye tutkuyla yaklaşan bir ekibiz. Ağaç bakımında güvenilir ve deneyimli bir partner arıyorsanız, bir telefon uzağımızdasınız.</p>
+              <p>
+              Ağaçların sağlığını korumak, estetik görünümlerinin korunması, doğa ile uyumlu çalışma ve müşterilerimizin güvenini kazanmak için her zaman yeni yöntemler keşfeder, uzmanlıklarını geliştiririz.
+              </p>
             </div>
 
             
