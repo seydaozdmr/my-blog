@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'google-site-verification=e5qHKYi7Wdzj29XhcbrQ_ngTakrRI1Kt8l2ShC1w2hc', // Add your Google Search Console verification code
+    google: 'e5qHKYi7Wdzj29XhcbrQ_ngTakrRI1Kt8l2ShC1w2hc', // Add your Google Search Console verification code
   },
   alternates: {
     canonical: 'https://antalyaagacbudama.com',
