@@ -40,7 +40,7 @@ export function Footer() {
             <div className="flex space-x-4">
             
               <a 
-                href="https://www.instagram.com/crownproturkiye/" 
+                href="https://www.instagram.com/crownprotr/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
