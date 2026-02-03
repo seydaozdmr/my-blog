@@ -40,7 +40,7 @@ export default function AboutPage() {
               </p>
               <p>İster palmiye budama, ister ağaç kesme, ister genel peyzaj bakımı olsun, sizin ve çevreniz için en iyi sonuçları elde etmek için buradayız. Biz, doğa ile çalışmayı seven ve bu alandaki her projeye tutkuyla yaklaşan bir ekibiz. Ağaç bakımında güvenilir ve deneyimli bir partner arıyorsanız, bir telefon uzağımızdasınız.</p>
               <p>
-              Ağaçların sağlığını korumak, estetik görünümlerinin korunması, doğa ile uyumlu çalışma ve müşterilerimizin güvenini kazanmak için her zaman yeni yöntemler keşfeder, uzmanlıklarını geliştiririz. 
+              Ağaçların sağlığını korumak, estetik görünümlerinin korunması, doğa ile uyumlu çalışma ve müşterilerimizin güvenini kazanmak için her zaman yeni yöntemler keşfeder, uzmanlıklarını geliştiririz.  
               </p>
             </div>
 
