@@ -85,7 +85,7 @@ export default function RootLayout({
             addressCountry: "TR"
           }}
           phone="+90 551 167 22 28"
-          email="crownturkey@crownproturkey.com"
+          email="ruzgarozdemir@crownprotr.com"
           url="https://antalyaagacbudama.com"
           logo="https://antalyaagacbudama.com/_next/image?url=%2Fimages%2Flogo3.png&w=256&q=75"
           priceRange="₺₺₺"
