@@ -27,8 +27,8 @@ export function Footer() {
                 </a>
               </p>
               <p>
-                <a href="mailto:crownturkey@crownproturkey.com" className="hover:text-white transition-colors">
-                  crownturkey@crownproturkey.com
+                <a href="mailto:ruzgarozdemir@crownprotr.com" className="hover:text-white transition-colors">
+                  ruzgarozdemir@crownprotr.com
                 </a>
               </p>
             </address>
