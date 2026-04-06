@@ -1,37 +1,26 @@
-import { HeroSlider } from '@/components/hero/HeroSlider'
-import { getAllServices } from '@/lib/mdUtils'
-import Link from 'next/link'
-
-export default async function Home() {
-  const services = await getAllServices()
-
+export default function Home() {
   return (
-    <main className="min-h-screen">
-      <HeroSlider services={services} />
-      
-      {/* İsteğe bağlı: Slider altında diğer içerikler */}
-      <section className="container mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold mb-8">Tüm Hizmetlerimiz</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service) => (
-            <Link
-              key={service.id}
-              href={`/products#${service.slug}`}
-              className="group block"
-            >
-              <div className="relative h-64 mb-4 overflow-hidden rounded-lg">
-                <div
-                  className="absolute inset-0 bg-cover bg-center transform 
-                            group-hover:scale-110 transition-transform duration-500"
-                  style={{ backgroundImage: `url(${service.image})` }}
-                />
-              </div>
-              <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
-              <p className="text-gray-600 line-clamp-2">{service.description}</p>
-            </Link>
-          ))}
+    <main>
+      <section className="relative h-screen">
+        <img
+          src="/tree.jpg"
+          className="absolute w-full h-full object-cover"
+        />
+
+        <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-center text-white">
+          <h1 className="text-5xl font-bold mb-4">
+            Antalya'nın En Güvenilir Ağaç Budama Uzmanları
+          </h1>
+
+          <p className="mb-6 text-lg">
+            Palmiye Budama • Ağaç Kesimi • Acil Müdahale
+          </p>
+
+          <button className="bg-green-700 px-6 py-3 rounded-lg">
+            Ücretsiz Teklif Al
+          </button>
         </div>
       </section>
     </main>
-  )
+  );
 }
