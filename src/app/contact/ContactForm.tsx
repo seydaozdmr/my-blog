@@ -1,6 +1,6 @@
-'use client';
+'use client'
 
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -8,81 +8,67 @@ export default function ContactForm() {
     email: '',
     phone: '',
     subject: '',
-    message: ''
-  });
-  
+    message: '',
+  })
+
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
-    info: { error: false, msg: null as string | null }
-  });
+    info: { error: false, msg: null as string | null },
+  })
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+  ) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
+      [e.target.name]: e.target.value,
+    })
+  }
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setStatus({
-      submitted: false,
-      submitting: true,
-      info: { error: false, msg: null }
-    });
+    e.preventDefault()
+    setStatus({ submitted: false, submitting: true, info: { error: false, msg: null } })
 
     try {
-      // API'ye form verilerini gönder
       const response = await fetch('/api/contact', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
-      });
-      
-      const data = await response.json();
-      
+      })
+
+      const data = await response.json()
+
       if (response.ok) {
-        // Başarılı
         setStatus({
           submitted: true,
           submitting: false,
-          info: { error: false, msg: 'Mesajınız başarıyla gönderildi!' }
-        });
-        
-        // Form alanlarını temizle
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          subject: '',
-          message: ''
-        });
+          info: { error: false, msg: 'Mesajınız başarıyla gönderildi!' },
+        })
+        setFormData({ name: '', email: '', phone: '', subject: '', message: '' })
       } else {
-        // Hata
         setStatus({
           submitted: false,
           submitting: false,
-          info: { error: true, msg: data.error || 'Bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.' }
-        });
+          info: { error: true, msg: data.error || 'Bir hata oluştu. Lütfen tekrar deneyin.' },
+        })
       }
-    } catch (error) {
-      console.log(error);
+    } catch {
       setStatus({
         submitted: false,
         submitting: false,
-        info: { error: true, msg: 'Bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.' }
-      });
+        info: { error: true, msg: 'Bir hata oluştu. Lütfen tekrar deneyin.' },
+      })
     }
-  };
+  }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4">
-      <div className="grid md:grid-cols-2 gap-4">
+    <form onSubmit={handleSubmit} className="space-y-6">
+      <div className="grid md:grid-cols-2 gap-5">
         <div>
-          <label htmlFor="name" className="block text-gray-700 mb-1">Ad Soyad *</label>
+          <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
+            Ad Soyad *
+          </label>
           <input
             type="text"
             id="name"
@@ -90,12 +76,14 @@ export default function ContactForm() {
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            placeholder="Adınız Soyadınız"
+            className="w-full px-4 py-3 rounded-xl border border-gray-200 bg-[#f5f2ed] focus:bg-white focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all text-gray-800 placeholder:text-gray-400"
           />
         </div>
-        
         <div>
-          <label htmlFor="email" className="block text-gray-700 mb-1">E-posta *</label>
+          <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
+            E-posta *
+          </label>
           <input
             type="email"
             id="email"
@@ -103,45 +91,52 @@ export default function ContactForm() {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            placeholder="ornek@email.com"
+            className="w-full px-4 py-3 rounded-xl border border-gray-200 bg-[#f5f2ed] focus:bg-white focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all text-gray-800 placeholder:text-gray-400"
           />
         </div>
       </div>
-      
-      <div className="grid md:grid-cols-2 gap-4">
+
+      <div className="grid md:grid-cols-2 gap-5">
         <div>
-          <label htmlFor="phone" className="block text-gray-700 mb-1">Telefon</label>
+          <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 mb-2">
+            Telefon
+          </label>
           <input
             type="tel"
             id="phone"
             name="phone"
             value={formData.phone}
             onChange={handleChange}
-            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            placeholder="05XX XXX XX XX"
+            className="w-full px-4 py-3 rounded-xl border border-gray-200 bg-[#f5f2ed] focus:bg-white focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all text-gray-800 placeholder:text-gray-400"
           />
         </div>
-        
         <div>
-          <label htmlFor="subject" className="block text-gray-700 mb-1">Konu *</label>
+          <label htmlFor="subject" className="block text-sm font-semibold text-gray-700 mb-2">
+            Konu *
+          </label>
           <select
             id="subject"
             name="subject"
             value={formData.subject}
             onChange={handleChange}
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-3 rounded-xl border border-gray-200 bg-[#f5f2ed] focus:bg-white focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all text-gray-800"
           >
-            <option value="">Seçiniz</option>
-            <option value="Genel Bilgi">Genel Bilgi</option>
+            <option value="">Konu Seçiniz</option>
             <option value="Fiyat Teklifi">Fiyat Teklifi</option>
+            <option value="Genel Bilgi">Genel Bilgi</option>
             <option value="Teknik Destek">Teknik Destek</option>
             <option value="Diğer">Diğer</option>
           </select>
         </div>
       </div>
-      
+
       <div>
-        <label htmlFor="message" className="block text-gray-700 mb-1">Mesajınız *</label>
+        <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-2">
+          Mesajınız *
+        </label>
         <textarea
           id="message"
           name="message"
@@ -149,25 +144,30 @@ export default function ContactForm() {
           onChange={handleChange}
           required
           rows={5}
-          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-        ></textarea>
+          placeholder="Mesajınızı buraya yazın..."
+          className="w-full px-4 py-3 rounded-xl border border-gray-200 bg-[#f5f2ed] focus:bg-white focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all text-gray-800 placeholder:text-gray-400 resize-none"
+        />
       </div>
-      
+
       {status.info.msg && (
-        <div className={`px-4 py-3 rounded ${status.info.error ? 'bg-red-100 text-red-700' : 'bg-green-100 text-green-700'}`}>
+        <div
+          className={`px-5 py-4 rounded-xl text-sm font-medium ${
+            status.info.error
+              ? 'bg-red-50 text-red-700 border border-red-200'
+              : 'bg-green-50 text-green-700 border border-green-200'
+          }`}
+        >
           {status.info.msg}
         </div>
       )}
-      
-      <div>
-        <button
-          type="submit"
-          disabled={status.submitting}
-          className="bg-blue-600 text-white py-2 px-6 rounded-md hover:bg-blue-700 transition duration-300 disabled:opacity-50"
-        >
-          {status.submitting ? 'Gönderiliyor...' : 'Gönder'}
-        </button>
-      </div>
+
+      <button
+        type="submit"
+        disabled={status.submitting}
+        className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-full transition-all duration-300 hover:scale-[1.02] shadow-lg disabled:opacity-50 disabled:hover:scale-100 text-lg"
+      >
+        {status.submitting ? 'Gönderiliyor...' : 'Mesaj Gönder'}
+      </button>
     </form>
-  );
+  )
 }
