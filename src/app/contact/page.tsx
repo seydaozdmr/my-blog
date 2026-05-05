@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import ContactForm from './ContactForm'
 import { FadeInSection } from '@/components/ui/FadeInSection'
+import { Logo } from '@/components/ui/Logo'
 
 export const metadata: Metadata = {
   title: 'İletişim',
@@ -15,11 +16,8 @@ export default function ContactPage() {
       <section className="relative bg-[#1a2e1a] py-24 md:py-32">
         <div className="absolute inset-0 opacity-20 bg-[url('/images/blog-4.jpg')] bg-cover bg-center" />
         <div className="relative z-10 container mx-auto px-6 text-center text-white">
-          <Link
-            href="/"
-            className="inline-block text-sm font-semibold tracking-[0.3em] uppercase text-green-400 mb-4 hover:text-green-300 transition-colors"
-          >
-            CrownPro
+          <Link href="/" className="inline-block mb-6 hover:opacity-80 transition-opacity">
+            <Logo variant="light" width={200} />
           </Link>
           <h1 className="text-4xl md:text-6xl font-bold mb-6">İletişim</h1>
           <p className="text-xl text-white/70 max-w-2xl mx-auto leading-relaxed">

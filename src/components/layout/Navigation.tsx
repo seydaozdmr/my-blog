@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
-import Image from 'next/image'
+import { Logo } from '@/components/ui/Logo'
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -20,13 +20,7 @@ export function Navigation() {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/">
-              <Image
-                src="/images/logo3.png"
-                alt="Logo"
-                width={200}
-                height={70}
-                className="h-15 w-auto"
-              />
+              <Logo variant="color" width={180} />
             </Link>
           </div>
 

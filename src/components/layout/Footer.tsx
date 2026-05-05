@@ -1,4 +1,6 @@
 import { FaInstagram } from 'react-icons/fa'
+import Link from 'next/link'
+import { Logo } from '@/components/ui/Logo'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -9,7 +11,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo ve Kısa Açıklama */}
           <div>
-            <h3 className="text-xl font-bold mb-4">CrownPro</h3>
+            <Link href="/" className="inline-block mb-4 hover:opacity-80 transition-opacity">
+              <Logo variant="white" width={180} />
+            </Link>
             <p className="text-gray-400 mb-4">
             Antalya bölgesinde faaliyet gösteren CrownPro ekibi, ağaç tırmanıcılığı ve peyzaj hizmetlerinde uzmanlaşmış, profesyonel bir ekiptir. 
             </p>
