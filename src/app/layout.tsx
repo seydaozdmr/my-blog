@@ -4,6 +4,10 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'CrownPro',
   description: 'CrownPro Next.js uygulamasi',
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({
