@@ -13,6 +13,7 @@ interface Service {
   image?: string
   slug: string
   key: string
+  comingSoon?: boolean
 }
 
 interface ProductListProps {
@@ -21,7 +22,6 @@ interface ProductListProps {
 
 function ServiceArticle({ service, index }: { service: Service; index: number }) {
   const { htmlContent } = useMarkdownContent(service.content)
-  const isEven = index % 2 === 0
 
   return (
     <article id={service.key} className="scroll-mt-24">
@@ -39,7 +39,6 @@ function ServiceArticle({ service, index }: { service: Service; index: number })
             />
           )}
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-
         </div>
       </FadeInSection>
 
@@ -113,7 +112,90 @@ function ServiceArticle({ service, index }: { service: Service; index: number })
   )
 }
 
+function ComingSoonArticle({ service }: { service: Service }) {
+  return (
+    <article id={service.key} className="scroll-mt-24">
+      <FadeInSection delay={0.1}>
+        <div className="relative rounded-2xl overflow-hidden border border-dashed border-green-200">
+
+          {/* Blurred image background */}
+          <div className="relative w-full h-56 md:h-72 overflow-hidden">
+            {service.image && (
+              <Image
+                src={service.image}
+                alt={service.title || ''}
+                fill
+                sizes="(max-width: 1024px) 100vw, 960px"
+                style={{ objectFit: 'cover' }}
+                className="scale-110 blur-sm brightness-50"
+              />
+            )}
+            <div className="absolute inset-0 bg-[#1a2e1a]/70" />
+
+            {/* Centered badge */}
+            <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
+              {/* Lock icon */}
+              <div className="w-14 h-14 rounded-full bg-white/10 border border-white/20 flex items-center justify-center backdrop-blur-sm">
+                <svg className="w-7 h-7 text-white/80" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.5">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                </svg>
+              </div>
+              {/* "Çok Yakında" pill */}
+              <span className="inline-flex items-center gap-2 bg-green-500/90 backdrop-blur-sm text-white text-sm font-bold px-5 py-2 rounded-full tracking-wide uppercase">
+                <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
+                Çok Yakında
+              </span>
+            </div>
+          </div>
+
+          {/* Content area – lightly muted */}
+          <div className="bg-white/80 p-8 md:p-10">
+            <div className="flex items-start justify-between gap-4 mb-4">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-700 leading-tight">
+                {service.title}
+              </h2>
+              <span className="shrink-0 inline-flex items-center gap-1.5 text-xs font-semibold text-green-700 bg-green-50 border border-green-200 px-3 py-1.5 rounded-full">
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                Yakında
+              </span>
+            </div>
+
+            {service.description && (
+              <p className="text-base text-gray-400 leading-relaxed italic border-l-4 border-green-200 pl-4 mb-6">
+                {service.description}
+              </p>
+            )}
+
+            {/* Placeholder lines */}
+            <div className="space-y-2.5 mb-8 select-none" aria-hidden="true">
+              {[80, 95, 65, 90, 70].map((w, i) => (
+                <div key={i} className={`h-3 rounded-full bg-gray-100`} style={{ width: `${w}%` }} />
+              ))}
+            </div>
+
+            {/* Disabled CTA */}
+            <div className="pt-6 border-t border-gray-100 flex items-center gap-4">
+              <button
+                disabled
+                className="bg-gray-200 text-gray-400 font-bold py-3 px-8 rounded-full text-sm cursor-not-allowed select-none"
+              >
+                Yakında Hizmetinizdeyiz
+              </button>
+              <span className="text-xs text-gray-400 italic">Bildirim almak için bizi arayabilirsiniz.</span>
+            </div>
+          </div>
+        </div>
+      </FadeInSection>
+    </article>
+  )
+}
+
 export function ProductList({ services }: ProductListProps) {
+  const activeServices = services.filter(s => !s.comingSoon)
+  const comingSoonServices = services.filter(s => s.comingSoon)
+
   return (
     <div className="space-y-16">
       {/* Breadcrumb */}
@@ -139,7 +221,7 @@ export function ProductList({ services }: ProductListProps) {
             Hızlı Erişim
           </h3>
           <div className="flex flex-wrap gap-3">
-            {services.map((service, idx) => (
+            {activeServices.map((service, idx) => (
               <a
                 key={service.id}
                 href={`#${service.key}`}
@@ -151,13 +233,47 @@ export function ProductList({ services }: ProductListProps) {
                 {service.title}
               </a>
             ))}
+            {comingSoonServices.map((service) => (
+              <a
+                key={service.id}
+                href={`#${service.key}`}
+                className="inline-flex items-center gap-2 bg-gray-100 text-gray-400 text-sm font-medium px-5 py-2.5 rounded-full transition-all duration-300 cursor-default"
+              >
+                <svg className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                </svg>
+                {service.title}
+                <span className="text-xs font-semibold text-green-600 bg-green-50 px-2 py-0.5 rounded-full">Yakında</span>
+              </a>
+            ))}
           </div>
         </nav>
       </FadeInSection>
 
-      {/* Service articles */}
-      {services.map((service, index) => (
+      {/* Active service articles */}
+      {activeServices.map((service, index) => (
         <ServiceArticle key={service.id} service={service} index={index} />
+      ))}
+
+      {/* Coming soon divider */}
+      {comingSoonServices.length > 0 && (
+        <FadeInSection>
+          <div className="flex items-center gap-4">
+            <div className="flex-1 h-px bg-gradient-to-r from-transparent via-green-200 to-transparent" />
+            <div className="flex items-center gap-2 text-sm font-semibold text-green-700 bg-green-50 border border-green-200 px-5 py-2 rounded-full">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Çok Yakında
+            </div>
+            <div className="flex-1 h-px bg-gradient-to-r from-transparent via-green-200 to-transparent" />
+          </div>
+        </FadeInSection>
+      )}
+
+      {/* Coming soon articles */}
+      {comingSoonServices.map((service) => (
+        <ComingSoonArticle key={service.id} service={service} />
       ))}
     </div>
   )

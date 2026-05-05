@@ -8,6 +8,7 @@ export interface IService {
   slug: string;
   date: string;
   key: string;
+  comingSoon?: boolean;
 }
 
 export interface IServiceCard {
