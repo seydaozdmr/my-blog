@@ -74,7 +74,7 @@ export default function AboutPage() {
           </Link>
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Hakkımızda</h1>
           <p className="text-xl text-white/70 max-w-2xl mx-auto leading-relaxed">
-            Antalya'da ISA sertifikalı arboristlerle profesyonel ağaç bakımı. Güvenlik, kalite ve
+            Antalya&apos;da ISA sertifikalı arboristlerle profesyonel ağaç bakımı. Güvenlik, kalite ve
             doğaya saygı her projemizin temelidir.
           </p>
         </div>
@@ -112,7 +112,7 @@ export default function AboutPage() {
 
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  CrownPro, Antalya'da faaliyet gösteren ISA (International Society of Arboriculture)
+                  CrownPro, Antalya&apos;da faaliyet gösteren ISA (International Society of Arboriculture)
                   sertifikalı arboristlerden oluşan profesyonel ağaç bakımı ekibidir. Ağaçları sadece
                   kesmiyoruz — onların biyolojisini, risk profilini ve uzun vadeli sağlığını
                   değerlendiriyoruz.
