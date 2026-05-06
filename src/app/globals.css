@@ -3,8 +3,13 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
-    @apply bg-gray-50;
+    @apply bg-white text-slate-900;
+    font-family: Arial, Helvetica, sans-serif;
   }
 }
 
@@ -13,11 +18,11 @@
 }
 
 .prose h1 {
-  @apply text-2xl font-bold mb-4;
+  @apply mb-4 text-2xl font-bold;
 }
 
 .prose h2 {
-  @apply text-xl font-semibold mt-6 mb-3;
+  @apply mb-3 mt-6 text-xl font-semibold;
 }
 
 .prose p {
@@ -25,7 +30,7 @@
 }
 
 .prose ul {
-  @apply list-disc pl-5 mb-4;
+  @apply mb-4 list-disc pl-5;
 }
 
 .prose li {
