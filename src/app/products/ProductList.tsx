@@ -20,7 +20,7 @@ interface ProductListProps {
   services: Service[]
 }
 
-function ServiceArticle({ service, index }: { service: Service; index: number }) {
+function ServiceArticle({ service }: { service: Service }) {
   const { htmlContent } = useMarkdownContent(service.content)
 
   return (
@@ -251,8 +251,8 @@ export function ProductList({ services }: ProductListProps) {
       </FadeInSection>
 
       {/* Active service articles */}
-      {activeServices.map((service, index) => (
-        <ServiceArticle key={service.id} service={service} index={index} />
+      {activeServices.map((service) => (
+        <ServiceArticle key={service.id} service={service} />
       ))}
 
       {/* Coming soon divider */}
