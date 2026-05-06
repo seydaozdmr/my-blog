@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { Footer } from '@/components/layout/Footer'
 
 export const metadata: Metadata = {
   title: 'CrownPro',
@@ -20,6 +21,7 @@ export default function RootLayout({
       <head />
       <body className="bg-white text-slate-900 antialiased">
         {children}
+        <Footer />
       </body>
     </html>
   )
