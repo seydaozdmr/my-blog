@@ -9,10 +9,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const activeServices = services.filter((s) => !s.comingSoon)
 
   const serviceEntries: MetadataRoute.Sitemap = activeServices.map((service) => ({
-    url: `${baseUrl}/products#${service.key}`,
+    url: `${baseUrl}/products/${service.slug}`,
     lastModified: new Date(service.date),
-    changeFrequency: 'monthly',
-    priority: 0.7,
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
   }))
 
   return [

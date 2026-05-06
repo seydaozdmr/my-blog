@@ -47,7 +47,9 @@ function ServiceArticle({ service }: { service: Service }) {
         <div className="bg-white rounded-b-2xl p-8 md:p-12 shadow-sm">
           {/* Title */}
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-            {service.title}
+            <Link href={`/products/${service.slug}`} className="hover:text-green-700 transition-colors">
+              {service.title}
+            </Link>
           </h2>
 
           {/* Meta line */}
@@ -222,16 +224,16 @@ export function ProductList({ services }: ProductListProps) {
           </h3>
           <div className="flex flex-wrap gap-3">
             {activeServices.map((service, idx) => (
-              <a
+              <Link
                 key={service.id}
-                href={`#${service.key}`}
+                href={`/products/${service.slug}`}
                 className="inline-flex items-center gap-2 bg-[#f5f2ed] hover:bg-green-600 hover:text-white text-gray-700 text-sm font-medium px-5 py-2.5 rounded-full transition-all duration-300"
               >
-                <span className="w-6 h-6 bg-green-600/10 text-green-600 rounded-full flex items-center justify-center text-xs font-bold">
+                <span className="w-6 h-6 bg-green-600/10 text-green-600 rounded-full flex items-center justify-center text-xs font-bold group-hover:bg-white/20">
                   {idx + 1}
                 </span>
                 {service.title}
-              </a>
+              </Link>
             ))}
             {comingSoonServices.map((service) => (
               <a

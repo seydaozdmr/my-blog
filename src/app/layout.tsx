@@ -55,14 +55,6 @@ export const metadata: Metadata = {
       "Antalya'da profesyonel ağaç budama, kesme ve bakım hizmetleri. 7/24 hizmet, uygun fiyatlar ve uzman ekibimizle yanınızdayız.",
     url: 'https://antalyaagacbudama.com',
     siteName: 'Antalya Ağaç Budama - CrownPro',
-    images: [
-      {
-        url: 'https://antalyaagacbudama.com/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'CrownPro - Antalya Ağaç Budama ve Bakım Hizmetleri',
-      },
-    ],
     locale: 'tr_TR',
     type: 'website',
   },
@@ -71,7 +63,6 @@ export const metadata: Metadata = {
     title: 'CrownPro - Antalya Ağaç Budama ve Bakım Hizmetleri',
     description:
       "Antalya'da profesyonel ağaç budama, kesme ve bakım hizmetleri. 7/24 hizmet, uygun fiyatlar ve uzman ekibimizle yanınızdayız.",
-    images: ['https://antalyaagacbudama.com/og-image.jpg'],
   },
   category: 'service',
   authors: [{ name: 'CrownPro' }],
