@@ -7,10 +7,9 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: '*',
         allow: [
           '/',
-          '/hizmetler',
-          '/hakkimizda',
-          '/iletisim',
           '/products',
+          '/about',
+          '/contact',
           '/api/services',
         ],
         disallow: [
@@ -18,7 +17,6 @@ export default function robots(): MetadataRoute.Robots {
           '/admin/',
           '/api/',
           '/*.json$',
-          '/*.xml$',
           '/_next/',
           '/static/',
         ],
@@ -43,4 +41,4 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: 'https://antalyaagacbudama.com/sitemap.xml',
     host: 'https://antalyaagacbudama.com',
   }
-} 
+}

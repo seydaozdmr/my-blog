@@ -22,7 +22,8 @@ export async function getAllServices(): Promise<IService[]> {
         image: data.image,
         slug: fileName.replace(/\.md$/, ''),
         date: data.date,
-        key: data.key
+        key: data.key,
+        comingSoon: data.comingSoon ?? false
       };
     });
 

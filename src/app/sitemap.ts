@@ -1,8 +1,20 @@
 import { MetadataRoute } from 'next'
+import { getAllServices } from '@/lib/mdUtils'
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://antalyaagacbudama.com'
-  
+
+  // Active services (exclude coming-soon)
+  const services = await getAllServices()
+  const activeServices = services.filter((s) => !s.comingSoon)
+
+  const serviceEntries: MetadataRoute.Sitemap = activeServices.map((service) => ({
+    url: `${baseUrl}/products#${service.key}`,
+    lastModified: new Date(service.date),
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }))
+
   return [
     {
       url: baseUrl,
@@ -11,22 +23,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${baseUrl}/hizmetler`,
+      url: `${baseUrl}/products`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.8,
+      priority: 0.9,
     },
     {
-      url: `${baseUrl}/hakkimizda`,
+      url: `${baseUrl}/about`,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
+      changeFrequency: 'yearly',
+      priority: 0.6,
     },
     {
-      url: `${baseUrl}/iletisim`,
+      url: `${baseUrl}/contact`,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'yearly',
       priority: 0.7,
     },
+    ...serviceEntries,
   ]
-} 
+}

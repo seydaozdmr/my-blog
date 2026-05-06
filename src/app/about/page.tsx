@@ -3,7 +3,13 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Hakkımızda',
-  description: 'Şirketimiz ve vizyonumuz hakkında bilgi alın'
+  description: "CrownPro, Antalya'da faaliyet gösteren profesyonel ağaç tırmanıcılığı ve peyzaj şirketidir. ISA standartlarında güvenli ağaç bakımı hizmetleri sunuyoruz.",
+  alternates: { canonical: 'https://antalyaagacbudama.com/about' },
+  openGraph: {
+    title: 'Hakkımızda | CrownPro',
+    description: "CrownPro, Antalya'da faaliyet gösteren profesyonel ağaç tırmanıcılığı ve peyzaj şirketidir.",
+    url: 'https://antalyaagacbudama.com/about',
+  },
 }
 
 export default function AboutPage() {

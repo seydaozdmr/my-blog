@@ -1,10 +1,9 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { Navigation } from '@/components/layout/Navigation'
-import './globals.css'
 import { Footer } from '@/components/layout/Footer'
 import { StructuredData } from '@/components/SEO/StructuredData'
-import { PageSEO } from '@/components/SEO/PageSEO'
+import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,8 +12,26 @@ export const metadata: Metadata = {
     template: '%s | CrownPro',
     default: 'CrownPro - Antalya Ağaç Budama ve Bakım Hizmetleri',
   },
-  description: 'Antalya\'da profesyonel ağaç budama, kesme ve bakım hizmetleri. 7/24 hizmet, uygun fiyatlar ve uzman ekibimizle yanınızdayız.',
-  keywords: ['agac', 'ağaç budama', 'ağaç kesme', 'antalya', 'antalya agac', 'antalya budama', 'antalya agac budama', 'antalya agac kesme','antalya ağaç', 'antalya ağaç budama', 'antalya ağaç kesme' , 'ağaç bakımı', 'ağaç kesme hizmeti', 'ağaç budama hizmeti', 'ağaç kesme fiyatları', 'ağaç budama fiyatları', 'yuksek tirmanis', 'yuksek tirmanis budama', 'yuksek tirmanis kesme', 'yuksek tirmanis bakımı', 'yuksek tirmanis hizmeti', 'yuksek tirmanis fiyatları', 'yuksek tirmanis budama fiyatları', 'yuksek tirmanis kesme fiyatları', 'yuksek tirmanis bakımı fiyatları','tirmanis', 'tirmanis budama', 'tirmanis kesme', 'tirmanis bakımı', 'tirmanis hizmeti', 'tirmanis fiyatları', 'tirmanis budama fiyatları', 'tirmanis kesme fiyatları', 'tirmanis bakımı fiyatları'],
+  description:
+    "Antalya'da profesyonel ağaç budama, kesme ve bakım hizmetleri. 7/24 hizmet, uygun fiyatlar ve uzman ekibimizle yanınızdayız.",
+  keywords: [
+    'ağaç budama',
+    'ağaç kesme',
+    'antalya ağaç budama',
+    'antalya ağaç kesme',
+    'ağaç bakımı',
+    'palmiye budama',
+    'yüksek tırmanış',
+    'ağaç cerrahisi',
+    'ağaç kablolama',
+    'acil ağaç kesimi',
+    'CrownPro',
+    'antalya',
+  ],
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+  },
   robots: {
     index: true,
     follow: true,
@@ -27,22 +44,23 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'e5qHKYi7Wdzj29XhcbrQ_ngTakrRI1Kt8l2ShC1w2hc', // Add your Google Search Console verification code
+    google: 'e5qHKYi7Wdzj29XhcbrQ_ngTakrRI1Kt8l2ShC1w2hc',
   },
   alternates: {
     canonical: 'https://antalyaagacbudama.com',
   },
   openGraph: {
     title: 'CrownPro - Antalya Ağaç Budama ve Bakım Hizmetleri',
-    description: 'Antalya\'da profesyonel ağaç budama, kesme ve bakım hizmetleri. 7/24 hizmet, uygun fiyatlar ve uzman ekibimizle yanınızdayız.',
+    description:
+      "Antalya'da profesyonel ağaç budama, kesme ve bakım hizmetleri. 7/24 hizmet, uygun fiyatlar ve uzman ekibimizle yanınızdayız.",
     url: 'https://antalyaagacbudama.com',
-    siteName: 'Antalya Ağaç Budama',
+    siteName: 'Antalya Ağaç Budama - CrownPro',
     images: [
       {
-        url: 'https://antalyaagacbudama.com/_next/image?url=%2Fimages%2Flogo3.png&w=256&q=75',
+        url: 'https://antalyaagacbudama.com/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'CrownPro Logo',
+        alt: 'CrownPro - Antalya Ağaç Budama ve Bakım Hizmetleri',
       },
     ],
     locale: 'tr_TR',
@@ -51,8 +69,9 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'CrownPro - Antalya Ağaç Budama ve Bakım Hizmetleri',
-    description: 'Antalya\'da profesyonel ağaç budama, kesme ve bakım hizmetleri. 7/24 hizmet, uygun fiyatlar ve uzman ekibimizle yanınızdayız.',
-    images: ['https://antalyaagacbudama.com/_next/image?url=%2Fimages%2Flogo3.png&w=256&q=75'],
+    description:
+      "Antalya'da profesyonel ağaç budama, kesme ve bakım hizmetleri. 7/24 hizmet, uygun fiyatlar ve uzman ekibimizle yanınızdayız.",
+    images: ['https://antalyaagacbudama.com/og-image.jpg'],
   },
   category: 'service',
   authors: [{ name: 'CrownPro' }],
@@ -65,44 +84,41 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tr">
-      <head>
-        <PageSEO
-          title="CrownPro - Antalya Ağaç Budama ve Bakım Hizmetleri"
-          description="Antalya'da profesyonel ağaç budama, kesme ve bakım hizmetleri. 7/24 hizmet, uygun fiyatlar ve uzman ekibimizle yanınızdayız."
-          keywords={['agac', 'ağaç budama', 'ağaç kesme', 'ağaç bakımı', 'ağaç kesme hizmeti', 'ağaç budama hizmeti', 'ağaç kesme fiyatları', 'ağaç budama fiyatları', 'yuksek tirmanis', 'yuksek tirmanis budama', 'yuksek tirmanis kesme', 'yuksek tirmanis bakımı', 'yuksek tirmanis hizmeti', 'yuksek tirmanis fiyatları', 'yuksek tirmanis budama fiyatları', 'yuksek tirmanis kesme fiyatları', 'yuksek tirmanis bakımı fiyatları','tirmanis', 'tirmanis budama', 'tirmanis kesme', 'tirmanis bakımı', 'tirmanis hizmeti', 'tirmanis fiyatları', 'tirmanis budama fiyatları', 'tirmanis kesme fiyatları', 'tirmanis bakımı fiyatları']}
-          canonical="https://antalyaagacbudama.com"
-        />
-      </head>
       <body className={inter.className}>
         <StructuredData
           name="CrownPro"
           description="Antalya'da profesyonel ağaç budama, kesme ve bakım hizmetleri"
           address={{
-            streetAddress: "Muratpaşa Antalya",
-            addressLocality: "Antalya",
-            addressRegion: "Antalya",
-            postalCode: "07000",
-            addressCountry: "TR"
+            streetAddress: 'Muratpaşa',
+            addressLocality: 'Antalya',
+            addressRegion: 'Antalya',
+            postalCode: '07000',
+            addressCountry: 'TR',
           }}
           phone="+90 551 167 22 28"
           email="ruzgarozdemir@crownprotr.com"
           url="https://antalyaagacbudama.com"
-          logo="https://antalyaagacbudama.com/_next/image?url=%2Fimages%2Flogo3.png&w=256&q=75"
+          logo="https://antalyaagacbudama.com/logo.svg"
           priceRange="₺₺₺"
+          geo={{ latitude: 36.8969, longitude: 30.7133 }}
           openingHours={[
-            "Monday 08:00-18:00",
-            "Tuesday 08:00-18:00",
-            "Wednesday 08:00-18:00",
-            "Thursday 08:00-18:00",
-            "Friday 08:00-18:00",
-            "Saturday 08:00-18:00",
-            "Sunday 08:00-18:00"
+            'Monday 08:00-18:00',
+            'Tuesday 08:00-18:00',
+            'Wednesday 08:00-18:00',
+            'Thursday 08:00-18:00',
+            'Friday 08:00-18:00',
+            'Saturday 08:00-18:00',
+            'Sunday 08:00-18:00',
+          ]}
+          sameAs={[
+            'https://www.instagram.com/crownprotr/',
+            'https://www.tiktok.com/@crownprotr',
+            'https://www.facebook.com/crownprotr',
+            'https://www.youtube.com/@crownprotr',
           ]}
         />
         <Navigation />
-        <main className="pt-16">
-          {children}
-        </main>
+        <main className="pt-16">{children}</main>
         <Footer />
       </body>
     </html>

@@ -16,6 +16,11 @@ interface StructuredDataProps {
   logo: string
   priceRange: string
   openingHours: string[]
+  geo?: {
+    latitude: number
+    longitude: number
+  }
+  sameAs?: string[]
 }
 
 export const StructuredData: FC<StructuredDataProps> = ({
@@ -28,6 +33,8 @@ export const StructuredData: FC<StructuredDataProps> = ({
   logo,
   priceRange,
   openingHours,
+  geo,
+  sameAs,
 }) => {
   const structuredData = {
     '@context': 'https://schema.org',
@@ -47,15 +54,20 @@ export const StructuredData: FC<StructuredDataProps> = ({
       postalCode: address.postalCode,
       addressCountry: address.addressCountry,
     },
+    ...(geo && {
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: geo.latitude,
+        longitude: geo.longitude,
+      },
+    }),
     openingHoursSpecification: openingHours.map((hours) => ({
       '@type': 'OpeningHoursSpecification',
       dayOfWeek: hours.split(' ')[0],
       opens: hours.split(' ')[1].split('-')[0],
       closes: hours.split(' ')[1].split('-')[1],
     })),
-    sameAs: [
-      'https://www.instagram.com/crownprotr'
-    ],
+    sameAs: sameAs ?? [],
   }
 
   return (
@@ -64,4 +76,4 @@ export const StructuredData: FC<StructuredDataProps> = ({
       dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
     />
   )
-} 
+}

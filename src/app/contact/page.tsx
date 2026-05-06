@@ -3,8 +3,14 @@ import { Metadata } from 'next';
 import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock } from 'react-icons/fa';
 import ContactForm from './ContactForm';
 export const metadata: Metadata = {
-  title: 'İletişim | Firmamız',
-  description: 'Bizimle iletişime geçin. Sorularınız ve talepleriniz için buradayız.',
+  title: 'İletişim',
+  description: "CrownPro ile iletişime geçin. Antalya ağaç budama ve bakım hizmetlerimiz için ücretsiz fiyat teklifi alın. 7/24 hizmetinizdeyiz.",
+  alternates: { canonical: 'https://antalyaagacbudama.com/contact' },
+  openGraph: {
+    title: 'İletişim | CrownPro',
+    description: "CrownPro ile iletişime geçin. Ücretsiz fiyat teklifi için hemen arayın.",
+    url: 'https://antalyaagacbudama.com/contact',
+  },
 };
 
 export default function ContactPage() {
