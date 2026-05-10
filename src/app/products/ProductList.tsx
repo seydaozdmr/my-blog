@@ -14,6 +14,7 @@ interface Service {
   slug: string
   key: string
   comingSoon?: boolean
+  imagePosition?: string
 }
 
 interface ProductListProps {
