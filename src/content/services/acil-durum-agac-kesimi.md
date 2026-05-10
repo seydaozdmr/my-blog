@@ -1,74 +1,39 @@
 ---
 id: 4
-title: "Acil Durum Ağaç Kesimi"
-description: "Fırtına, aşırı rüzgar veya kötü hava koşulları nedeniyle zarar görmüş veya devrilmek üzere olan ağaçlar, çevre için büyük bir tehdit oluşturabilir."
+title: "Acil Durum Ağaç Kesimi ve Müdahale"
+description: "Fırtına, şiddetli rüzgar veya beklenmedik yapısal çökmeler sonrası 7/24 acil müdahale. ISA sertifikalı ekibimiz tehlikeyi bertaraf etmek için bir telefon uzağınızda."
 image: "/new_images/28d6e0e5-cf2e-4231-9d41-54a262b7d794.jpeg"
 imagePosition: "bottom"
 order: 4
 key: "acil-durum-agac-kesimi"
 ---
 
+Fırtına, şiddetli rüzgar veya beklenmedik yapısal çökmeler... Doğal olaylar sonucunda ağaçlar; evinizin, aracınızın veya elektrik hatlarınızın üzerine devrilme riski oluşturabilir. Bu gibi durumlarda saniyeler bile önemlidir. Uzman ekibimiz, 7/24 acil müdahale kapasitesiyle, tehlikeyi bertaraf etmek için bir telefon uzağınızda.
 
-Acil durum ağaç kesimi hizmetimiz, bu tür ağaçların güvenli bir şekilde ve hızla kesilmesini sağlar. Ekiplerimiz, zarar görmüş ağacın etrafındaki çevreyi koruyarak, ağaçları kontrollü bir şekilde kesip, tehlikeyi ortadan kaldırır.
+## Risk Altındaysanız Ne Yapmalısınız?
 
+Eğer bir ağaç yan yattıysa, çatlama sesleri geliyorsa veya bir yapı üzerine devrildiyse:
 
-## Çim Biçme
+1. **Güvenli Alana Geçin:** Ağacın devrilme mesafesinden ve elektrik hatlarından uzak durun.
+2. **Bize Ulaşın:** Durumu profesyonellere bildirin. Kendi başınıza müdahale etmek, gerilimi kestirilemeyen dallar nedeniyle hayati risk taşır.
 
-Bahçenizin estetik görünümünü korumak ve sağlıklı bir peyzaj oluşturmak için çim biçme hizmeti sunuyoruz. Düzenli olarak yapılan çim biçme, çimlerinizin daha verimli büyümesini sağlar ve bahçenizin görünümünü güzelleştirir.
+## Sürecimiz Nasıl İşler?
 
+1. **Hızlı Konumlandırma:** Çağrınızı aldığımız anda, acil durum ekipmanlarımızla yola çıkıyoruz.
 
-## Yabani Ot Temizliği
+2. **Öncelikli Güvenlik Analizi:** Alana ulaştığımızda, ilk olarak elektriksel riskleri ve ikincil devrilme ihtimallerini değerlendiriyoruz.
 
-Yabani otlar, peyzajın estetik görünümünü bozar ve bitkilerin sağlıklı büyümesini engeller. Yabani ot temizliği hizmetimizle, bahçenizdeki istenmeyen bitkileri ve otları temizleriz, böylece alanınız daha düzenli ve sağlıklı olur.
+3. **Kontrollü Tahliye:** Devrilen veya riskli olan ağacı, yapılarınıza daha fazla zarar vermeyecek şekilde, halatlı sistemler ve profesyonel kesim teknikleriyle parça parça tahliye ediyoruz.
 
+4. **Enkaz Kaldırma:** Tehlike tamamen giderildikten sonra, alanı güvenli ve temiz bir hale getirerek teslim ediyoruz.
 
-## Ağaç Süsleme
-Ağaçlarınızın dekoratif bir hale gelmesini sağlamak için ağaç süsleme hizmeti sunuyoruz. İster bahçenizdeki ağaçları güzelleştirmek, ister özel günlerde etkinlikler için süslemek isteyin, profesyonel ekibimizle estetik ve dikkat çekici süslemeler yapıyoruz.
+## Neden Bizi Tercih Etmelisiniz?
 
-## Kedi Kurtarma
-Ağaçlar, bazen kedilerin tırmanıp mahsur kaldığı yerler haline gelebilir. Biz, bu tür durumlarda ücretsiz olarak ağaçlardan küçük dostlarımızı kurtarıyoruz. Kedi kurtarma işlemi, güvenli ve dikkatli bir şekilde gerçekleştirilir.
+- **7/24 Hızlı Erişim:** Acil durumlarda zamanla yarışıyoruz.
+- **Kritik Karar Mekanizması:** ISA sertifikalı arboristlerimiz, en riskli anlarda bile en güvenli kesim stratejisini anında belirler.
+- **Gelişmiş Ekipman:** Gece görüş aydınlatmaları ve yüksek gerilime dayanıklı ekipmanlarla her koşulda müdahale edebiliyoruz.
+- **Mülk Koruma Odaklılık:** Amacımız, hali hazırda oluşmuş hasarı minimize etmek ve çevreye daha fazla zarar gelmesini önlemektir.
 
-### Ağaç Şekillendirme
-Ağaç şekillendirme, estetik bir görünüm elde etmek ve ağacın sağlığını korumak için yapılan bir işlemdir. Bu hizmetimizle, ağaçlarınıza özel şekiller vererek, bahçenize farklı bir hava katıyoruz. Hem doğal hem de sanatsal bir görünüm oluşturmak için çeşitli şekillendirme teknikleri kullanıyoruz.
-
-### Ağaçlardan Drone vb. Kurtarma
-Bazı durumlarda, yüksek ağaçlarda mahsur kalan drone, kameralar veya diğer ekipmanlar kurtarılmak zorunda kalabilir. Bu tür kurtarma işlemleri, uzman tırmanıcılarımız tarafından güvenli bir şekilde gerçekleştirilir, cihazlarınız zarar görmeden ağaçlardan alınır.
-
-Her biri alanında uzman ekibimizle, doğaya zarar vermeden güvenli ve kaliteli hizmetler sunuyoruz. Bahçenizin bakımını profesyonel ellerde yapmak için bizimle iletişime geçebilirsiniz.
----
-id: 4
-title: "Emergency Tree Cutting"
-description: "Trees that have been damaged or are at risk of falling due to storms, strong winds, or severe weather conditions can pose a major threat to the surrounding area."
-image: "/new_images/28d6e0e5-cf2e-4231-9d41-54a262b7d794.jpeg"
-imagePosition: "bottom"
-order: 4
-key: "acil-durum-agac-kesimi"
 ---
 
-Our emergency tree cutting service ensures that these types of trees are safely and quickly removed. Our teams protect the surrounding area around the damaged tree, cut the trees in a controlled manner, and eliminate the danger.
-
-## Lawn Mowing
-
-We offer lawn mowing services to maintain the aesthetic appearance of your garden and create a healthy landscape. Regular lawn mowing helps your grass grow more efficiently and improves the overall look of your garden.
-
-## Weed Removal
-
-Weeds disrupt the aesthetic appearance of the landscape and prevent plants from growing healthily. With our weed removal service, we clear unwanted plants and weeds from your garden, making your outdoor space more organized and healthier.
-
-## Tree Decoration
-
-We offer tree decoration services to give your trees a more decorative appearance. Whether you want to beautify the trees in your garden or decorate them for special events, our professional team creates aesthetic and eye-catching decorations.
-
-## Cat Rescue
-
-Trees can sometimes become places where cats climb and get stuck. In such situations, we rescue our little friends from trees free of charge. Cat rescue is carried out safely and carefully.
-
-### Tree Shaping
-
-Tree shaping is a process carried out to achieve an aesthetic appearance and protect the health of the tree. With this service, we give your trees custom shapes and add a unique atmosphere to your garden. We use various shaping techniques to create both natural and artistic appearances.
-
-### Retrieving Drones and Similar Items from Trees
-
-In some cases, drones, cameras, or other equipment stuck in tall trees may need to be retrieved. These types of recovery operations are carried out safely by our expert climbers, ensuring your devices are removed from the trees without damage.
-
-With our expert team in each field, we provide safe, high-quality services without harming nature. You can contact us to have your garden maintained by professional hands.
+> ⚠️ **ACİL DURUM HATTI:** Eğer şu an acil bir risk ile karşı karşıyaysanız, hiç vakit kaybetmeden bizi arayın. Güvenliğinizi profesyonel ellere emanet edin.
