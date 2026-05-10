@@ -1,31 +1,31 @@
 ---
 id: 3
-title: "Kontrollü Ağaç Kesimi"
-description: "Ağaç kesimi, uzmanlık gerektiren bir iştir."
+title: "Контролируемая вырубка деревьев"
+description: "Вырубка деревьев — это работа, требующая профессиональных знаний."
 image: "/new_images/IMG_0029.jpeg"
 imagePosition: "center"
 order: 3
 key: "kontrollu-agac-kesimi"
 ---
 
-Ağaçlar doğanın en değerli parçalarıdır, ancak bazen güvenlik, yapısal bütünlük veya peyzaj düzenlemesi gereği kontrollü bir şekilde kaldırılmaları gerekebilir. Firmamız, en gelişmiş teknik donanım ve uzman kadrosuyla, çevredeki yapılara, bitki örtüsüne veya alt yapıya zarar vermeden profesyonel ağaç kesim hizmeti sunar.
+Деревья являются одной из самых ценных частей природы, однако иногда их необходимо удалять контролируемым способом из-за требований безопасности, структурной целостности или ландшафтного планирования. Наша компания предоставляет профессиональные услуги по вырубке деревьев с использованием современного технического оборудования и опытной команды, не повреждая окружающие строения, растительность или инфраструктуру.
 
-## Süreç Nasıl İşler?
+## Как проходит процесс?
 
-Güvenliğiniz bizim önceliğimizdir. Bu nedenle her projeyi belirli bir plan dahilinde yönetiyoruz:
+Ваша безопасность — наш приоритет. Поэтому мы управляем каждым проектом по четкому плану:
 
-1. **Keşif ve Analiz:** Uzman ekibimiz, ağacın türünü, boyutunu, eğimini ve çevresindeki risk faktörlerini yerinde inceler. Risk analizi yapılarak en güvenli kesim yöntemi belirlenir.
+1. **Осмотр и анализ:** Наша экспертная команда на месте изучает породу дерева, его размер, наклон и окружающие факторы риска. Проводится анализ рисков и определяется самый безопасный метод вырубки.
 
-2. **Güvenlik Önlemleri:** Çalışma alanı çevrelenir, yaya ve araç trafiği için gerekli güvenlik önlemleri alınır.
+2. **Меры безопасности:** Рабочая зона ограждается, принимаются необходимые меры безопасности для пешеходного и автомобильного движения.
 
-3. **Hassas Kesim (Kontrollü İndirme):** Ağacı tek parça halinde devirmek yerine, çevreye zarar vermemek adına özel halatlı sistemler ve yüksek güvenlikli ekipmanlarla ağacı parçalara ayırarak kontrollü bir şekilde indiriyoruz. Bu yöntem, dar alanlarda veya yapıların yakınında en güvenli seçenektir.
+3. **Точная вырубка (контролируемое спускание):** Вместо того чтобы валить дерево целиком, мы разделяем его на части и контролируемо спускаем с помощью специальных веревочных систем и высокобезопасного оборудования, чтобы не повредить окружающую территорию. Этот метод является самым безопасным вариантом в ограниченных пространствах или рядом со строениями.
 
-4. **Temizlik ve Bertaraf:** Kesim işlemi tamamlandıktan sonra ağaç dalları ve gövde parçaları alandan uzaklaştırılır ve çalışma alanınızın tertemiz kalması sağlanır.
+4. **Уборка и вывоз:** После завершения вырубки ветви и части ствола удаляются с территории, и ваша рабочая зона остается полностью чистой.
 
-## Neden Bizi Tercih Etmelisiniz?
+## Почему выбирают нас?
 
-- **Sıfır Risk Politikası:** Modern ekipman kullanımı ile mülkünüze zarar gelme riskini ortadan kaldırıyoruz.
-- **Uzman Kadro:** İSG (İş Sağlığı ve Güvenliği) eğitimli, ağaç anatomisine hakim profesyonellerle çalışıyoruz.
-- **Hızlı ve Temiz Çözüm:** İş bitiminde alanı düzenli bir şekilde teslim ediyor, size vakit kaybettirmiyoruz.
+- **Политика нулевого риска:** С помощью современного оборудования мы устраняем риск повреждения вашего имущества.
+- **Экспертная команда:** Мы работаем с профессионалами, обученными охране труда и технике безопасности, которые хорошо знают анатомию деревьев.
+- **Быстрое и чистое решение:** После завершения работы мы сдаем территорию в аккуратном состоянии и не тратим ваше время.
 
-Hizmetlerimiz hakkında detaylı bilgi almak veya yerinde keşif talebinde bulunmak için bizimle iletişime geçebilirsiniz. Güvenli ve profesyonel bir çözüm için yanınızdayız.
+Вы можете связаться с нами, чтобы получить подробную информацию о наших услугах или запросить осмотр на месте. Мы рядом с вами для безопасного и профессионального решения.

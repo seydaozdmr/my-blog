@@ -1,34 +1,34 @@
 ---
 id: 5
-title: "Ağaç Kablolama ve Destekleme"
-description: "Yapısal zayıflığı olan ağaçları kesmeden, mühendislik çözümleriyle güvenli hale getiriyoruz."
+title: "Каблирование и поддержка деревьев"
+description: "Мы делаем деревья со структурными слабостями безопасными с помощью инженерных решений, не срубая их."
 image: "/new_images/IMG_1378.jpeg"
 imagePosition: "top"
 order: 5
 key: "agac-kablolama-destekleme"
 ---
 
-Bazen heybetli ve sağlıklı görünen ağaçlar bile, gövde yapılarındaki zayıflıklar veya ağırlık dengesizliği nedeniyle fırtına gibi hava koşullarında risk oluşturabilir. Ağaç kablolama hizmetimiz, ağacınızın ömrünü uzatmak ve çevredeki yapılar için risk oluşturmasını engellemek adına uyguladığımız bir "destekleme" sistemidir.
+Иногда даже величественные и здоровые на вид деревья могут представлять риск во время штормов и других неблагоприятных погодных условий из-за слабостей в структуре ствола или дисбаланса веса. Наша услуга каблирования деревьев — это система поддержки, которую мы применяем для продления жизни вашего дерева и предотвращения риска для окружающих строений.
 
-## Ağaç Kablolama Nedir ve Neden Gerekir?
+## Что такое каблирование деревьев и зачем оно нужно?
 
-Ağaçlar yaşlandıkça veya yanlış gelişim gösterdiklerinde dallar arasında gerilim birikebilir. Arboristlerimiz, ağacınızın yapısal zayıflıklarını tespit ederek, ağacı kesmek yerine onu hayatta tutacak mühendislik çözümleri sunar. Kablolama, ağacın kendi doğal hareketine izin verirken, zayıf bölgelerin aşırı yük altında kırılmasını önleyen koruyucu bir yöntemdir.
+По мере старения деревьев или при неправильном развитии между ветвями может накапливаться напряжение. Наши арбористы выявляют структурные слабости вашего дерева и предлагают инженерные решения, которые позволяют сохранить дерево вместо его удаления. Каблирование — это защитный метод, который позволяет дереву сохранять естественное движение и предотвращает поломку слабых участков под чрезмерной нагрузкой.
 
-## Süreç Nasıl İşler?
+## Как проходит процесс?
 
-1. **Yapısal İnceleme:** Uzman arboristimiz, ağacın tacını ve gövde birleşim noktalarını detaylıca inceler. Kritik zayıflıklar (çatlaklar, dar açılı dallar vb.) belirlenir.
+1. **Структурный осмотр:** Наш эксперт-арборист подробно осматривает крону дерева и места соединения ствола с ветвями. Определяются критические слабые места, такие как трещины, ветви с узким углом и другие риски.
 
-2. **Stratejik Uygulama:** Ağacın anatomisine zarar vermeyen, büyümesini kısıtlamayan ancak yükü dengeleyen özel, esnek kablolama sistemleri kurulur.
+2. **Стратегическое применение:** Устанавливаются специальные гибкие системы каблирования, которые не повреждают анатомию дерева, не ограничивают его рост и при этом помогают сбалансировать нагрузку.
 
-3. **Güvenlik Denetimi:** Kurulan destekleme sisteminin doğru gerginlikte olup olmadığı kontrol edilir. Bu sistem, ağaç rüzgarda sallanırken yükü paylaşarak dalın kopmasını engeller.
+3. **Проверка безопасности:** Установленная система поддержки проверяется на правильное натяжение. Когда дерево раскачивается на ветру, эта система распределяет нагрузку и помогает предотвратить отлом ветви.
 
-4. **İzleme ve Periyodik Kontrol:** Ağaç canlı bir varlıktır; zamanla büyür. Bu yüzden, kurulum sonrası sistemin ağaçla uyumunu takip etmek üzere periyodik bakım planları oluşturuyoruz.
+4. **Наблюдение и периодический контроль:** Дерево — живой организм, и со временем оно растет. Поэтому после установки мы составляем планы периодического ухода, чтобы отслеживать совместимость системы с деревом.
 
-## Neden Bizi Tercih Etmelisiniz?
+## Почему выбирают нас?
 
-- **Ağacı Koruyan Yaklaşım:** Ağacı kaldırmak yerine, gerekli müdahalelerle onu güvenli bir şekilde yerinde tutuyoruz.
-- **Arborist Bilgisi:** Ağacın biyolojik dokusunu bozmayacak, standartlara uygun (ISA Arbor) teknikler kullanıyoruz.
-- **Mülk Güvenliği:** Evinizin veya bahçenizin üzerindeki dalların yaratabileceği tehlikeleri profesyonel çözümlerle bertaraf ediyoruz.
-- **Uzun Vadeli Çözüm:** Ağacınızın doğal formuna müdahale etmeden, daha güvenli ve dengeli büyümesini sağlıyoruz.
+- **Подход, сохраняющий дерево:** Вместо удаления дерева мы безопасно сохраняем его на месте с помощью необходимых вмешательств.
+- **Знания арбористов:** Мы используем соответствующие стандартам техники (ISA Arbor), которые не нарушают биологические ткани дерева.
+- **Безопасность имущества:** Мы устраняем опасности, которые могут создавать ветви над вашим домом или садом, с помощью профессиональных решений.
+- **Долгосрочное решение:** Не нарушая естественную форму дерева, мы помогаем ему расти более безопасно и сбалансированно.
 
-Ağaçlarınızın yapısal güvenliğini sağlamak ve onları uzun yıllar bahçenizde tutmak için profesyonel destek almak isterseniz, uzman kadromuzla yanınızdayız. Detaylı bilgi ve keşif için bizimle iletişime geçebilirsiniz.
+Если вы хотите получить профессиональную поддержку для обеспечения структурной безопасности ваших деревьев и сохранить их в вашем саду на долгие годы, наша команда экспертов рядом с вами. Вы можете связаться с нами для подробной информации и выездной оценки.

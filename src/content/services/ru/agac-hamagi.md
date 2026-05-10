@@ -1,7 +1,7 @@
 ---
 id: 8
-title: "Ağaç Hamağı Kurulum ve Tasarımı"
-description: "Doğayla iç içe, güvenli ve sürdürülebilir ağaç hamağı kurulumu. Ağacınıza zarar vermeden, mühendislik hesaplı montaj."
+title: "Установка и дизайн гамака на дереве"
+description: "Безопасная и экологичная установка гамака на дереве в гармонии с природой. Инженерно рассчитанный монтаж без вреда для дерева."
 image: "/new_images/IMG_7524.jpeg"
 imagePosition: "top"
 order: 8
@@ -9,26 +9,26 @@ key: "agac-hamagi"
 comingSoon: true
 ---
 
-Ağaçlar yalnızca estetik ya da gölge kaynağı değil; doğrudan etkileşime geçebileceğiniz yaşam alanları da olabilir. Ağaç hamağı hizmetimiz, ISA sertifikalı arboristlerin gözetiminde, ağacın biyolojik yapısına hiçbir kalıcı zarar vermeden gerçekleştirilen özel bir montaj sürecidir.
+Деревья — это не только источник красоты или тени; они также могут стать живым пространством, с которым можно напрямую взаимодействовать. Наша услуга по установке гамака на дереве представляет собой специальный монтажный процесс, выполняемый под наблюдением ISA-сертифицированных арбористов без нанесения какого-либо постоянного вреда биологической структуре дерева.
 
-## Neden Uzman Kurulumu Gerekir?
+## Почему необходима профессиональная установка?
 
-- **Ağaç Sağlığı Önce Gelir:** Yanlış montaj yöntemleri, ağacın kabuğuna, kambiyum dokusuna ve iletim sistemine kalıcı hasar verebilir. Uzman kurulumda ağacın anatomisine uygun askı sistemleri ve koruyucu özel kelepçeler kullanılır.
-- **Yük ve Denge Hesabı:** Hamak kurulumunun güvenli olması için dalın çapı, açısı, kök yapısı ve ağacın genel statik dengesi arborist tarafından değerlendirilir.
-- **Estetik ve Uyum:** Hamağın konumu, ağacın formunu bozmayacak ve bahçenizin genel görünümüyle uyum içinde olacak şekilde planlanır.
+- **Здоровье дерева прежде всего:** Неправильные методы монтажа могут нанести постоянный вред коре дерева, камбиальной ткани и проводящей системе. При профессиональной установке используются подвесные системы и специальные защитные крепления, соответствующие анатомии дерева.
+- **Расчет нагрузки и баланса:** Для безопасной установки гамака арборист оценивает диаметр ветви, угол, корневую структуру и общую статическую устойчивость дерева.
+- **Эстетика и гармония:** Положение гамака планируется так, чтобы не нарушать форму дерева и гармонично вписываться в общий вид вашего сада.
 
-## Kurulum Süreci
+## Процесс установки
 
-1. **Ağaç Sağlığı ve Yapısal Değerlendirme:** Seçilen ağacın/ağaçların hamak yükünü taşıyıp taşıyamayacağı, dal sağlığı ve kök stabilitesi incelenir.
-2. **Sistem Seçimi:** Ağacın türüne ve çapına göre en uygun koruyucu askı sistemi (Tree Saver kayış, dinamik halat vb.) belirlenir.
-3. **Montaj:** Ağacın kabuğuna minimum temas sağlayan, koruyucu kenarlıklı kayışlar ve sertifikalı bağlantı elemanları kullanılarak montaj tamamlanır.
-4. **Güvenlik Testi ve Teslimat:** Kurulum sonrası yük testi yapılır; kullanım talimatları ve periyodik kontrol önerileri paylaşılır.
+1. **Оценка здоровья и структуры дерева:** Выбранное дерево или деревья проверяются на способность выдерживать нагрузку гамака, включая состояние ветвей и устойчивость корней.
+2. **Выбор системы:** В зависимости от породы и диаметра дерева подбирается наиболее подходящая защитная подвесная система, например Tree Saver straps, динамическая веревка и другие решения.
+3. **Монтаж:** Установка выполняется с использованием ремней с защитными краями и сертифицированных соединительных элементов, которые обеспечивают минимальный контакт с корой дерева.
+4. **Тест безопасности и передача:** После установки проводится нагрузочный тест; передаются инструкции по использованию и рекомендации по периодической проверке.
 
-## Neden Bizi Tercih Etmelisiniz?
+## Почему выбирают нас?
 
-- **Ağaç Dostu Montaj:** Çivi, vida veya kesici alet kullanmayan, ağacın doğal büyümesini destekleyen sistemler kuruyoruz.
-- **ISA Arborist Onaylı:** Her kurulum, ağaç sağlığı perspektifinden değerlendirilerek onaylanır.
-- **Uzun Ömürlü ve Güvenli:** Doğru sistemle kurulan bir hamak, hem sizi hem de ağacınızı yıllarca korur.
-- **Kişiye Özel Tasarım:** Tek kişilik hamaktan ailece kullanımlık geniş platformlara kadar farklı seçenekler sunuyoruz.
+- **Монтаж, дружественный к дереву:** Мы устанавливаем системы без гвоздей, шурупов или режущих инструментов, поддерживая естественный рост дерева.
+- **Одобрено ISA-арбористом:** Каждая установка оценивается и одобряется с точки зрения здоровья дерева.
+- **Долговечность и безопасность:** Гамак, установленный с правильной системой, защищает и вас, и ваше дерево на долгие годы.
+- **Индивидуальный дизайн:** Мы предлагаем разные варианты — от одноместных гамаков до широких платформ для семейного использования.
 
-Bahçenizdeki ağacı bir dinlenme cennetine dönüştürmek için yakında hizmetinizdeyiz.
+Скоро мы будем готовы помочь вам превратить дерево в вашем саду в место для отдыха.

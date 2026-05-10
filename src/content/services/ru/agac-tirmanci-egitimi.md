@@ -1,7 +1,7 @@
 ---
 id: 9
-title: "Ağaç Tırmanıcısı Eğitimi"
-description: "ISA standartlarında, uzman arboristler eşliğinde profesyonel ağaç tırmanma teknikleri ve ekipman kullanımı eğitimi."
+title: "Обучение альпинистов по работе с деревьями"
+description: "Обучение профессиональным техникам лазания по деревьям и использованию снаряжения по стандартам ISA под руководством опытных арбористов."
 image: "/new_images/IMG_0028.jpeg"
 imagePosition: "center"
 order: 9
@@ -9,25 +9,25 @@ key: "agac-tirmanci-egitimi"
 comingSoon: true
 ---
 
-Ağaç tırmanıcılığı, doğru teknik ve ekipman olmadan son derece tehlikeli olabilen, uzmanlık gerektiren bir disiplindir. ISA sertifikalı arboristlerimiz tarafından verilecek olan bu eğitim programı; orman işçilerinden hobi tırmanıcılarına, peyzaj profesyonellerinden meraklı yetişkinlere kadar herkese kapısını açacak.
+Лазание по деревьям — это специализированная дисциплина, которая может быть крайне опасной без правильной техники и оборудования. Эта учебная программа, которую будут проводить наши ISA-сертифицированные арбористы, будет открыта для всех: от лесных работников и любителей лазания до специалистов по ландшафту и заинтересованных взрослых.
 
-## Eğitim Kapsamı
+## Содержание обучения
 
-- **Temel Halat Teknikleri:** SRT (Single Rope Technique) ve DRT (Double Rope Technique) sistemlerinin teorik ve pratik anlatımı.
-- **Ekipman Tanıtımı ve Güvenli Kullanım:** Sadece sertifikalı tırmanma ekipmanlarıyla (saddle, ascender, descender, karabina vb.) birebir uygulama.
-- **Dal Üzerinde Hareket:** Ağacın tacı içinde güvenli konumlanma, yük transferi ve denge teknikleri.
-- **İSG ve Risk Yönetimi:** Çalışma öncesi ağaç sağlığı değerlendirmesi, çevre güvenliği ve acil durum prosedürleri.
-- **ISA Arbor Standartları:** Uluslararası arborikültür normlarına göre güvenli tırmanma pratikleri.
+- **Основные техники работы с веревкой:** Теоретическое и практическое объяснение систем SRT (Single Rope Technique) и DRT (Double Rope Technique).
+- **Знакомство со снаряжением и безопасное использование:** Индивидуальная практика только с сертифицированным альпинистским снаряжением, таким как седло, зажимы, спусковые устройства, карабины и другие элементы.
+- **Передвижение по ветвям:** Безопасное позиционирование в кроне дерева, перенос нагрузки и техники равновесия.
+- **Охрана труда и управление рисками:** Оценка здоровья дерева перед работой, безопасность окружающей территории и процедуры при чрезвычайных ситуациях.
+- **Стандарты ISA Arbor:** Практики безопасного лазания в соответствии с международными нормами арбористики.
 
-## Kimler Katılabilir?
+## Кто может участвовать?
 
-Temel fiziksel kondisyona sahip, 18 yaş ve üzeri bireyler eğitime katılabilir. Profesyonel gelişim hedefleyenler için ileri düzey modüller de planlanmaktadır.
+В обучении могут участвовать лица от 18 лет и старше с базовой физической подготовкой. Для тех, кто стремится к профессиональному развитию, также планируются модули продвинутого уровня.
 
-## Neden Bizi Tercih Etmelisiniz?
+## Почему выбирают нас?
 
-- **Gerçek Saha Deneyimi:** Eğitimler sınıfta değil, doğrudan ağaçlar üzerinde gerçekleştirilir.
-- **ISA Sertifikalı Eğitmenler:** Alanında uzman, aktif görevdeki arboristlerden bire bir öğrenme fırsatı.
-- **Güvenlik Önce:** Tüm ekipmanlar periyodik olarak kontrol edilir; her katılımcı için bireysel güvenlik değerlendirmesi yapılır.
-- **Sertifika:** Program sonunda katılım belgesi verilmesi planlanmaktadır.
+- **Реальный полевой опыт:** Обучение проводится не в классе, а непосредственно на деревьях.
+- **ISA-сертифицированные инструкторы:** Возможность учиться один на один у опытных действующих арбористов.
+- **Безопасность прежде всего:** Все снаряжение периодически проверяется; для каждого участника проводится индивидуальная оценка безопасности.
+- **Сертификат:** По окончании программы планируется выдача сертификата участия.
 
-Ağaçlarla yeni bir bağ kurmak, bu alanda kariyer yapmak ya da sadece bu eşsiz deneyimi yaşamak için programın açılmasını takip edin.
+Следите за запуском программы, чтобы установить новую связь с деревьями, построить карьеру в этой области или просто получить этот уникальный опыт.

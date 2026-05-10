@@ -1,37 +1,37 @@
 ---
 id: 7
-title: "Ağaç Cerrahisi ve Rehabilitasyon"
-description: "ISA sertifikalı arboristlerimizle çürümeyi durduruyor, yaraları iyileştiriyor ve ağaçlarınızın yapısal bütünlüğünü geri kazandırıyoruz."
+title: "Хирургия и реабилитация деревьев"
+description: "С нашими ISA-сертифицированными арбористами мы останавливаем гниение, заживляем повреждения и восстанавливаем структурную целостность ваших деревьев."
 image: "/new_images/IMG_2058.jpeg"
 imagePosition: "top"
 order: 7
 key: "agac-cerrahisi-rehabilitasyon"
 ---
 
-Tıpkı insanlarda olduğu gibi, ağaçlar da yaşayabilir, yaralanabilir ve hastalanabilirler. ISA sertifikalı arboristlerimiz tarafından uygulanan ağaç cerrahisi, sadece görsel bir düzeltme değil; ağacınızın yaşam döngüsünü korumak, çürümeyi durdurmak ve yapısal bütünlüğü geri kazandırmak için uygulanan ileri düzey bir rehabilitasyon sürecidir.
+Как и люди, деревья могут жить, получать повреждения и болеть. Хирургия деревьев, выполняемая нашими ISA-сертифицированными арбористами, — это не просто визуальная коррекция, а продвинутый процесс реабилитации, направленный на сохранение жизненного цикла дерева, остановку гниения и восстановление структурной целостности.
 
-## Ne Zaman Cerrahi Müdahale Gerekir?
+## Когда требуется хирургическое вмешательство?
 
-- **Çürük ve Kavuk Yönetimi:** Gövdedeki çürük bölgelerin (kavukların) uzman tekniklerle temizlenerek, ağacın kendi kendine iyileşme (kapanma) sürecinin desteklenmesi.
-- **Yara Bakımı:** Büyük kırılmalar, kabuk soyulmaları veya dış etkenlere bağlı yaralanmaların, ağacın doku yenilenmesini hızlandıracak şekilde temizlenmesi.
-- **Zararlı ve Hastalık İzolasyonu:** Hastalıklı dokuların (mantar, bakteri vb.) çevre dokulara sıçramasını önlemek adına hassas cerrahi yöntemlerle ağaçtan izole edilmesi.
-- **Yapısal Destekleme:** Ağacın zayıf noktalarına destek sistemlerinin entegre edilmesi.
+- **Управление гнилью и дуплами:** Очистка пораженных гнилью участков ствола (дупел) с применением профессиональных техник и поддержка естественного процесса заживления (закрытия) дерева.
+- **Уход за ранами:** Очистка крупных разломов, отслоений коры или повреждений, вызванных внешними факторами, таким образом, чтобы ускорить восстановление тканей дерева.
+- **Изоляция вредителей и болезней:** Изоляция пораженных тканей (грибки, бактерии и т. д.) от дерева с помощью точных хирургических методов, чтобы предотвратить их распространение на окружающие ткани.
+- **Структурная поддержка:** Интеграция поддерживающих систем в слабые места дерева.
 
-## Süreç Nasıl İşler?
+## Как проходит процесс?
 
-1. **Detaylı Teşhis:** Arboristlerimiz, ağacın canlılık durumunu, çürüme derinliğini ve iyileşme potansiyelini inceler. Gerekirse teknolojik görüntüleme yöntemleri ile ağacın iç yapısı analiz edilir.
+1. **Подробная диагностика:** Наши арбористы оценивают жизнеспособность дерева, глубину гниения и потенциал восстановления. При необходимости внутренняя структура дерева анализируется с помощью технологических методов визуализации.
 
-2. **Hijyenik Müdahale:** Tüm cerrahi ekipmanlarımız, hastalıkların yayılmaması için her müdahale öncesinde ve sonrasında özel dezenfektanlarla sterilize edilir.
+2. **Гигиеническое вмешательство:** Все хирургические инструменты стерилизуются специальными дезинфицирующими средствами до и после каждого вмешательства, чтобы предотвратить распространение заболеваний.
 
-3. **Doku Temizliği ve Koruma:** Ölü, çürük veya enfekte olmuş dokular, canlı dokuya zarar vermeden dikkatle temizlenir. Ardından, ağacın yaraları doğal koruma mekanizmasını (CODIT modeli) destekleyecek şekilde işlenir.
+3. **Очистка и защита тканей:** Мертвые, гнилые или инфицированные ткани аккуратно удаляются без повреждения живой ткани. Затем раны дерева обрабатываются таким образом, чтобы поддержать его естественный защитный механизм (модель CODIT).
 
-4. **İyileşme İzleme:** Müdahale sonrası ağacın gelişimini takip eden bir bakım programı oluşturuyoruz. Cerrahinin başarısı, ağacın kendi "yaralarını" nasıl kapattığı ile doğrudan bağlantılıdır.
+4. **Контроль восстановления:** После вмешательства мы создаем программу ухода для отслеживания развития дерева. Успех хирургии напрямую связан с тем, как дерево закрывает свои собственные «раны».
 
-## Neden Bizi Tercih Etmelisiniz?
+## Почему выбирают нас?
 
-- **Yaşatma Odaklılık:** Ağacı kesmek kolay olandır; bizim hedefimiz, ağacınızın ömrünü profesyonel müdahalelerle uzatmaktır.
-- **Bilimsel Temel:** ISA sertifikalı uzmanlığımızla, ağacın anatomisini ve doğal savunma sistemlerini bilerek hareket ediyoruz.
-- **Modern Teknikler:** ISA Arbor'un dünyada kabul görmüş en güncel rehabilitasyon yöntemlerini kullanıyoruz.
-- **Uzun Vadeli Takip:** Müdahale sonrası, ağacınızın sağlığını periyodik olarak kontrol ederek tam iyileşmeyi hedefliyoruz.
+- **Ориентация на сохранение:** Срубить дерево — самый простой путь; наша цель — продлить жизнь вашему дереву с помощью профессиональных вмешательств.
+- **Научная основа:** Благодаря нашей ISA-сертифицированной экспертизе мы действуем с пониманием анатомии дерева и его естественных защитных систем.
+- **Современные техники:** Мы используем самые актуальные методы реабилитации, признанные ISA Arbor во всем мире.
+- **Долгосрочное наблюдение:** После вмешательства мы периодически проверяем здоровье вашего дерева, стремясь к полному восстановлению.
 
-Değerli ve yaşlı ağaçlarınızın sağlığı tehlikede mi? Onları kaybetmek yerine, profesyonel bir rehabilitasyon süreci ile hayata döndürmek için bizimle iletişime geçin. Ağaçlarınızı geleceğe taşıyalım.
+Здоровье ваших ценных и старых деревьев под угрозой? Вместо того чтобы потерять их, свяжитесь с нами, чтобы вернуть их к жизни с помощью профессионального процесса реабилитации. Давайте сохраним ваши деревья для будущего.

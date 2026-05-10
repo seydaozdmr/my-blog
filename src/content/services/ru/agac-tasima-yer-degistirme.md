@@ -1,33 +1,33 @@
 ---
 id: 6
-title: "Ağaç Taşıma ve Yer Değiştirme"
-description: "Ağaçlarınızın formunu ve sağlığını bozmadan, yeni adreslerine adapte olmalarını sağlıyoruz."
+title: "Пересадка и перемещение деревьев"
+description: "Мы помогаем вашим деревьям адаптироваться к новому месту, не нарушая их форму и здоровье."
 image: "/new_images/IMG_1776.jpeg"
 imagePosition: "center"
 order: 6
 key: "agac-tasima-yer-degistirme"
 ---
 
-Bir ağacı taşımak, sadece onu yerinden söküp başka bir yere dikmek değildir; bu bir "yaşam nakli" sürecidir. Ağaçlarınızın formunu ve sağlığını bozmadan, yeni adreslerine adapte olmalarını sağlamak için ISA (International Society of Arboriculture) sertifikalı uzmanlarımızla bilimsel yöntemler uyguluyoruz.
+Переместить дерево — это не просто выкопать его с одного места и посадить в другом; это процесс «пересадки жизни». Чтобы ваши деревья адаптировались к новому месту без нарушения их формы и здоровья, мы применяем научные методы вместе с нашими специалистами, сертифицированными ISA (International Society of Arboriculture).
 
-## Süreç Nasıl İşler?
+## Как проходит процесс?
 
-1. **Yerinde Analiz ve Planlama:** Ağacın türü, kök yapısı, toprak durumu ve mevsimsel veriler incelenir. Taşıma öncesi ağacın fiziksel kondisyonu arboristlerimiz tarafından değerlendirilir.
+1. **Анализ на месте и планирование:** Изучаются порода дерева, структура корней, состояние почвы и сезонные данные. Перед перемещением физическое состояние дерева оценивается нашими арбористами.
 
-2. **Kök Hazırlığı ve Taşıma:** Ağacın kök sistemi, en az hasar alacak şekilde özel tekniklerle (kök balyası hazırlama) sökülür ve taşıma esnasında nem dengesini koruyacak şekilde korumaya alınır.
+2. **Подготовка корней и транспортировка:** Корневая система дерева извлекается с применением специальных техник, таких как подготовка корневого кома, чтобы минимизировать повреждения, и защищается во время транспортировки для сохранения баланса влаги.
 
-3. **Danışmanlık ve Projelendirme:** Her ağaç ve her mekan farklıdır. Taşınacak ağacın yeni lokasyonundaki toprak yapısı, güneş ve su ihtiyaçlarına göre projelendirme ve taşınma öncesi/sonrası teknik danışmanlık hizmeti sunuyoruz.
+3. **Консультации и проектирование:** Каждое дерево и каждое место отличаются. Мы предоставляем проектирование и технические консультации до и после перемещения с учетом структуры почвы, потребности дерева в солнце и воде на новом участке.
 
-4. **Dikim ve Adaptasyon:** Ağacın yeni yerine yerleşimi, büyüme yönü ve kök stabilizasyonu ANSI A300 standartlarına uygun olarak yapılır.
+4. **Посадка и адаптация:** Размещение дерева на новом месте, направление роста и стабилизация корней выполняются в соответствии со стандартами ANSI A300.
 
-## Başarı Garantisi: %90 Yaşatma Taahhüdü
+## Гарантия успеха: обязательство 90% приживаемости
 
-Ağacın taşınma stresini en aza indirmek için uyguladığımız özel bakım protokolleri sayesinde, ağacınızın yeni yerinde yaşamını sürdürmesine büyük bir güven duyuyoruz. Müşterilerimizin talebi doğrultusunda, taşıma sonrası 2 yıllık profesyonel bakım hizmetini üstleniyoruz. Bu süreçte ağacın tüm ihtiyaçlarını takip ederek, başarıyla adaptasyonunu sağlıyor ve **%90 oranında yaşama garantisi** veriyoruz.
+Благодаря специальным протоколам ухода, которые мы применяем для минимизации стресса при пересадке, мы уверены, что ваше дерево продолжит жить на новом месте. По запросу клиентов мы берем на себя 2 года профессионального ухода после перемещения. В этот период мы отслеживаем все потребности дерева, обеспечиваем его успешную адаптацию и предоставляем **90% гарантию приживаемости**.
 
-## Neden Bizi Tercih Etmelisiniz?
+## Почему выбирают нас?
 
-- **ISA Sertifikalı Uzmanlık:** İşlemlerimiz, ağaç bakımında dünya standardı kabul edilen ISA sertifikalı ekiplerimiz tarafından gerçekleştirilir.
-- **Yaşatma Güvencesi:** Ağacın yeni ortamına alışma sürecini 2 yıl boyunca takip ederek, yüksek yaşatma başarısı sunuyoruz.
-- **Bilimsel Danışmanlık:** Sadece taşıma yapmıyor, projenizin her aşamasında ağacın geleceğini planlamanız için profesyonel danışmanlık sağlıyoruz.
+- **ISA-сертифицированная экспертиза:** Наши работы выполняются ISA-сертифицированными командами, что считается мировым стандартом в уходе за деревьями.
+- **Гарантия приживаемости:** Мы отслеживаем процесс адаптации дерева к новой среде в течение 2 лет и обеспечиваем высокий уровень успешной приживаемости.
+- **Научное консультирование:** Мы не просто перемещаем деревья; мы предоставляем профессиональные консультации на каждом этапе вашего проекта, чтобы помочь спланировать будущее дерева.
 
-Ağaçlarınızın yeni yerlerinde de kök salmasını sağlamak ve taşıma sürecini uzman güvencesiyle yönetmek için bizimle iletişime geçebilirsiniz. Uzman kadromuzla yanınızdayız.
+Вы можете связаться с нами, чтобы ваши деревья укоренились на новом месте и чтобы процесс перемещения проходил под контролем специалистов. Наша команда экспертов рядом с вами.

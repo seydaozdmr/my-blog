@@ -1,36 +1,36 @@
 ---
 id: 2
-title: "Profesyonel Palmiye Budama ve Bakım"
-description: "Palmiyelerinizin biyolojik sağlığını ve görkemli estetiğini korumak için ISA sertifikalı uzman bakımı."
+title: "Профессиональная обрезка и уход за пальмами"
+description: "ISA-сертифицированный экспертный уход для сохранения биологического здоровья и эффектной эстетики ваших пальм."
 image: "/new_images/IMG_0876.jpeg"
 imagePosition: "65% center"
 order: 2
 key: "palmiye-budama"
 ---
 
-Palmiyeler, diğer ağaçlardan farklı olarak tek bir büyüme merkezine (apeks) sahiptir. Bu nedenle palmiye budaması, sadece kurumuş dalları temizlemek değil, ağacın estetiğini korurken biyolojik sağlığını da güvence altına almaktır. ISA sertifikalı ekibimiz, palmiye türlerinin kendine has ihtiyaçlarını bilerek hassas bir budama süreci yönetir.
+Пальмы, в отличие от других деревьев, имеют единственный центр роста (апекс). Поэтому обрезка пальм — это не просто удаление сухих ветвей, а процесс, который сохраняет эстетику дерева и одновременно обеспечивает его биологическое здоровье. Наша ISA-сертифицированная команда знает особые потребности разных видов пальм и выполняет обрезку с высокой точностью.
 
-## Neden Uzman Palmiye Bakımı?
+## Почему важен профессиональный уход за пальмами?
 
-- **Biyolojik Hassasiyet:** Yanlış yapılan (aşırı veya mevsimsiz) budamalar, palmiyenin besin kaynaklarını kesebilir veya ağacı hastalıklara/zararlılara açık hale getirebilir.
-- **Kırmızı Palmiye Böceği ile Mücadele:** Özellikle bölgemizdeki en büyük tehdit olan kırmızı palmiye böceği (*Rhynchophorus ferrugineus*) gibi zararlılara karşı, budama esnasında gerekli kontrolleri yapıyor ve ağacın dirençli kalmasını sağlıyoruz.
-- **Estetik Form:** Palmiyenin doğal, görkemli ve temiz formunu ortaya çıkaran "taraklama" ve "gövde temizliği" işlemlerini titizlikle uyguluyoruz.
+- **Биологическая чувствительность:** Неправильная обрезка, например чрезмерная или выполненная не в сезон, может лишить пальму источников питания или сделать дерево уязвимым к болезням и вредителям.
+- **Борьба с красным пальмовым долгоносиком:** Во время обрезки мы проводим необходимые проверки против вредителей, таких как красный пальмовый долгоносик (*Rhynchophorus ferrugineus*), который представляет одну из главных угроз в нашем регионе, и помогаем дереву сохранять устойчивость.
+- **Эстетическая форма:** Мы тщательно выполняем процедуры «прочесывания» и очистки ствола, которые раскрывают естественную, величественную и аккуратную форму пальмы.
 
-## Süreç Nasıl İşler?
+## Как проходит процесс?
 
-1. **Tür Analizi:** Palmiyenin türüne (Phoenix, Washingtonia vb.) göre en uygun budama dönemini ve tekniğini belirliyoruz.
+1. **Анализ вида:** Мы определяем наиболее подходящий период и технику обрезки в зависимости от вида пальмы, например Phoenix, Washingtonia и других.
 
-2. **Hijyenik Müdahale:** Budama ekipmanlarımızı her ağaçtan sonra sterilize ediyoruz. Bu, hastalıkların bir ağaçtan diğerine bulaşmasını engelleyen hayati bir güvenlik adımıdır.
+2. **Гигиеническое вмешательство:** Мы стерилизуем инструменты после каждого дерева. Это жизненно важный шаг безопасности, который предотвращает передачу заболеваний от одного дерева к другому.
 
-3. **Kuru Yaprak ve Meyve Temizliği:** Kurumuş yapraklar (frondlar) ve estetik olmayan meyve salkımları, ağacın gövdesine zarar vermeden, ISA Arbor standartlarına uygun şekilde uzaklaştırılır.
+3. **Удаление сухих листьев и плодов:** Сухие листья, также называемые вайями, и неэстетичные плодовые грозди удаляются в соответствии со стандартами ISA Arbor без повреждения ствола дерева.
 
-4. **Güvenlik:** Uzman arboristlerimiz, yüksekliğe erişim ve çalışma güvenliği konusunda gerekli tüm İSG önlemlerini alarak, çevreye zarar vermeden operasyonu tamamlar.
+4. **Безопасность:** Наши опытные арбористы принимают все необходимые меры охраны труда и техники безопасности при работе на высоте и завершают операцию без вреда для окружающей территории.
 
-## Neden Bizi Tercih Etmelisiniz?
+## Почему выбирают нас?
 
-- **ISA Sertifikalı Uzmanlık:** Palmiyelerin anatomisini ve bakım ihtiyaçlarını derinlemesine bilen uzmanlarla çalışıyoruz.
-- **Hastalıklara Karşı Koruma:** Budama işlemi sırasında olası hastalık belirtilerini erken teşhis ediyoruz.
-- **Temiz ve Düzenli:** Budama sonrası oluşan devasa yaprak yığınlarını hızla temizliyor, bahçenizi estetik ve ferah bir görünüme kavuşturuyoruz.
-- **Doğru Zamanlama:** Palmiyenin gelişim döngüsünü aksatmadan, en sağlıklı dönemlerde müdahale ediyoruz.
+- **ISA-сертифицированная экспертиза:** Мы работаем со специалистами, которые глубоко знают анатомию пальм и их потребности в уходе.
+- **Защита от заболеваний:** Во время обрезки мы на раннем этапе выявляем возможные признаки болезней.
+- **Чисто и аккуратно:** После обрезки мы быстро убираем большие объемы пальмовых листьев, придавая вашему саду эстетичный и свежий вид.
+- **Правильное время:** Мы выполняем вмешательство в самые здоровые периоды, не нарушая цикл развития пальмы.
 
-Palmiyelerinizin daha sağlıklı, görkemli ve bakımlı olması için profesyonel destek almak isterseniz, uzman ekibimizle yanınızdayız. Detaylı bilgi ve keşif için bizimle iletişime geçebilirsiniz.
+Если вы хотите получить профессиональную поддержку, чтобы ваши пальмы были более здоровыми, эффектными и ухоженными, наша экспертная команда рядом с вами. Вы можете связаться с нами для подробной информации и осмотра на месте.

@@ -1,34 +1,34 @@
 ---
 id: 1
-title: "Ağaç Budama ve Bakım"
-description: "Ağaçlarınızın uzun ömürlü, sağlıklı ve estetik görünmesi için profesyonel budama ve bakım hizmeti."
+title: "Обрезка и уход за деревьями"
+description: "Профессиональная обрезка и уход, чтобы ваши деревья были долговечными, здоровыми и эстетичными."
 image: "/new_images/dd1d9fab-968d-46c5-b071-ed347f55efa6.jpeg"
 imagePosition: "center"
 order: 1
 key: "guvenli-agac-kesimi"
 ---
 
-Ağaçlarınızın uzun ömürlü, sağlıklı ve estetik görünmesi için düzenli bakım şarttır. Yanlış yapılan budama işlemleri ağacın yapısını bozabilir ve hastalıklara davetiye çıkarabilir. Biz, ağaçlarınızın biyolojik ihtiyaçlarını gözeten, profesyonel yöntemlerle çalışan bir ekibiz.
+Регулярный уход необходим для того, чтобы ваши деревья были долговечными, здоровыми и эстетичными. Неправильная обрезка может нарушить структуру дерева и сделать его уязвимым к болезням. Мы — профессиональная команда, которая работает методами, учитывающими биологические потребности ваших деревьев.
 
-## Neden Uzman Budaması Önemlidir?
+## Почему важна профессиональная обрезка?
 
-Budama sadece estetik bir işlem değil, bir ağaç cerrahisi sürecidir. Arboristlerimiz (ağaç bakım uzmanlarımız), ağacınızın türünü, yaşını ve mevsimsel döngüsünü inceleyerek; hangi dalın ağacın gelişimini destekleyeceğini, hangisinin ise risk oluşturduğunu belirler.
+Обрезка — это не только эстетическая процедура, но и процесс древесной хирургии. Наши арбористы, специалисты по уходу за деревьями, изучают породу, возраст и сезонный цикл вашего дерева, чтобы определить, какие ветви поддерживают его развитие, а какие представляют риск.
 
-## Süreç Nasıl İşler?
+## Как проходит процесс?
 
-1. **Ağaç Sağlığı Analizi:** Bir arborist eşliğinde ağacınızın mevcut sağlık durumu incelenir. Kuru, hastalıklı veya birbirine sürtünen dallar tespit edilir.
+1. **Анализ здоровья дерева:** В сопровождении арбориста оценивается текущее состояние здоровья вашего дерева. Выявляются сухие, больные или трущиеся друг о друга ветви.
 
-2. **Stratejik Budama:** Ağacın büyüme potansiyelini artıran, güneş ışığından maksimum verim almasını sağlayan ve rüzgar direncini düzenleyen "doğru kesim" teknikleri uygulanır.
+2. **Стратегическая обрезка:** Применяются правильные техники среза, которые повышают потенциал роста дерева, обеспечивают максимальное использование солнечного света и регулируют сопротивление ветру.
 
-3. **Güvenlik ve Hassasiyet:** Yapılarınıza, çitlerinize veya elektrik hatlarına yakın olan dallar, kontrollü tekniklerle budanarak güvenli bir şekilde yere indirilir.
+3. **Безопасность и точность:** Ветви, расположенные рядом со строениями, заборами или линиями электропередачи, обрезаются контролируемыми методами и безопасно опускаются на землю.
 
-4. **Temizlik:** Budama işlemi sonrasında oluşan tüm atıklar parçalanarak alandan uzaklaştırılır; bahçeniz düzenli ve ferah bir görünüme kavuşturulur.
+4. **Уборка:** После обрезки все образовавшиеся отходы измельчаются и удаляются с территории; ваш сад приобретает аккуратный и свежий вид.
 
-## Neden Bizi Tercih Etmelisiniz?
+## Почему выбирают нас?
 
-- **Arborist Uzmanlığı:** Sadece dal kesmiyor, ağacın geleceğini planlıyoruz.
-- **Sağlıklı Gelişim:** Doğru zamanlama ve teknikle ağaçlarınızın verimini ve estetiğini artırıyoruz.
-- **Estetik Bakış Açısı:** Ağaçlarınızın peyzajınıza uyumunu göz önünde bulundurarak estetik bir form kazandırıyoruz.
-- **Temiz Çalışma:** Çalışma sonrası çevre düzenine büyük önem veriyor, işimizi tertemiz teslim ediyoruz.
+- **Экспертиза арбористов:** Мы не просто срезаем ветви, а планируем будущее дерева.
+- **Здоровое развитие:** Благодаря правильному времени и технике мы повышаем жизнеспособность и эстетику ваших деревьев.
+- **Эстетический подход:** Мы придаем вашим деревьям красивую форму, учитывая их гармонию с ландшафтом.
+- **Чистая работа:** После завершения работы мы уделяем большое внимание порядку на участке и сдаем территорию в идеально чистом состоянии.
 
-Ağaçlarınızın daha sağlıklı ve güçlü büyümesi için profesyonel destek almak isterseniz, uzman kadromuzla yanınızdayız. Randevu ve detaylı bilgi için bizimle iletişime geçebilirsiniz.
+Если вы хотите получить профессиональную поддержку, чтобы ваши деревья росли более здоровыми и крепкими, наша команда экспертов рядом с вами. Вы можете связаться с нами для записи и подробной информации.
