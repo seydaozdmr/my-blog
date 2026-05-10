@@ -75,6 +75,7 @@ export const dict = {
       getQuote: 'Ücretsiz Teklif Al',
       follow: 'Bizi Takip Edin',
       rights: 'Tüm hakları saklıdır.',
+      privacy: 'Gizlilik Politikası',
     },
     productList: {
       breadcrumbHome: 'Ana Sayfa',
@@ -190,6 +191,7 @@ export const dict = {
       getQuote: 'Get Free Quote',
       follow: 'Follow Us',
       rights: 'All rights reserved.',
+      privacy: 'Privacy Policy',
     },
     productList: {
       breadcrumbHome: 'Home',
@@ -305,6 +307,7 @@ export const dict = {
       getQuote: 'Получить оценку',
       follow: 'Мы в соцсетях',
       rights: 'Все права защищены.',
+      privacy: 'Политика конфиденциальности',
     },
     productList: {
       breadcrumbHome: 'Главная',

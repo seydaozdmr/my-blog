@@ -124,8 +124,12 @@ export function Footer({ locale = 'tr', basePath = '' }: FooterProps) {
           </div>
         </div>
 
-        <div className="border-t border-white/5 py-5 text-center text-gray-600 text-sm">
+        <div className="border-t border-white/5 py-5 text-center text-gray-600 text-sm flex flex-col sm:flex-row items-center justify-center gap-3">
           <p>© {currentYear} CrownPro — {t.footer.rights}</p>
+          <span className="hidden sm:inline">·</span>
+          <Link href={`${basePath}/privacy`} className="hover:text-gray-400 transition-colors">
+            {t.footer.privacy}
+          </Link>
         </div>
       </div>
     </footer>
