@@ -1,6 +1,7 @@
 import { FaInstagram, FaFacebook, FaYoutube, FaWhatsapp, FaTiktok } from 'react-icons/fa'
 import Link from 'next/link'
 import { Logo } from '@/components/ui/Logo'
+import { getT, Locale } from '@/lib/translations'
 
 const SOCIAL_LINKS = [
   {
@@ -40,26 +41,28 @@ const SOCIAL_LINKS = [
   },
 ]
 
-export function Footer() {
+interface FooterProps {
+  locale?: Locale
+  basePath?: string
+}
+
+export function Footer({ locale = 'tr', basePath = '' }: FooterProps) {
+  const t = getT(locale)
   const currentYear = new Date().getFullYear()
 
   return (
     <footer className="bg-gray-900 text-white pt-12 pb-0">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pb-10">
-          {/* Logo ve Kısa Açıklama */}
           <div>
-            <Link href="/" className="inline-block mb-4 hover:opacity-80 transition-opacity">
+            <Link href={basePath || '/'} className="inline-block mb-4 hover:opacity-80 transition-opacity">
               <Logo variant="white" width={180} />
             </Link>
-            <p className="text-gray-400 mb-4">
-              Antalya bölgesinde faaliyet gösteren CrownPro ekibi, ağaç tırmanıcılığı ve peyzaj hizmetlerinde uzmanlaşmış, profesyonel bir ekiptir.
-            </p>
+            <p className="text-gray-400 mb-4">{t.footer.description}</p>
           </div>
 
-          {/* İletişim Bilgileri */}
           <div>
-            <h3 className="text-xl font-bold mb-4">İletişim</h3>
+            <h3 className="text-xl font-bold mb-4">{t.footer.contact}</h3>
             <address className="not-italic text-gray-400">
               <p className="mb-2">Muratpaşa, Antalya</p>
               <p className="mb-2">Antalya, Türkiye</p>
@@ -76,27 +79,25 @@ export function Footer() {
             </address>
           </div>
 
-          {/* Hızlı Linkler */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Hızlı Erişim</h3>
+            <h3 className="text-xl font-bold mb-4">{t.footer.quickLinks}</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><Link href="/" className="hover:text-white transition-colors">Ana Sayfa</Link></li>
-              <li><Link href="/products" className="hover:text-white transition-colors">Hizmetlerimiz</Link></li>
-              <li><Link href="/contact" className="hover:text-white transition-colors">İletişim</Link></li>
+              <li><Link href={basePath || '/'} className="hover:text-white transition-colors">{t.footer.home}</Link></li>
+              <li><Link href={`${basePath}/products`} className="hover:text-white transition-colors">{t.footer.services}</Link></li>
+              <li><Link href={`${basePath}/contact`} className="hover:text-white transition-colors">{t.footer.contactLink}</Link></li>
               <li>
                 <a href="tel:+905511672228" className="hover:text-white transition-colors">
-                  Ücretsiz Teklif Al
+                  {t.footer.getQuote}
                 </a>
               </li>
             </ul>
           </div>
         </div>
 
-        {/* Sosyal Medya Barı */}
         <div className="border-t border-white/10 py-8">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
             <p className="text-gray-400 text-sm tracking-wide uppercase font-medium">
-              Bizi Takip Edin
+              {t.footer.follow}
             </p>
             <div className="flex items-center gap-3">
               {SOCIAL_LINKS.map(({ label, href, icon: Icon, hoverColor, bg }) => (
@@ -114,7 +115,6 @@ export function Footer() {
                   `}
                 >
                   <Icon size={20} className="text-gray-300 group-hover:text-white transition-colors duration-300" />
-                  {/* Tooltip */}
                   <span className="absolute -top-9 left-1/2 -translate-x-1/2 bg-black/80 text-white text-xs font-medium px-2.5 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap pointer-events-none">
                     {label}
                   </span>
@@ -124,9 +124,8 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Telif Hakkı */}
         <div className="border-t border-white/5 py-5 text-center text-gray-600 text-sm">
-          <p>© {currentYear} CrownPro — Tüm hakları saklıdır.</p>
+          <p>© {currentYear} CrownPro — {t.footer.rights}</p>
         </div>
       </div>
     </footer>

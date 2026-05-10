@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { Footer } from '@/components/layout/Footer'
+import { LocaleFooter } from '@/components/layout/LocaleFooter'
+import { LocaleSetup } from '@/components/ui/LocaleSetup'
+import { LanguageSwitcher } from '@/components/ui/LanguageSwitcher'
 import { StructuredData } from '@/components/SEO/StructuredData'
 import './globals.css'
 
@@ -50,8 +52,7 @@ export const metadata: Metadata = {
     canonical: 'https://antalyaagacbudama.com',
     languages: {
       'tr': 'https://antalyaagacbudama.com',
-      'en': 'https://antalyaagacbudama.com',
-      'ru': 'https://antalyaagacbudama.com',
+      'en': 'https://antalyaagacbudama.com/en',
       'x-default': 'https://antalyaagacbudama.com',
     },
   },
@@ -115,8 +116,10 @@ export default function RootLayout({
             'https://www.youtube.com/@crownprotr',
           ]}
         />
+        <LocaleSetup />
+        <LanguageSwitcher />
         <main>{children}</main>
-        <Footer />
+        <LocaleFooter />
       </body>
     </html>
   )

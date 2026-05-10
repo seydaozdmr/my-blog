@@ -5,13 +5,17 @@ import { IService } from '@/types/service'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Logo } from '@/components/ui/Logo'
+import { getT, Locale } from '@/lib/translations'
 
 interface HeroSliderProps {
   services: IService[]
+  locale?: Locale
+  basePath?: string
 }
 
-export function HeroSlider({ services }: HeroSliderProps) {
+export function HeroSlider({ services, locale = 'tr', basePath = '' }: HeroSliderProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
+  const t = getT(locale)
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -49,11 +53,11 @@ export function HeroSlider({ services }: HeroSliderProps) {
 
       <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center text-white px-6">
         <div className="max-w-4xl mx-auto">
-          <Link href="/" className="inline-block mb-6 hover:opacity-80 transition-opacity">
+          <Link href={basePath || '/'} className="inline-block mb-6 hover:opacity-80 transition-opacity">
             <Logo variant="light" width={260} />
           </Link>
           <span className="inline-block text-sm font-semibold tracking-[0.3em] uppercase text-green-300 mb-5">
-            Antalya &bull; Profesyonel Ağaç Bakımı
+            {t.hero.tagline}
           </span>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight drop-shadow-lg">
             {current.title}
@@ -63,16 +67,16 @@ export function HeroSlider({ services }: HeroSliderProps) {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/contact"
+              href={`${basePath}/contact`}
               className="bg-green-600 hover:bg-green-500 text-white font-bold py-4 px-12 rounded-full transition-all duration-300 hover:scale-105 shadow-xl text-lg"
             >
-              Ucretsiz Teklif Al
+              {t.hero.cta}
             </Link>
             <Link
-              href="/products"
+              href={`${basePath}/products`}
               className="border-2 border-white/80 text-white hover:bg-white hover:text-green-800 font-bold py-4 px-12 rounded-full transition-all duration-300 text-lg"
             >
-              Hizmetlerimiz
+              {t.hero.services}
             </Link>
           </div>
         </div>
@@ -83,7 +87,7 @@ export function HeroSlider({ services }: HeroSliderProps) {
           <button
             key={idx}
             onClick={() => setCurrentIndex(idx)}
-            aria-label={`Slayt ${idx + 1}`}
+            aria-label={`Slide ${idx + 1}`}
             className={`transition-all duration-300 rounded-full ${
               idx === currentIndex
                 ? 'w-10 h-3 bg-white'
@@ -94,7 +98,9 @@ export function HeroSlider({ services }: HeroSliderProps) {
       </div>
 
       <div className="absolute bottom-10 right-10 z-30 flex flex-col items-center gap-2 text-white/50 hidden md:flex">
-        <span className="text-xs tracking-widest uppercase" style={{ writingMode: 'vertical-rl' }}>Scroll</span>
+        <span className="text-xs tracking-widest uppercase" style={{ writingMode: 'vertical-rl' }}>
+          {t.scroll}
+        </span>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M12 5v14M5 12l7 7 7-7" />
         </svg>

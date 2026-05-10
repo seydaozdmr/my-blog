@@ -1,15 +1,22 @@
 'use client'
 
 import { FadeInSection } from '@/components/ui/FadeInSection'
+import { getT, Locale } from '@/lib/translations'
 
-const stats = [
-  { number: '10+', label: 'Yıllık Deneyim' },
-  { number: '500+', label: 'Tamamlanan Proje' },
-  { number: '7/24', label: 'Acil Hizmet' },
-  { number: '100%', label: 'Müşteri Memnuniyeti' },
-]
+interface StatsStripProps {
+  locale?: Locale
+}
 
-export function StatsStrip() {
+export function StatsStrip({ locale = 'tr' }: StatsStripProps) {
+  const t = getT(locale)
+
+  const stats = [
+    { number: '10+', label: t.stats.experience },
+    { number: '500+', label: t.stats.projects },
+    { number: '7/24', label: t.stats.emergency },
+    { number: '100%', label: t.stats.satisfaction },
+  ]
+
   return (
     <section className="py-16 bg-green-700">
       <div className="container mx-auto px-6">
