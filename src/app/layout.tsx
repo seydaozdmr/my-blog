@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { Navigation } from '@/components/layout/Navigation'
 import { Footer } from '@/components/layout/Footer'
 import { StructuredData } from '@/components/SEO/StructuredData'
 import './globals.css'
@@ -116,8 +115,7 @@ export default function RootLayout({
             'https://www.youtube.com/@crownprotr',
           ]}
         />
-        <Navigation />
-        <main className="pt-16">{children}</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
