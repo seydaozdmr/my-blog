@@ -20,15 +20,22 @@ export const metadata: Metadata = {
     'ağaç budama', 'ağaç kesme', 'antalya ağaç budama', 'antalya ağaç kesme',
     'ağaç bakımı', 'palmiye budama', 'yüksek tırmanış', 'ağaç cerrahisi',
     'ağaç kablolama', 'acil ağaç kesimi', 'CrownPro', 'antalya',
+    'antalya vinç ağaç budama', 'antalya vinç ile ağaç kesimi', 'vinç ile palmiye budama',
+    'antalya vinç ile palmiye budama', 'vinçli ağaç kesimi antalya', 'vinç ağaç kesimi',
+    'antalya yüksek ağaç kesimi', 'vinç ile ağaç budama', 'antalya ağaç kesimi vinç',
     // English
     'tree trimming Antalya', 'tree pruning Antalya', 'tree removal Antalya',
     'arborist Antalya', 'palm tree trimming Antalya', 'tree service Antalya',
     'emergency tree removal Antalya', 'tree care Antalya', 'certified arborist Turkey',
     'tree cutting Antalya', 'ISA certified arborist Antalya',
+    'crane tree pruning Antalya', 'crane tree removal Antalya', 'crane palm tree trimming Antalya',
+    'crane tree cutting Antalya', 'aerial tree service Antalya', 'crane arborist Antalya',
     // Русский
     'обрезка деревьев Анталья', 'уход за деревьями Анталья', 'спил деревьев Анталья',
     'обрезка пальм Анталья', 'арборист Анталья', 'обрезка деревьев Турция',
     'уход за садом Анталья', 'вырубка деревьев Анталья', 'CrownPro Анталья',
+    'спил деревьев краном Анталья', 'обрезка пальм краном Анталья', 'кран спил деревьев Анталья',
+    'вырубка деревьев краном Анталья', 'услуги крана деревья Анталья',
   ],
   icons: {
     icon: '/favicon.svg',
