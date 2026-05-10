@@ -24,7 +24,7 @@ export function ServicesSection({ services }: { services: IService[] }) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, idx) => (
             <FadeInSection key={service.id} delay={idx * 0.1}>
-              <Link href={`/products#${service.slug}`} className="group block">
+              <Link href={`/products/${service.slug}`} className="group block">
                 <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
                   <div className="relative h-52 overflow-hidden">
                     {service.image && (
