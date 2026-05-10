@@ -1,34 +1,34 @@
 ---
 id: 1
-title: "Tree Pruning & Care"
-description: "Professional pruning and maintenance to keep your trees healthy, long-lasting, and aesthetically beautiful."
+title: "Tree Pruning and Care"
+description: "Professional pruning and care services to keep your trees long-lived, healthy, and aesthetically pleasing."
 image: "/new_images/dd1d9fab-968d-46c5-b071-ed347f55efa6.jpeg"
 imagePosition: "center"
 order: 1
 key: "guvenli-agac-kesimi"
 ---
 
-Regular maintenance is essential for your trees to live long, healthy, and beautiful lives. Improper pruning can damage a tree's structure and make it susceptible to disease. Our team works with professional methods that respect the biological needs of your trees.
+Regular care is essential to keep your trees long-lived, healthy, and aesthetically pleasing. Incorrect pruning can damage the tree's structure and make it vulnerable to disease. We are a professional team that works with methods focused on the biological needs of your trees.
 
-## Why Does Expert Pruning Matter?
+## Why Is Expert Pruning Important?
 
-Pruning is not merely an aesthetic procedure — it is a form of tree surgery. Our arborists examine your tree's species, age, and seasonal cycle to determine which branches support the tree's development and which pose a risk.
+Pruning is not just an aesthetic procedure; it is a tree surgery process. Our arborists, tree care specialists, examine your tree's species, age, and seasonal cycle to determine which branches support its growth and which may pose a risk.
 
 ## How Does the Process Work?
 
-1. **Tree Health Analysis:** An arborist assesses your tree's current health. Dry, diseased, or crossing branches are identified.
+1. **Tree Health Analysis:** Accompanied by an arborist, your tree's current health condition is assessed. Dry, diseased, or crossing branches are identified.
 
-2. **Strategic Pruning:** We apply "correct-cut" techniques that enhance the tree's growth potential, maximise sun exposure, and regulate wind resistance.
+2. **Strategic Pruning:** Proper cutting techniques are applied to increase the tree's growth potential, maximize sunlight exposure, and regulate wind resistance.
 
-3. **Safety & Precision:** Branches near your structures, fences, or power lines are carefully pruned using controlled techniques and safely lowered to the ground.
+3. **Safety and Precision:** Branches close to your structures, fences, or power lines are pruned using controlled techniques and safely lowered to the ground.
 
-4. **Clean-Up:** All debris from the pruning process is chipped and removed from the site, leaving your garden tidy and refreshed.
+4. **Cleanup:** After pruning, all waste is chipped and removed from the site, leaving your garden tidy and refreshed.
 
 ## Why Choose Us?
 
-- **Arborist Expertise:** We don't just cut branches — we plan the tree's future.
-- **Healthy Growth:** With correct timing and techniques, we enhance both the yield and aesthetics of your trees.
-- **Aesthetic Vision:** We give your trees a form that complements your landscape.
-- **Clean Work:** We take great pride in leaving the area spotless after every job.
+- **Arborist Expertise:** We do more than cut branches; we plan the future of your tree.
+- **Healthy Growth:** With the right timing and technique, we improve the vitality and appearance of your trees.
+- **Aesthetic Perspective:** We give your trees an attractive form while considering their harmony with your landscape.
+- **Clean Work:** We place great importance on site cleanliness after the work and leave the area spotless.
 
-If you'd like professional support for healthier, stronger trees, our expert team is here for you. Contact us for an appointment and detailed information.
+If you would like professional support to help your trees grow healthier and stronger, our expert team is here for you. You can contact us for appointments and detailed information.

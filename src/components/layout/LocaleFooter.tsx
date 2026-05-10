@@ -5,6 +5,7 @@ import { Footer } from './Footer'
 
 export function LocaleFooter() {
   const pathname = usePathname()
-  const isEn = pathname.startsWith('/en')
-  return <Footer locale={isEn ? 'en' : 'tr'} basePath={isEn ? '/en' : ''} />
+  const locale = pathname.startsWith('/en') ? 'en' : pathname.startsWith('/ru') ? 'ru' : 'tr'
+  const basePath = locale === 'tr' ? '' : `/${locale}`
+  return <Footer locale={locale} basePath={basePath} />
 }

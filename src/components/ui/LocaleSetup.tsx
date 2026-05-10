@@ -6,7 +6,10 @@ import { usePathname } from 'next/navigation'
 export function LocaleSetup() {
   const pathname = usePathname()
   useEffect(() => {
-    document.documentElement.lang = pathname.startsWith('/en') ? 'en' : 'tr'
+    const lang = pathname.startsWith('/en') ? 'en'
+      : pathname.startsWith('/ru') ? 'ru'
+      : 'tr'
+    document.documentElement.lang = lang
   }, [pathname])
   return null
 }
