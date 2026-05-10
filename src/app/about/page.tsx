@@ -124,7 +124,6 @@ export default function AboutPage() {
                   fill
                   sizes="25vw"
                   className="object-cover object-center"
-                  className="object-cover"
                 />
               </div>
             </div>
