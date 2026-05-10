@@ -3,6 +3,7 @@ id: 5
 title: "Ağaç Kablolama ve Destekleme"
 description: "Yapısal zayıflığı olan ağaçları kesmeden, mühendislik çözümleriyle güvenli hale getiriyoruz."
 image: "/new_images/IMG_1378.jpeg"
+imagePosition: "top"
 order: 5
 key: "agac-kablolama-destekleme"
 ---

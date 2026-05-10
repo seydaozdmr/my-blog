@@ -9,6 +9,7 @@ export interface IService {
   date: string;
   key: string;
   comingSoon?: boolean;
+  imagePosition?: string;
 }
 
 export interface IServiceCard {

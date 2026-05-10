@@ -3,6 +3,7 @@ id: 8
 title: "Ağaç Hamağı Kurulum ve Tasarımı"
 description: "Doğayla iç içe, güvenli ve sürdürülebilir ağaç hamağı kurulumu. Ağacınıza zarar vermeden, mühendislik hesaplı montaj."
 image: "/new_images/IMG_7524.jpeg"
+imagePosition: "top"
 order: 8
 key: "agac-hamagi"
 comingSoon: true

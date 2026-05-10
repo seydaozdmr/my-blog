@@ -3,6 +3,7 @@ id: 6
 title: "Ağaç Taşıma ve Yer Değiştirme"
 description: "Ağaçlarınızın formunu ve sağlığını bozmadan, yeni adreslerine adapte olmalarını sağlıyoruz."
 image: "/new_images/IMG_1776.jpeg"
+imagePosition: "center"
 order: 6
 key: "agac-tasima-yer-degistirme"
 ---

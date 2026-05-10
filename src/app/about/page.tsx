@@ -99,7 +99,7 @@ export default function AboutPage() {
                   alt="CrownPro arborist sahada çalışırken"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-cover object-top"
+                  className="object-cover object-[center_30%]"
                   priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
@@ -114,7 +114,7 @@ export default function AboutPage() {
                   alt="Palmiye budama çalışması"
                   fill
                   sizes="25vw"
-                  className="object-cover"
+                  className="object-cover object-[center_20%]"
                 />
               </div>
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
@@ -123,6 +123,7 @@ export default function AboutPage() {
                   alt="Tırmanış teknikleriyle palmiye bakımı"
                   fill
                   sizes="25vw"
+                  className="object-cover object-center"
                   className="object-cover"
                 />
               </div>

@@ -33,7 +33,7 @@ export function ServicesSection({ services }: { services: IService[] }) {
                         alt={service.title}
                         fill
                         sizes="(max-width: 768px) 100vw, 25vw"
-                        style={{ objectFit: 'cover' }}
+                        style={{ objectFit: 'cover', objectPosition: service.imagePosition ?? 'center' }}
                         className="group-hover:scale-110 transition-transform duration-700"
                       />
                     )}

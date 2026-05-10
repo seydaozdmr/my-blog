@@ -23,7 +23,8 @@ export async function getAllServices(): Promise<IService[]> {
         slug: fileName.replace(/\.md$/, ''),
         date: data.date,
         key: data.key,
-        comingSoon: data.comingSoon ?? false
+        comingSoon: data.comingSoon ?? false,
+        imagePosition: data.imagePosition ?? 'center'
       };
     });
 

@@ -3,6 +3,7 @@ id: 2
 title: "Profesyonel Palmiye Budama ve Bakım"
 description: "Palmiyelerinizin biyolojik sağlığını ve görkemli estetiğini korumak için ISA sertifikalı uzman bakımı."
 image: "/new_images/IMG_0876.jpeg"
+imagePosition: "65% center"
 order: 2
 key: "palmiye-budama"
 ---

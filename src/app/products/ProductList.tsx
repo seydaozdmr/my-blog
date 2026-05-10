@@ -34,7 +34,7 @@ function ServiceArticle({ service }: { service: Service }) {
               alt={service.title || ''}
               fill
               sizes="(max-width: 1024px) 100vw, 960px"
-              style={{ objectFit: 'cover' }}
+              style={{ objectFit: 'cover', objectPosition: service.imagePosition ?? 'center' }}
               className="hover:scale-105 transition-transform duration-700"
             />
           )}
@@ -128,7 +128,7 @@ function ComingSoonArticle({ service }: { service: Service }) {
                 alt={service.title || ''}
                 fill
                 sizes="(max-width: 1024px) 100vw, 960px"
-                style={{ objectFit: 'cover' }}
+                style={{ objectFit: 'cover', objectPosition: service.imagePosition ?? 'center' }}
                 className="scale-110 blur-sm brightness-50"
               />
             )}

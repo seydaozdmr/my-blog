@@ -39,7 +39,7 @@ export function HeroSlider({ services }: HeroSliderProps) {
               fill
               sizes="100vw"
               priority={idx === 0}
-              style={{ objectFit: 'cover' }}
+              style={{ objectFit: 'cover', objectPosition: service.imagePosition ?? 'center' }}
             />
           )}
         </div>

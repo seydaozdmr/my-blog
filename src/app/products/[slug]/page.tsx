@@ -119,7 +119,7 @@ export default async function ServicePage({ params }: Props) {
                 alt={service.title}
                 fill
                 sizes="(max-width: 1024px) 100vw, 896px"
-                style={{ objectFit: 'cover' }}
+                style={{ objectFit: 'cover', objectPosition: service.imagePosition ?? 'center' }}
                 priority
               />
             </div>
