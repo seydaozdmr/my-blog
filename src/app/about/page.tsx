@@ -7,7 +7,15 @@ export const metadata: Metadata = {
   title: 'Hakkımızda',
   description:
     "CrownPro, Antalya'da faaliyet gösteren ISA sertifikalı arboristlerden oluşan profesyonel ağaç bakımı ve tırmanıcılık ekibidir. Güvenlik, kalite ve doğaya saygı önceliğimizdir.",
-  alternates: { canonical: 'https://antalyaagacbudama.com/about' },
+  alternates: {
+    canonical: 'https://antalyaagacbudama.com/about',
+    languages: {
+      'tr': 'https://antalyaagacbudama.com/about',
+      'en': 'https://antalyaagacbudama.com/about',
+      'ru': 'https://antalyaagacbudama.com/about',
+      'x-default': 'https://antalyaagacbudama.com/about',
+    },
+  },
   openGraph: {
     title: 'Hakkımızda | CrownPro',
     description:

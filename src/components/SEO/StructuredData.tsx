@@ -68,6 +68,7 @@ export const StructuredData: FC<StructuredDataProps> = ({
       closes: hours.split(' ')[1].split('-')[1],
     })),
     sameAs: sameAs ?? [],
+    availableLanguage: ['Turkish', 'English', 'Russian'],
   }
 
   return (

@@ -21,14 +21,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   try {
     const service = await getServiceBySlug(slug)
+    const url = `https://antalyaagacbudama.com/products/${slug}`
     return {
       title: service.title,
       description: service.description,
-      alternates: { canonical: `https://antalyaagacbudama.com/products/${slug}` },
+      alternates: {
+        canonical: url,
+        languages: {
+          'tr': url,
+          'en': url,
+          'ru': url,
+          'x-default': url,
+        },
+      },
       openGraph: {
         title: `${service.title} | CrownPro`,
         description: service.description,
-        url: `https://antalyaagacbudama.com/products/${slug}`,
+        url,
+        locale: 'tr_TR',
+        alternateLocale: ['en_US', 'ru_RU'],
         images: service.image
           ? [{ url: `https://antalyaagacbudama.com${service.image}`, width: 1200, height: 630, alt: service.title }]
           : [],

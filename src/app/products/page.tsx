@@ -8,8 +8,20 @@ import { Logo } from '@/components/ui/Logo'
 export const metadata: Metadata = {
   title: 'Hizmetlerimiz',
   description: "Antalya'da profesyonel ağaç budama, kesme ve bakım hizmetleri. Uzman ekibimizle 7/24 hizmetinizdeyiz.",
-  keywords: ['ağaç budama', 'ağaç kesme', 'Antalya', 'antalya ağaç budama', 'palmiye budama', 'kontrollü ağaç kesimi', 'acil durum ağaç kesimi'],
-  alternates: { canonical: 'https://antalyaagacbudama.com/products' },
+  keywords: [
+    'ağaç budama', 'ağaç kesme', 'antalya ağaç budama', 'palmiye budama', 'kontrollü ağaç kesimi', 'acil durum ağaç kesimi',
+    'tree trimming Antalya', 'tree pruning Antalya', 'palm tree service Antalya', 'arborist services Antalya', 'tree cutting Turkey',
+    'обрезка деревьев Анталья', 'спил деревьев Анталья', 'обрезка пальм Анталья', 'уход за деревьями Турция',
+  ],
+  alternates: {
+    canonical: 'https://antalyaagacbudama.com/products',
+    languages: {
+      'tr': 'https://antalyaagacbudama.com/products',
+      'en': 'https://antalyaagacbudama.com/products',
+      'ru': 'https://antalyaagacbudama.com/products',
+      'x-default': 'https://antalyaagacbudama.com/products',
+    },
+  },
   openGraph: {
     title: 'Hizmetlerimiz | CrownPro',
     description: "Antalya'da profesyonel ağaç budama, kesme ve bakım hizmetleri.",

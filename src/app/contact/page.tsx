@@ -5,7 +5,15 @@ import ContactForm from './ContactForm';
 export const metadata: Metadata = {
   title: 'İletişim',
   description: "CrownPro ile iletişime geçin. Antalya ağaç budama ve bakım hizmetlerimiz için ücretsiz fiyat teklifi alın. 7/24 hizmetinizdeyiz.",
-  alternates: { canonical: 'https://antalyaagacbudama.com/contact' },
+  alternates: {
+    canonical: 'https://antalyaagacbudama.com/contact',
+    languages: {
+      'tr': 'https://antalyaagacbudama.com/contact',
+      'en': 'https://antalyaagacbudama.com/contact',
+      'ru': 'https://antalyaagacbudama.com/contact',
+      'x-default': 'https://antalyaagacbudama.com/contact',
+    },
+  },
   openGraph: {
     title: 'İletişim | CrownPro',
     description: "CrownPro ile iletişime geçin. Ücretsiz fiyat teklifi için hemen arayın.",

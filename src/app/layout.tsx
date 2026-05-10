@@ -15,18 +15,19 @@ export const metadata: Metadata = {
   description:
     "Antalya'da profesyonel ağaç budama, kesme ve bakım hizmetleri. 7/24 hizmet, uygun fiyatlar ve uzman ekibimizle yanınızdayız.",
   keywords: [
-    'ağaç budama',
-    'ağaç kesme',
-    'antalya ağaç budama',
-    'antalya ağaç kesme',
-    'ağaç bakımı',
-    'palmiye budama',
-    'yüksek tırmanış',
-    'ağaç cerrahisi',
-    'ağaç kablolama',
-    'acil ağaç kesimi',
-    'CrownPro',
-    'antalya',
+    // Türkçe
+    'ağaç budama', 'ağaç kesme', 'antalya ağaç budama', 'antalya ağaç kesme',
+    'ağaç bakımı', 'palmiye budama', 'yüksek tırmanış', 'ağaç cerrahisi',
+    'ağaç kablolama', 'acil ağaç kesimi', 'CrownPro', 'antalya',
+    // English
+    'tree trimming Antalya', 'tree pruning Antalya', 'tree removal Antalya',
+    'arborist Antalya', 'palm tree trimming Antalya', 'tree service Antalya',
+    'emergency tree removal Antalya', 'tree care Antalya', 'certified arborist Turkey',
+    'tree cutting Antalya', 'ISA certified arborist Antalya',
+    // Русский
+    'обрезка деревьев Анталья', 'уход за деревьями Анталья', 'спил деревьев Анталья',
+    'обрезка пальм Анталья', 'арборист Анталья', 'обрезка деревьев Турция',
+    'уход за садом Анталья', 'вырубка деревьев Анталья', 'CrownPro Анталья',
   ],
   icons: {
     icon: '/favicon.svg',
@@ -48,6 +49,12 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://antalyaagacbudama.com',
+    languages: {
+      'tr': 'https://antalyaagacbudama.com',
+      'en': 'https://antalyaagacbudama.com',
+      'ru': 'https://antalyaagacbudama.com',
+      'x-default': 'https://antalyaagacbudama.com',
+    },
   },
   openGraph: {
     title: 'CrownPro - Antalya Ağaç Budama ve Bakım Hizmetleri',
@@ -56,6 +63,7 @@ export const metadata: Metadata = {
     url: 'https://antalyaagacbudama.com',
     siteName: 'Antalya Ağaç Budama - CrownPro',
     locale: 'tr_TR',
+    alternateLocale: ['en_US', 'ru_RU'],
     type: 'website',
   },
   twitter: {
