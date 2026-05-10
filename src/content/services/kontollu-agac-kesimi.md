@@ -2,7 +2,7 @@
 id: 3
 title: "Kontrollü Ağaç Kesimi"
 description: "Ağaç kesimi, uzmanlık gerektiren bir iştir."
-image: "/images/blog-6.jpg"
+image: "/new_images/IMG_0029.jpeg"
 order: 3
 key: "kontrollu-agac-kesimi"
 ---

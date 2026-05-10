@@ -46,7 +46,7 @@ export default async function ProductsPage() {
 
       {/* Hero Banner */}
       <section className="relative bg-[#1a2e1a] py-24 md:py-32">
-        <div className="absolute inset-0 opacity-20 bg-[url('/images/blog-3.jpg')] bg-cover bg-center" />
+        <div className="absolute inset-0 opacity-20 bg-[url('/new_images/IMG_5501.jpeg')] bg-cover bg-center" />
         <div className="relative z-10 container mx-auto px-6 text-center text-white">
           <Link href="/" className="inline-block mb-6 hover:opacity-80 transition-opacity">
             <Logo variant="light" width={200} />

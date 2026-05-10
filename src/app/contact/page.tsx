@@ -23,6 +23,18 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
+    <>
+      {/* Hero */}
+      <section className="relative bg-[#1a2e1a] py-24 md:py-32">
+        <div className="absolute inset-0 opacity-25 bg-[url('/new_images/IMG_1612.jpeg')] bg-cover bg-center" />
+        <div className="relative z-10 container mx-auto px-6 text-center text-white">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">İletişim</h1>
+          <p className="text-xl text-white/70 max-w-xl mx-auto">
+            Ücretsiz keşif ve fiyat teklifi için bize ulaşın. 7/24 hizmetinizdeyiz.
+          </p>
+        </div>
+      </section>
+
     <main className="container mx-auto px-4 py-12">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">Bizimle İletişime Geçin</h1>
@@ -110,5 +122,6 @@ export default function ContactPage() {
         </div>
       </div>
     </main>
+    </>
   );
 } 

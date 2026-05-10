@@ -2,7 +2,7 @@
 id: 9
 title: "Ağaç Tırmanıcısı Eğitimi"
 description: "ISA standartlarında, uzman arboristler eşliğinde profesyonel ağaç tırmanma teknikleri ve ekipman kullanımı eğitimi."
-image: "/images/blog-3.jpg"
+image: "/new_images/IMG_0028.jpeg"
 order: 9
 key: "agac-tirmanci-egitimi"
 comingSoon: true

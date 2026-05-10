@@ -75,7 +75,7 @@ export default function AboutPage() {
     <>
       {/* Hero */}
       <section className="relative bg-[#1a2e1a] py-24 md:py-32">
-        <div className="absolute inset-0 opacity-20 bg-[url('/images/blog-3.jpg')] bg-cover bg-center" />
+        <div className="absolute inset-0 opacity-20 bg-[url('/new_images/IMG_1612.jpeg')] bg-cover bg-center" />
         <div className="relative z-10 container mx-auto px-6 text-center text-white">
           <Link href="/" className="inline-block mb-6 hover:opacity-80 transition-opacity">
             <Logo variant="light" width={180} />
@@ -92,19 +92,39 @@ export default function AboutPage() {
       <section className="bg-[#f5f2ed] py-16 md:py-24">
         <div className="container mx-auto px-6 max-w-6xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
-            <div className="relative h-[440px] rounded-2xl overflow-hidden shadow-lg">
-              <Image
-                src="/images/about2.jpg"
-                alt="CrownPro ekibi çalışırken"
-                fill
-                sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover"
-                priority
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
-              <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-xl px-5 py-3 shadow">
-                <p className="text-xs font-semibold text-green-700 uppercase tracking-wider mb-0.5">ISA Sertifikalı</p>
-                <p className="text-sm font-bold text-gray-900">Arborist Ekibi</p>
+            <div className="grid grid-cols-2 gap-3 h-[440px]">
+              <div className="relative rounded-2xl overflow-hidden shadow-lg col-span-2 h-64">
+                <Image
+                  src="/new_images/IMG_2053.jpeg"
+                  alt="CrownPro arborist sahada çalışırken"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover object-top"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-xl px-4 py-2 shadow">
+                  <p className="text-xs font-semibold text-green-700 uppercase tracking-wider mb-0.5">ISA Sertifikalı</p>
+                  <p className="text-sm font-bold text-gray-900">Arborist Ekibi</p>
+                </div>
+              </div>
+              <div className="relative rounded-2xl overflow-hidden shadow-lg">
+                <Image
+                  src="/new_images/IMG_1446.png"
+                  alt="Palmiye budama çalışması"
+                  fill
+                  sizes="25vw"
+                  className="object-cover"
+                />
+              </div>
+              <div className="relative rounded-2xl overflow-hidden shadow-lg">
+                <Image
+                  src="/new_images/IMG_0108.png"
+                  alt="Tırmanış teknikleriyle palmiye bakımı"
+                  fill
+                  sizes="25vw"
+                  className="object-cover"
+                />
               </div>
             </div>
 

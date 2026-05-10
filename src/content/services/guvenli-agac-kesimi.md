@@ -2,7 +2,7 @@
 id: 1
 title: "Ağaç Budama ve Bakım"
 description: "Ağaçlarınızın uzun ömürlü, sağlıklı ve estetik görünmesi için profesyonel budama ve bakım hizmeti."
-image: "/images/blog-1.jpg"
+image: "/new_images/dd1d9fab-968d-46c5-b071-ed347f55efa6.jpeg"
 order: 1
 key: "guvenli-agac-kesimi"
 ---
