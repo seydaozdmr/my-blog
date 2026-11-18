@@ -2,7 +2,7 @@
 id: 7
 title: "Ağaç Cerrahisi ve Rehabilitasyon"
 description: "ISA sertifikalı arboristlerimizle çürümeyi durduruyor, yaraları iyileştiriyor ve ağaçlarınızın yapısal bütünlüğünü geri kazandırıyoruz."
-image: "/new_images/IMG_2058.jpeg"
+image: "/new_images/IMG_2058.webp"
 imagePosition: "top"
 order: 7
 key: "agac-cerrahisi-rehabilitasyon"

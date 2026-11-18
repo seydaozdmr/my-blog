@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Contact records must never be committed
+/src/content/messages/
+
+# Generated during prebuild/predev
+/public/og/

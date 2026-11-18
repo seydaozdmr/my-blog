@@ -2,7 +2,7 @@
 id: 2
 title: "Профессиональная обрезка и уход за пальмами"
 description: "ISA-сертифицированный экспертный уход для сохранения биологического здоровья и эффектной эстетики ваших пальм."
-image: "/new_images/IMG_0876.jpeg"
+image: "/new_images/IMG_0876.webp"
 imagePosition: "65% center"
 order: 2
 key: "palmiye-budama"

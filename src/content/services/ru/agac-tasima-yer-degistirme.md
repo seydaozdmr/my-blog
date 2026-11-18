@@ -2,7 +2,7 @@
 id: 6
 title: "Пересадка и перемещение деревьев"
 description: "Мы помогаем вашим деревьям адаптироваться к новому месту, не нарушая их форму и здоровье."
-image: "/new_images/IMG_1776.jpeg"
+image: "/new_images/IMG_1776.webp"
 imagePosition: "center"
 order: 6
 key: "agac-tasima-yer-degistirme"

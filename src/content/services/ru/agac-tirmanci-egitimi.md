@@ -2,7 +2,7 @@
 id: 9
 title: "Обучение альпинистов по работе с деревьями"
 description: "Обучение профессиональным техникам лазания по деревьям и использованию снаряжения по стандартам ISA под руководством опытных арбористов."
-image: "/new_images/IMG_0028.jpeg"
+image: "/new_images/IMG_0028.webp"
 imagePosition: "center"
 order: 9
 key: "agac-tirmanci-egitimi"

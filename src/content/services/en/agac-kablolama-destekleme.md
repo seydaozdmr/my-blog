@@ -2,7 +2,7 @@
 id: 5
 title: "Tree Cabling & Bracing"
 description: "We make structurally weak trees safe through engineering solutions — without cutting them down."
-image: "/new_images/IMG_1378.jpeg"
+image: "/new_images/IMG_1378.webp"
 imagePosition: "top"
 order: 5
 key: "agac-kablolama-destekleme"

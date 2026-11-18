@@ -2,7 +2,7 @@
 id: 7
 title: "Хирургия и реабилитация деревьев"
 description: "С нашими ISA-сертифицированными арбористами мы останавливаем гниение, заживляем повреждения и восстанавливаем структурную целостность ваших деревьев."
-image: "/new_images/IMG_2058.jpeg"
+image: "/new_images/IMG_2058.webp"
 imagePosition: "top"
 order: 7
 key: "agac-cerrahisi-rehabilitasyon"

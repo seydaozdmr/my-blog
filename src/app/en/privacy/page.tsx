@@ -1,9 +1,11 @@
+import { getAlternates } from '@/lib/i18n'
 import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'CrownPro privacy policy — information about your personal data and cookie usage.',
+  alternates: getAlternates('en', '/privacy'),
   robots: { index: false, follow: false },
 }
 
@@ -18,7 +20,7 @@ export default function EnPrivacyPage() {
         <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12 space-y-8">
           <div>
             <h1 className="text-3xl font-bold text-gray-900 mb-2">Privacy Policy</h1>
-            <p className="text-sm text-gray-400">Last updated: May 2025</p>
+            <p className="text-sm text-gray-400">Last updated: 18 November 2026</p>
           </div>
 
           <section className="space-y-3">
@@ -32,11 +34,11 @@ export default function EnPrivacyPage() {
             <h2 className="text-xl font-bold text-gray-800">2. Data Collected</h2>
             <h3 className="font-semibold text-gray-700">Contact Form</h3>
             <p className="text-gray-600 leading-relaxed">
-              When you submit our contact form, the following information is collected: full name, email address, phone number (optional), subject and message content. This information is used solely to respond to your enquiry and is not shared with third parties.
+              The name, email address, optional phone number, subject and message entered in the contact form are used to prepare a draft in your email app. The form does not send these details to the website server or save them to a file. If you send the draft in your email app, we receive your message and use it to respond to your enquiry.
             </p>
             <h3 className="font-semibold text-gray-700 mt-4">IP Address</h3>
             <p className="text-gray-600 leading-relaxed">
-              Your IP address is recorded when you submit the contact form to prevent spam and abuse. This information is retained for security purposes only.
+              The form does not make a submission request to this website, so it does not create a form-submission IP record.
             </p>
           </section>
 
@@ -67,14 +69,14 @@ export default function EnPrivacyPage() {
               This cookie saves the language (Turkish, English or Russian) automatically selected based on your browser settings. It contains no personal data and is not used for tracking, advertising or analytics.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              As this cookie is necessary for the basic functionality of the site, it falls under the &quot;strictly necessary cookie&quot; category under GDPR and does not require separate consent.
+              You can change your preference with the language buttons or delete the cookie in your browser settings.
             </p>
           </section>
 
           <section className="space-y-3">
             <h2 className="text-xl font-bold text-gray-800">4. Third-Party Services</h2>
             <p className="text-gray-600 leading-relaxed">
-              This website does not use Google Analytics, Facebook Pixel or similar tracking tools. Social media links (Instagram, Facebook, YouTube, TikTok, WhatsApp) are governed by their own respective privacy policies.
+              This website does not use Google Analytics, Facebook Pixel or similar tracking tools. Loading the Google Maps embed on the contact page connects your browser to Google. Email you send is transmitted through your email provider. Map, email and social media services process data under their own privacy policies.
             </p>
           </section>
 

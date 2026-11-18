@@ -15,14 +15,14 @@ export function AboutPreview({ locale = 'tr', basePath = '' }: AboutPreviewProps
   const t = getT(locale)
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-white overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <FadeInSection direction="left">
             <div className="relative">
               <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/about2.jpg"
+                  src="/images/about2.webp"
                   alt="CrownPro Team"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"

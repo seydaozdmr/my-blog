@@ -2,7 +2,7 @@
 id: 2
 title: "Professional Palm Tree Pruning & Care"
 description: "ISA-certified expert care to preserve the biological health and majestic aesthetics of your palm trees."
-image: "/new_images/IMG_0876.jpeg"
+image: "/new_images/IMG_0876.webp"
 imagePosition: "65% center"
 order: 2
 key: "palmiye-budama"

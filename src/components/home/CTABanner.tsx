@@ -17,7 +17,7 @@ export function CTABanner({ locale = 'tr', basePath = '' }: CTABannerProps) {
     <section className="relative py-28 overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/blog-3.jpg')" }}
+        style={{ backgroundImage: "url('/images/blog-3.webp')" }}
       />
       <div className="absolute inset-0 bg-[#1a2e1a]/85" />
 

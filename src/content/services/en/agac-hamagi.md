@@ -2,7 +2,7 @@
 id: 8
 title: "Tree Hammock Installation & Design"
 description: "Safe and sustainable tree hammock installation in harmony with nature. Engineering-calculated mounting without harming your tree."
-image: "/new_images/IMG_7524.jpeg"
+image: "/new_images/IMG_7524.webp"
 imagePosition: "top"
 order: 8
 key: "agac-hamagi"

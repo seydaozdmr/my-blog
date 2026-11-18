@@ -1,37 +1,49 @@
 {
-  "name": "my-blog",
+  "name": "crownpro",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "test:fp": "vitest run --config vitest.config.ts"
+    "lint": "eslint .",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run lint && npm run typecheck && npm test && npm run build",
+    "optimize:images": "node scripts/optimize-images.mjs",
+    "prebuild": "node scripts/generate-og.mjs",
+    "predev": "node scripts/generate-og.mjs",
+    "verify:build": "node scripts/verify-build.mjs"
   },
   "dependencies": {
-    "framer-motion": "^11.18.0",
     "gray-matter": "^4.0.3",
-    "markdown-it": "^14.1.0",
     "marked": "^15.0.7",
-    "next": "15.2.8",
-    "rate-limiter-flexible": "^6.1.0",
+    "next": "15.5.29",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@types/markdown-it": "^14.1.2",
     "@types/node": "^20",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19",
     "autoprefixer": "^10.4.21",
     "eslint": "^9",
-    "eslint-config-next": "15.1.4",
+    "eslint-config-next": "15.5.29",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.2",
-    "vitest": "^1.6.0"
+    "vitest": "^4.1.12",
+    "sharp": "^0.35.5",
+    "vite": "^6.4.0"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "$postcss"
+    }
   }
 }

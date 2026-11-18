@@ -2,7 +2,7 @@
 id: 8
 title: "Установка и дизайн гамака на дереве"
 description: "Безопасная и экологичная установка гамака на дереве в гармонии с природой. Инженерно рассчитанный монтаж без вреда для дерева."
-image: "/new_images/IMG_7524.jpeg"
+image: "/new_images/IMG_7524.webp"
 imagePosition: "top"
 order: 8
 key: "agac-hamagi"

@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
+import { SiteLayout } from '@/components/layout/SiteLayout'
+import { siteMetadata } from '@/lib/siteMetadata'
+import { getAlternates, socialImages } from '@/lib/i18n'
 
 export const metadata: Metadata = {
+  ...siteMetadata,
   title: {
     template: '%s | CrownPro',
     default: 'CrownPro - Professional Tree Care in Antalya',
@@ -13,15 +17,10 @@ export const metadata: Metadata = {
     'emergency tree removal Antalya', 'tree care Antalya', 'certified arborist Turkey',
     'tree cutting Antalya', 'ISA certified arborist Antalya', 'CrownPro',
   ],
-  alternates: {
-    canonical: 'https://antalyaagacbudama.com/en',
-    languages: {
-      'tr': 'https://antalyaagacbudama.com',
-      'en': 'https://antalyaagacbudama.com/en',
-      'x-default': 'https://antalyaagacbudama.com',
-    },
-  },
+  alternates: getAlternates('en', '/'),
   openGraph: {
+    ...siteMetadata.openGraph,
+    images: socialImages('en'),
     siteName: 'CrownPro - Tree Care Antalya',
     locale: 'en_US',
     alternateLocale: ['tr_TR'],
@@ -29,6 +28,6 @@ export const metadata: Metadata = {
   },
 }
 
-export default function EnLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return <SiteLayout locale="en">{children}</SiteLayout>
 }

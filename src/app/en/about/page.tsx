@@ -1,3 +1,4 @@
+import { getAlternates, socialImages } from '@/lib/i18n'
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -7,15 +8,9 @@ export const metadata: Metadata = {
   title: 'About Us',
   description:
     'CrownPro is a professional tree care team of ISA-certified arborists based in Antalya. Safety, quality and respect for nature are our priorities.',
-  alternates: {
-    canonical: 'https://antalyaagacbudama.com/en/about',
-    languages: {
-      'tr': 'https://antalyaagacbudama.com/about',
-      'en': 'https://antalyaagacbudama.com/en/about',
-      'x-default': 'https://antalyaagacbudama.com/about',
-    },
-  },
+  alternates: getAlternates('en', '/about'),
   openGraph: {
+    images: socialImages('en'),
     title: 'About Us | CrownPro',
     description:
       'ISA-certified arborists delivering professional tree care in Antalya. Safety and quality first.',
@@ -74,7 +69,7 @@ export default function EnAboutPage() {
   return (
     <>
       <section className="relative bg-[#1a2e1a] py-24 md:py-32">
-        <div className="absolute inset-0 opacity-20 bg-[url('/new_images/IMG_1612.jpeg')] bg-cover bg-center" />
+        <div className="absolute inset-0 opacity-20 bg-[url('/new_images/IMG_1612.webp')] bg-cover bg-center" />
         <div className="relative z-10 container mx-auto px-6 text-center text-white">
           <Link href="/en" className="inline-block mb-6 hover:opacity-80 transition-opacity">
             <Logo variant="light" width={180} />
@@ -93,7 +88,7 @@ export default function EnAboutPage() {
             <div className="grid grid-cols-2 gap-3 h-[440px]">
               <div className="relative rounded-2xl overflow-hidden shadow-lg col-span-2 h-64">
                 <Image
-                  src="/new_images/IMG_2053.jpeg"
+                  src="/new_images/IMG_2053.webp"
                   alt="CrownPro arborist working on-site"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -108,7 +103,7 @@ export default function EnAboutPage() {
               </div>
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
                 <Image
-                  src="/new_images/IMG_1446.png"
+                  src="/new_images/IMG_1446.webp"
                   alt="Palm tree pruning work"
                   fill
                   sizes="25vw"
@@ -117,7 +112,7 @@ export default function EnAboutPage() {
               </div>
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
                 <Image
-                  src="/new_images/IMG_0108.png"
+                  src="/new_images/IMG_0108.webp"
                   alt="Palm care with climbing techniques"
                   fill
                   sizes="25vw"

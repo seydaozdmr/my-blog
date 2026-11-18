@@ -2,7 +2,7 @@
 id: 4
 title: "Acil Durum Ağaç Kesimi ve Müdahale"
 description: "Fırtına, şiddetli rüzgar veya beklenmedik yapısal çökmeler sonrası 7/24 acil müdahale. ISA sertifikalı ekibimiz tehlikeyi bertaraf etmek için bir telefon uzağınızda."
-image: "/new_images/28d6e0e5-cf2e-4231-9d41-54a262b7d794.jpeg"
+image: "/new_images/28d6e0e5-cf2e-4231-9d41-54a262b7d794.webp"
 imagePosition: "bottom"
 order: 4
 key: "acil-durum-agac-kesimi"

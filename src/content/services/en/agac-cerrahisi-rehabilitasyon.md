@@ -2,7 +2,7 @@
 id: 7
 title: "Tree Surgery & Rehabilitation"
 description: "Our ISA-certified arborists stop decay, heal wounds, and restore the structural integrity of your trees."
-image: "/new_images/IMG_2058.jpeg"
+image: "/new_images/IMG_2058.webp"
 imagePosition: "top"
 order: 7
 key: "agac-cerrahisi-rehabilitasyon"

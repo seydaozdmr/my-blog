@@ -2,7 +2,7 @@
 id: 4
 title: "Emergency Tree Services"
 description: "Trees damaged or at risk of falling due to storms, high winds, or severe weather can pose a major threat to the surrounding environment."
-image: "/new_images/28d6e0e5-cf2e-4231-9d41-54a262b7d794.jpeg"
+image: "/new_images/28d6e0e5-cf2e-4231-9d41-54a262b7d794.webp"
 imagePosition: "bottom"
 order: 4
 key: "acil-durum-agac-kesimi"

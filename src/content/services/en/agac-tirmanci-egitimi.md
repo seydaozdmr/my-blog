@@ -2,7 +2,7 @@
 id: 9
 title: "Tree Climber Training"
 description: "Professional tree climbing techniques and equipment training conducted by expert arborists to ISA standards."
-image: "/new_images/IMG_0028.jpeg"
+image: "/new_images/IMG_0028.webp"
 imagePosition: "center"
 order: 9
 key: "agac-tirmanci-egitimi"

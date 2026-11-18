@@ -11,11 +11,12 @@ interface FadeInSectionProps {
 
 export function FadeInSection({ children, delay = 0, direction = 'up', className = '' }: FadeInSectionProps) {
   const ref = useRef<HTMLDivElement>(null)
-  const [isVisible, setIsVisible] = useState(false)
+  const [isVisible, setIsVisible] = useState(true)
 
   useEffect(() => {
     const el = ref.current
-    if (!el) return
+    if (!el || !('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    if (el.getBoundingClientRect().top >= window.innerHeight) setIsVisible(false)
 
     const observer = new IntersectionObserver(
       ([entry]) => {

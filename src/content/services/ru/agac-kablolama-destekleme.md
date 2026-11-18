@@ -2,7 +2,7 @@
 id: 5
 title: "Каблирование и поддержка деревьев"
 description: "Мы делаем деревья со структурными слабостями безопасными с помощью инженерных решений, не срубая их."
-image: "/new_images/IMG_1378.jpeg"
+image: "/new_images/IMG_1378.webp"
 imagePosition: "top"
 order: 5
 key: "agac-kablolama-destekleme"

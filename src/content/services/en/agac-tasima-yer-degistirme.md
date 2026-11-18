@@ -2,7 +2,7 @@
 id: 6
 title: "Tree Transplanting & Relocation"
 description: "We ensure your trees adapt to their new location without compromising their form or health."
-image: "/new_images/IMG_1776.jpeg"
+image: "/new_images/IMG_1776.webp"
 imagePosition: "center"
 order: 6
 key: "agac-tasima-yer-degistirme"

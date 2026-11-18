@@ -2,7 +2,7 @@
 id: 1
 title: "Обрезка и уход за деревьями"
 description: "Профессиональная обрезка и уход, чтобы ваши деревья были долговечными, здоровыми и эстетичными."
-image: "/new_images/dd1d9fab-968d-46c5-b071-ed347f55efa6.jpeg"
+image: "/new_images/dd1d9fab-968d-46c5-b071-ed347f55efa6.webp"
 imagePosition: "center"
 order: 1
 key: "guvenli-agac-kesimi"

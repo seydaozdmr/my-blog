@@ -115,7 +115,7 @@ export const dict = {
       heroTitle: 'Hakkımızda',
       heroSubtitle: 'Doğayla uyumlu, uzman ekibimizle tanışın.',
     },
-    scroll: 'Scroll',
+    scroll: 'Kaydır',
   },
   en: {
     hero: {
@@ -351,8 +351,9 @@ export const dict = {
   },
 } as const
 
-export type Dict = typeof dict.tr
+type Widen<T> = T extends string ? string : T extends readonly (infer Item)[] ? readonly Widen<Item>[] : { [Key in keyof T]: Widen<T[Key]> }
+export type Dict = Widen<typeof dict.tr>
 
 export function getT(locale: Locale): Dict {
-  return dict[locale] as unknown as Dict
+  return dict[locale]
 }

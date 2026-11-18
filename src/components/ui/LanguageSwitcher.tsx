@@ -1,23 +1,21 @@
 'use client'
 
 import { usePathname, useRouter } from 'next/navigation'
+import { getPathLocale, localePath, stripLocale } from '@/lib/i18n'
 
 export function LanguageSwitcher() {
   const pathname = usePathname()
   const router = useRouter()
 
-  const isEn = pathname.startsWith('/en')
-  const isRu = pathname.startsWith('/ru')
-  const isTr = !isEn && !isRu
-
-  const basePath = isEn ? pathname.replace(/^\/en/, '') || '/'
-    : isRu ? pathname.replace(/^\/ru/, '') || '/'
-    : pathname
+  const currentLocale = getPathLocale(pathname)
+  const isEn = currentLocale === 'en'
+  const isRu = currentLocale === 'ru'
+  const isTr = currentLocale === 'tr'
+  const basePath = stripLocale(pathname)
 
   function switchTo(locale: 'tr' | 'en' | 'ru') {
     document.cookie = `NEXT_LOCALE=${locale}; path=/; max-age=31536000`
-    if (locale === 'tr') router.push(basePath)
-    else router.push(`/${locale}${basePath === '/' ? '' : basePath}`)
+    router.push(localePath(locale, basePath))
   }
 
   return (

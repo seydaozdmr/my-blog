@@ -2,7 +2,7 @@
 id: 1
 title: "Tree Pruning and Care"
 description: "Professional pruning and care services to keep your trees long-lived, healthy, and aesthetically pleasing."
-image: "/new_images/dd1d9fab-968d-46c5-b071-ed347f55efa6.jpeg"
+image: "/new_images/dd1d9fab-968d-46c5-b071-ed347f55efa6.webp"
 imagePosition: "center"
 order: 1
 key: "guvenli-agac-kesimi"

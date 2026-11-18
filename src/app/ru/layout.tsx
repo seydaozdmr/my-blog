@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
+import { SiteLayout } from '@/components/layout/SiteLayout'
+import { siteMetadata } from '@/lib/siteMetadata'
+import { getAlternates, socialImages } from '@/lib/i18n'
 
 export const metadata: Metadata = {
+  ...siteMetadata,
   title: {
     template: '%s | CrownPro',
     default: 'CrownPro - Профессиональный уход за деревьями в Анталье',
@@ -12,16 +16,10 @@ export const metadata: Metadata = {
     'обрезка пальм Анталья', 'арборист Анталья', 'обрезка деревьев Турция',
     'уход за садом Анталья', 'вырубка деревьев Анталья', 'CrownPro Анталья',
   ],
-  alternates: {
-    canonical: 'https://antalyaagacbudama.com/ru',
-    languages: {
-      'tr': 'https://antalyaagacbudama.com',
-      'en': 'https://antalyaagacbudama.com/en',
-      'ru': 'https://antalyaagacbudama.com/ru',
-      'x-default': 'https://antalyaagacbudama.com',
-    },
-  },
+  alternates: getAlternates('ru', '/'),
   openGraph: {
+    ...siteMetadata.openGraph,
+    images: socialImages('ru'),
     siteName: 'CrownPro - Уход за деревьями Анталья',
     locale: 'ru_RU',
     alternateLocale: ['tr_TR', 'en_US'],
@@ -29,6 +27,6 @@ export const metadata: Metadata = {
   },
 }
 
-export default function RuLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return <SiteLayout locale="ru">{children}</SiteLayout>
 }

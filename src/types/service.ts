@@ -1,20 +1,13 @@
 export interface IService {
-  id: string;
+  id: number;
   title: string;
   description: string;
   image: string;
   order: number;
   content: string;
   slug: string;
-  date: string;
+  date?: string;
   key: string;
   comingSoon?: boolean;
   imagePosition?: string;
 }
-
-export interface IServiceCard {
-  title: string;
-  description: string;
-  image: string;
-  slug: string;
-} 

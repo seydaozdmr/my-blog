@@ -1,3 +1,4 @@
+import { getAlternates, socialImages } from '@/lib/i18n'
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -6,16 +7,9 @@ import { Logo } from '@/components/ui/Logo'
 export const metadata: Metadata = {
   title: 'О нас',
   description: 'CrownPro — профессиональная команда по уходу за деревьями из сертифицированных ISA арбористов, базирующаяся в Анталье.',
-  alternates: {
-    canonical: 'https://antalyaagacbudama.com/ru/about',
-    languages: {
-      'tr': 'https://antalyaagacbudama.com/about',
-      'en': 'https://antalyaagacbudama.com/en/about',
-      'ru': 'https://antalyaagacbudama.com/ru/about',
-      'x-default': 'https://antalyaagacbudama.com/about',
-    },
-  },
+  alternates: getAlternates('ru', '/about'),
   openGraph: {
+    images: socialImages('ru'),
     title: 'О нас | CrownPro',
     description: 'Сертифицированные ISA арбористы — профессиональный уход за деревьями в Анталье.',
     url: 'https://antalyaagacbudama.com/ru/about',
@@ -73,7 +67,7 @@ export default function RuAboutPage() {
   return (
     <>
       <section className="relative bg-[#1a2e1a] py-24 md:py-32">
-        <div className="absolute inset-0 opacity-20 bg-[url('/new_images/IMG_1612.jpeg')] bg-cover bg-center" />
+        <div className="absolute inset-0 opacity-20 bg-[url('/new_images/IMG_1612.webp')] bg-cover bg-center" />
         <div className="relative z-10 container mx-auto px-6 text-center text-white">
           <Link href="/ru" className="inline-block mb-6 hover:opacity-80 transition-opacity">
             <Logo variant="light" width={180} />
@@ -91,7 +85,7 @@ export default function RuAboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
             <div className="grid grid-cols-2 gap-3 h-[440px]">
               <div className="relative rounded-2xl overflow-hidden shadow-lg col-span-2 h-64">
-                <Image src="/new_images/IMG_2053.jpeg" alt="Арборист CrownPro на объекте" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover object-[center_30%]" priority />
+                <Image src="/new_images/IMG_2053.webp" alt="Арборист CrownPro на объекте" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover object-[center_30%]" priority />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-xl px-4 py-2 shadow">
                   <p className="text-xs font-semibold text-green-700 uppercase tracking-wider mb-0.5">ISA Сертификат</p>
@@ -99,10 +93,10 @@ export default function RuAboutPage() {
                 </div>
               </div>
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/new_images/IMG_1446.png" alt="Обрезка пальм" fill sizes="25vw" className="object-cover object-[center_20%]" />
+                <Image src="/new_images/IMG_1446.webp" alt="Обрезка пальм" fill sizes="25vw" className="object-cover object-[center_20%]" />
               </div>
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/new_images/IMG_0108.png" alt="Уход за пальмами с помощью техники лазания" fill sizes="25vw" className="object-cover object-center" />
+                <Image src="/new_images/IMG_0108.webp" alt="Уход за пальмами с помощью техники лазания" fill sizes="25vw" className="object-cover object-center" />
               </div>
             </div>
 

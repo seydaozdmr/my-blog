@@ -1,12 +1,18 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
+import { getPathLocale, localePath } from '@/lib/i18n'
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname
+  const redirectTo = (locale: 'en' | 'ru') => {
+    const url = request.nextUrl.clone()
+    url.pathname = localePath(locale, pathname)
+    return NextResponse.redirect(url)
+  }
 
   // Already on a locale-prefixed path — set cookie and continue
-  if (pathname.startsWith('/en') || pathname.startsWith('/ru')) {
-    const locale = pathname.startsWith('/en') ? 'en' : 'ru'
+  if (getPathLocale(pathname) !== 'tr') {
+    const locale = getPathLocale(pathname)
     const response = NextResponse.next()
     response.cookies.set('NEXT_LOCALE', locale, { path: '/', maxAge: 60 * 60 * 24 * 365 })
     return response
@@ -16,7 +22,7 @@ export function middleware(request: NextRequest) {
   const cookieLocale = request.cookies.get('NEXT_LOCALE')?.value
   if (cookieLocale === 'tr') return NextResponse.next()
   if (cookieLocale === 'en' || cookieLocale === 'ru') {
-    return NextResponse.redirect(new URL(`/${cookieLocale}${pathname === '/' ? '' : pathname}`, request.url))
+    return redirectTo(cookieLocale)
   }
 
   // No cookie — auto-detect from Accept-Language
@@ -29,10 +35,10 @@ export function middleware(request: NextRequest) {
     .toLowerCase()
 
   if (primaryLang === 'en') {
-    return NextResponse.redirect(new URL(`/en${pathname === '/' ? '' : pathname}`, request.url))
+    return redirectTo('en')
   }
   if (primaryLang === 'ru') {
-    return NextResponse.redirect(new URL(`/ru${pathname === '/' ? '' : pathname}`, request.url))
+    return redirectTo('ru')
   }
 
   return NextResponse.next()
