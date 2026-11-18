@@ -31,34 +31,46 @@ export function ServicesSection({ services, locale = 'tr', basePath = '' }: Serv
         </FadeInSection>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {services.map((service, idx) => (
-            <FadeInSection key={service.id} delay={idx * 0.1}>
-              <Link href={`${basePath}/products/${service.slug}`} className="group block">
-                <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
-                  <div className="relative h-52 overflow-hidden">
-                    {service.image && (
-                      <Image
-                        src={service.image}
-                        alt={service.title}
-                        fill
-                        sizes="(max-width: 768px) 100vw, 25vw"
-                        style={{ objectFit: 'cover', objectPosition: service.imagePosition ?? 'center' }}
-                        className="group-hover:scale-110 transition-transform duration-700"
-                      />
-                    )}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">{service.title}</h3>
-                    <p className="text-gray-500 text-sm line-clamp-3 mb-4">{service.description}</p>
-                    <span className="text-green-600 font-semibold text-sm group-hover:underline">
-                      {t.services.learnMore}
-                    </span>
-                  </div>
+          {services.map((service, idx) => {
+            const card = (
+              <div className={`bg-white rounded-2xl overflow-hidden shadow-sm ${service.comingSoon ? '' : 'hover:shadow-xl transition-all duration-500 hover:-translate-y-2'}`}>
+                <div className="relative h-52 overflow-hidden">
+                  {service.image && (
+                    <Image
+                      src={service.image}
+                      alt={service.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 25vw"
+                      style={{ objectFit: 'cover', objectPosition: service.imagePosition ?? 'center' }}
+                      className={service.comingSoon ? '' : 'group-hover:scale-110 transition-transform duration-700'}
+                    />
+                  )}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 </div>
-              </Link>
-            </FadeInSection>
-          ))}
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">{service.title}</h3>
+                  <p className="text-gray-500 text-sm line-clamp-3 mb-4">{service.description}</p>
+                  <span className={service.comingSoon
+                    ? 'inline-block rounded-full bg-green-50 px-3 py-1 text-green-700 font-semibold text-sm'
+                    : 'text-green-600 font-semibold text-sm group-hover:underline'}>
+                    {service.comingSoon ? t.productList.comingSoon : t.services.learnMore}
+                  </span>
+                </div>
+              </div>
+            )
+
+            return (
+              <FadeInSection key={service.id} delay={idx * 0.1}>
+                {service.comingSoon ? (
+                  <article>{card}</article>
+                ) : (
+                  <Link href={`${basePath}/products/${service.slug}`} className="group block">
+                    {card}
+                  </Link>
+                )}
+              </FadeInSection>
+            )
+          })}
         </div>
 
         <FadeInSection delay={0.4} className="text-center mt-12">
