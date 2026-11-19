@@ -1,6 +1,6 @@
 import { getAlternates } from '@/lib/i18n'
 import { Metadata } from 'next'
-import Link from 'next/link'
+import { PageMasthead } from '@/components/layout/PageMasthead'
 
 export const metadata: Metadata = {
   title: 'Gizlilik Politikası',
@@ -11,22 +11,18 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <div className="bg-[#f5f2ed] min-h-screen py-20">
-      <div className="container mx-auto px-6 max-w-3xl">
-        <div className="mb-8">
-          <Link href="/" className="text-sm text-green-700 hover:underline">← Ana Sayfa</Link>
-        </div>
-
-        <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12 space-y-8">
+    <>
+      <PageMasthead locale="tr" section="privacy" title="Gizlilik Politikası" />
+      <div className="inner-wrap policy-page">
+        <div className="reading-column space-y-8">
           <div>
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">Gizlilik Politikası</h1>
-            <p className="text-sm text-gray-400">Son güncelleme: 18 Kasım 2026</p>
+            <p className="text-sm text-stone-600">Son güncelleme: 18 Kasım 2026</p>
           </div>
 
           <section className="space-y-3">
             <h2 className="text-xl font-bold text-gray-800">1. Genel Bilgi</h2>
             <p className="text-gray-600 leading-relaxed">
-              Bu gizlilik politikası, <strong>CrownPro</strong> (<a href="https://antalyaagacbudama.com" className="text-green-700 hover:underline">antalyaagacbudama.com</a>) web sitesinin ziyaretçilerine ait verilerin nasıl toplandığını, kullanıldığını ve korunduğunu açıklamaktadır.
+              Bu gizlilik politikası, <strong>CrownPro</strong> (<a href="https://antalyaagacbudama.com" className="text-[#37543d] hover:underline">antalyaagacbudama.com</a>) web sitesinin ziyaretçilerine ait verilerin nasıl toplandığını, kullanıldığını ve korunduğunu açıklamaktadır.
             </p>
           </section>
 
@@ -47,7 +43,7 @@ export default function PrivacyPage() {
             <p className="text-gray-600 leading-relaxed">
               Sitemiz yalnızca <strong>bir adet fonksiyonel çerez</strong> kullanmaktadır:
             </p>
-            <div className="bg-gray-50 rounded-xl p-5 border border-gray-100">
+            <div className="overflow-x-auto bg-[#eae9dd] p-4">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="text-left text-gray-500 border-b border-gray-200">
@@ -58,7 +54,7 @@ export default function PrivacyPage() {
                 </thead>
                 <tbody>
                   <tr className="text-gray-700">
-                    <td className="pt-3 font-mono text-green-700">NEXT_LOCALE</td>
+                    <td className="pt-3 font-mono text-[#37543d]">NEXT_LOCALE</td>
                     <td className="pt-3">Dil tercihinizi hatırlamak</td>
                     <td className="pt-3">1 yıl</td>
                   </tr>
@@ -92,7 +88,7 @@ export default function PrivacyPage() {
               <li>İşleme itiraz etme</li>
             </ul>
             <p className="text-gray-600 leading-relaxed">
-              Talepleriniz için: <a href="mailto:ruzgarozdemir@crownprotr.com" className="text-green-700 hover:underline">ruzgarozdemir@crownprotr.com</a>
+              Talepleriniz için: <a href="mailto:ruzgarozdemir@crownprotr.com" className="text-[#37543d] hover:underline">ruzgarozdemir@crownprotr.com</a>
             </p>
           </section>
 
@@ -100,12 +96,12 @@ export default function PrivacyPage() {
             <h2 className="text-xl font-bold text-gray-800">6. İletişim</h2>
             <p className="text-gray-600 leading-relaxed">
               CrownPro — Muratpaşa, Antalya, Türkiye<br />
-              E-posta: <a href="mailto:ruzgarozdemir@crownprotr.com" className="text-green-700 hover:underline">ruzgarozdemir@crownprotr.com</a><br />
-              Tel: <a href="tel:+905511672228" className="text-green-700 hover:underline">+90 551 167 22 28</a>
+              E-posta: <a href="mailto:ruzgarozdemir@crownprotr.com" className="text-[#37543d] hover:underline">ruzgarozdemir@crownprotr.com</a><br />
+              Tel: <a href="tel:+905511672228" className="text-[#37543d] hover:underline">+90 551 167 22 28</a>
             </p>
           </section>
         </div>
       </div>
-    </div>
+    </>
   )
 }

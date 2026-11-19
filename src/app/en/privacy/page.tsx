@@ -1,6 +1,6 @@
 import { getAlternates } from '@/lib/i18n'
 import { Metadata } from 'next'
-import Link from 'next/link'
+import { PageMasthead } from '@/components/layout/PageMasthead'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
@@ -11,22 +11,18 @@ export const metadata: Metadata = {
 
 export default function EnPrivacyPage() {
   return (
-    <div className="bg-[#f5f2ed] min-h-screen py-20">
-      <div className="container mx-auto px-6 max-w-3xl">
-        <div className="mb-8">
-          <Link href="/en" className="text-sm text-green-700 hover:underline">← Home</Link>
-        </div>
-
-        <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12 space-y-8">
+    <>
+      <PageMasthead locale="en" section="privacy" title="Privacy Policy" />
+      <div className="inner-wrap policy-page">
+        <div className="reading-column space-y-8">
           <div>
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">Privacy Policy</h1>
-            <p className="text-sm text-gray-400">Last updated: 18 November 2026</p>
+            <p className="text-sm text-stone-600">Last updated: 18 November 2026</p>
           </div>
 
           <section className="space-y-3">
             <h2 className="text-xl font-bold text-gray-800">1. Overview</h2>
             <p className="text-gray-600 leading-relaxed">
-              This privacy policy explains how <strong>CrownPro</strong> (<a href="https://antalyaagacbudama.com" className="text-green-700 hover:underline">antalyaagacbudama.com</a>) collects, uses and protects data belonging to visitors of this website.
+              This privacy policy explains how <strong>CrownPro</strong> (<a href="https://antalyaagacbudama.com" className="text-[#37543d] hover:underline">antalyaagacbudama.com</a>) collects, uses and protects data belonging to visitors of this website.
             </p>
           </section>
 
@@ -47,7 +43,7 @@ export default function EnPrivacyPage() {
             <p className="text-gray-600 leading-relaxed">
               This website uses <strong>one functional cookie only</strong>:
             </p>
-            <div className="bg-gray-50 rounded-xl p-5 border border-gray-100">
+            <div className="overflow-x-auto bg-[#eae9dd] p-4">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="text-left text-gray-500 border-b border-gray-200">
@@ -58,7 +54,7 @@ export default function EnPrivacyPage() {
                 </thead>
                 <tbody>
                   <tr className="text-gray-700">
-                    <td className="pt-3 font-mono text-green-700">NEXT_LOCALE</td>
+                    <td className="pt-3 font-mono text-[#37543d]">NEXT_LOCALE</td>
                     <td className="pt-3">Remember your language preference</td>
                     <td className="pt-3">1 year</td>
                   </tr>
@@ -92,7 +88,7 @@ export default function EnPrivacyPage() {
               <li>Right to object to processing</li>
             </ul>
             <p className="text-gray-600 leading-relaxed">
-              To exercise your rights: <a href="mailto:ruzgarozdemir@crownprotr.com" className="text-green-700 hover:underline">ruzgarozdemir@crownprotr.com</a>
+              To exercise your rights: <a href="mailto:ruzgarozdemir@crownprotr.com" className="text-[#37543d] hover:underline">ruzgarozdemir@crownprotr.com</a>
             </p>
           </section>
 
@@ -100,12 +96,12 @@ export default function EnPrivacyPage() {
             <h2 className="text-xl font-bold text-gray-800">6. Contact</h2>
             <p className="text-gray-600 leading-relaxed">
               CrownPro — Muratpaşa, Antalya, Turkey<br />
-              Email: <a href="mailto:ruzgarozdemir@crownprotr.com" className="text-green-700 hover:underline">ruzgarozdemir@crownprotr.com</a><br />
-              Phone: <a href="tel:+905511672228" className="text-green-700 hover:underline">+90 551 167 22 28</a>
+              Email: <a href="mailto:ruzgarozdemir@crownprotr.com" className="text-[#37543d] hover:underline">ruzgarozdemir@crownprotr.com</a><br />
+              Phone: <a href="tel:+905511672228" className="text-[#37543d] hover:underline">+90 551 167 22 28</a>
             </p>
           </section>
         </div>
       </div>
-    </div>
+    </>
   )
 }
