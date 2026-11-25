@@ -36,3 +36,93 @@
 .prose li {
   @apply mb-1;
 }
+
+/* Interior pages follow the colours and type of the field photography. */
+:root {
+  --pine: #172c22;
+  --cream: #f4f1e8;
+  --amber: #ffd197;
+  --rule: #c6c8b9;
+}
+main:has(.masthead) { background: var(--cream); color: var(--pine) }
+.inner-wrap { width: min(89%, 1320px); margin-inline: auto }
+.masthead { position: relative; isolation: isolate; background: #16231a; color: #fffaee }
+.masthead-photo { position: absolute; inset: 0; overflow: hidden; z-index: -1 }
+.masthead-photo img { left: auto !important; width: 63% !important; object-fit: cover }
+.masthead-photo::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(180deg, #101d16a3, transparent 45%), linear-gradient(90deg, #16231a 28%, #16231aef 39%, #16231a90 65%, transparent 92%);
+}
+.masthead-nav { min-height: 82px; display: flex; align-items: center; justify-content: space-between; gap: 1rem; border-bottom: 1px solid #fff6 }
+.masthead-nav nav { display: flex; align-items: center; gap: clamp(14px, 2.5vw, 40px); font-size: .9rem }
+.masthead-nav a[aria-current], .masthead-nav a:hover { color: var(--amber); text-decoration: underline; text-underline-offset: 5px }
+.masthead-copy { padding-block: clamp(56px, 7vw, 110px) }
+.page-kicker { display: block; font-size: .7rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase }
+.masthead .page-kicker { color: var(--amber); display: flex; align-items: center; gap: .75rem }
+.masthead .page-kicker::before { content: ""; width: 29px; height: 2px; background: var(--amber) }
+.masthead h1 { font: italic 400 clamp(46px, 6.4vw, 99px)/1.02 Georgia, serif; letter-spacing: -.055em; color: var(--amber); margin-block: 16px; max-width: 17ch; overflow-wrap: anywhere; text-wrap: balance }
+.masthead-intro { max-width: 49ch; font-size: clamp(1rem, 1.3vw, 1.2rem); line-height: 1.6 }
+.masthead-plain .masthead-copy { padding-block: clamp(35px, 5vw, 75px) }
+.editorial-heading, .catalogue-entry > h2, .contact-band h2 { font: 400 clamp(33px, 3.7vw, 61px)/1.06 Georgia, serif; letter-spacing: -.05em; text-wrap: balance }
+.editorial-link { display: inline-block; font-size: .92rem; font-weight: 600; text-decoration: underline; text-underline-offset: .35em }
+.editorial-link:hover, .breadcrumbs a:hover { color: #7c431e }
+.catalogue, .service-detail, .policy-page, .contact-page { padding-bottom: clamp(56px, 7vw, 106px) }
+.breadcrumbs { display: flex; align-items: baseline; gap: .65rem; flex-wrap: wrap; border-bottom: 1px solid var(--rule); padding-block: 22px; margin-bottom: clamp(36px, 4.5vw, 72px); font-size: .84rem; color: #49584b }
+.breadcrumbs a { text-decoration: underline; text-underline-offset: 3px }
+.catalogue-layout { display: grid; grid-template-columns: minmax(190px, .55fr) minmax(0, 1.4fr); align-items: start; gap: clamp(35px, 8vw, 130px) }
+.service-index { position: sticky; top: 22px }
+.service-index h2 { margin-bottom: 15px }
+.service-index a { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; border-top: 1px solid var(--rule); padding-block: 10px; font-size: .92rem }
+.service-index a span { color: #856037 }
+.service-index a:hover, .catalogue-entry h2 a:hover { text-decoration: underline }
+.catalogue-entry { scroll-margin-top: 20px; padding-bottom: clamp(35px, 5vw, 75px) }
+.entry-photo { position: relative; aspect-ratio: 1.95; background: #dedfcf; overflow: hidden; margin-bottom: 20px }
+.entry-photo img { object-fit: cover }
+.catalogue-entry > .page-kicker { color: #655737 }
+.catalogue-entry > h2 { margin-block: 10px 14px }
+.catalogue-entry > p:not(.page-kicker), .reading-text { color: #405045; line-height: 1.72 }
+.service-excerpt { border-block: 1px solid var(--rule); margin-top: 17px; padding-block: 12px }
+.service-excerpt summary { cursor: pointer; font-weight: 600 }
+.service-excerpt .reading-text { margin-top: 22px }
+.entry-actions { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 22px }
+.upcoming-note { padding-top: 12px; font-style: italic }
+.reading-column { max-width: 73ch; margin-inline: auto }
+.reading-text { font-size: 1.05rem }
+.reading-text > * + * { margin-top: 1em }
+.reading-text h2, .reading-text h3, .policy-page h2 { font: 400 clamp(24px, 2.4vw, 38px)/1.15 Georgia, serif; color: var(--pine); letter-spacing: -.035em; margin-top: 1.4em }
+.reading-text ul, .reading-text ol { padding-left: 1.5em }
+.reading-text ul { list-style: disc }
+.reading-text ol { list-style: decimal }
+.reading-text li + li { margin-top: .55em }
+.reading-text a { text-decoration: underline }
+.service-detail > .editorial-link { margin-top: 44px }
+.contact-band { background: #ebbd8b; color: #252f20 }
+.contact-band-inner { display: flex; justify-content: space-between; align-items: center; gap: 36px; padding-block: clamp(46px, 6vw, 94px) }
+.contact-band h2 { max-width: 21ch; margin-bottom: 14px }
+.contact-band-actions { display: grid; justify-items: start; gap: 10px; flex-shrink: 0 }
+.contact-band-actions > a:first-child { font-size: clamp(22px, 2.6vw, 42px); letter-spacing: -.055em }
+.about-facts, .contact-info { background: #263c2f; color: #fff9ec }
+.about-section { background: var(--cream); color: var(--pine) }
+.policy-page, .contact-page { padding-top: clamp(38px, 5vw, 75px) }
+.policy-page section { border-top: 1px solid var(--rule); padding-top: 6px }
+.policy-page table { min-width: 22rem }
+.contact-columns { display: grid; grid-template-columns: minmax(0,.8fr) minmax(0,1.2fr); gap: clamp(28px, 6vw, 90px); align-items: start }
+.contact-info { padding: clamp(22px, 3vw, 50px) }
+.contact-info svg { color: var(--amber) }
+.contact-info .text-gray-600 { color: #e2e6db }
+.contact-form-panel { border-top: 1px solid var(--rule); padding-top: 24px }
+main:has(.masthead) :focus-visible { outline: 3px solid #b87536; outline-offset: 3px }
+@media (max-width: 720px) {
+  .masthead-nav { min-height: 70px; flex-wrap: wrap; padding-block: 10px; gap: 6px 20px }
+  .masthead-nav svg { width: 100px; height: auto }
+  .masthead-nav nav { gap: 12px; flex-wrap: wrap; font-size: .78rem }
+  .masthead-photo img { width: 100% !important }
+  .masthead-photo::after { background: linear-gradient(180deg, #132219d9, #13221950 25%, #132219ed 86%) }
+  .masthead-copy { padding-block: 85px 35px }
+  .catalogue-layout, .contact-columns { grid-template-columns: minmax(0, 1fr); gap: 28px }
+  .service-index { position: static; display: flex; overflow-x: auto; gap: 14px; padding-bottom: 10px; align-items: center }
+  .service-index h2, .service-index a { flex: none; margin: 0 }
+  .service-index a { border: 1px solid var(--rule); padding: 7px 12px; border-radius: 20px }
+  .entry-photo { aspect-ratio: 1.55 }
+  .contact-band-inner { flex-direction: column; align-items: start }
+}

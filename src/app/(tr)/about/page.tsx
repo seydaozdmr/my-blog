@@ -2,7 +2,7 @@ import { getAlternates, socialImages } from '@/lib/i18n'
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Logo } from '@/components/ui/Logo'
+import { PageMasthead, ContactBand } from '@/components/layout/PageMasthead'
 
 export const metadata: Metadata = {
   title: 'Hakkımızda',
@@ -68,26 +68,16 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative bg-[#1a2e1a] py-24 md:py-32">
-        <div className="absolute inset-0 opacity-20 bg-[url('/new_images/IMG_1612.webp')] bg-cover bg-center" />
-        <div className="relative z-10 container mx-auto px-6 text-center text-white">
-          <Link href="/" className="inline-block mb-6 hover:opacity-80 transition-opacity">
-            <Logo variant="light" width={180} />
-          </Link>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">Hakkımızda</h1>
-          <p className="text-xl text-white/70 max-w-2xl mx-auto leading-relaxed">
-            Antalya&apos;da ISA sertifikalı arboristlerle profesyonel ağaç bakımı. Güvenlik, kalite ve
-            doğaya saygı her projemizin temelidir.
-          </p>
-        </div>
-      </section>
+      <PageMasthead locale="tr" section="about" title="Hakkımızda" image="/new_images/IMG_1378.webp" position="50% 62%">
+        Antalya&apos;da ISA sertifikalı arboristlerle profesyonel ağaç bakımı. Güvenlik, kalite ve doğaya saygı her projemizin temelidir.
+      </PageMasthead>
 
       {/* Who we are */}
-      <section className="bg-[#f5f2ed] py-16 md:py-24">
+      <section className="about-section py-16 md:py-24">
         <div className="container mx-auto px-6 max-w-6xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
             <div className="grid grid-cols-2 gap-3 h-[440px]">
-              <div className="relative rounded-2xl overflow-hidden shadow-lg col-span-2 h-64">
+              <div className="relative overflow-hidden col-span-2 h-64">
                 <Image
                   src="/new_images/IMG_2053.webp"
                   alt="CrownPro arborist sahada çalışırken"
@@ -98,11 +88,11 @@ export default function AboutPage() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-xl px-4 py-2 shadow">
-                  <p className="text-xs font-semibold text-green-700 uppercase tracking-wider mb-0.5">ISA Sertifikalı</p>
+                  <p className="text-xs font-semibold text-[#466447] uppercase tracking-wider mb-0.5">ISA Sertifikalı</p>
                   <p className="text-sm font-bold text-gray-900">Arborist Ekibi</p>
                 </div>
               </div>
-              <div className="relative rounded-2xl overflow-hidden shadow-lg">
+              <div className="relative overflow-hidden">
                 <Image
                   src="/new_images/IMG_1446.webp"
                   alt="Palmiye budama çalışması"
@@ -111,7 +101,7 @@ export default function AboutPage() {
                   className="object-cover object-[center_20%]"
                 />
               </div>
-              <div className="relative rounded-2xl overflow-hidden shadow-lg">
+              <div className="relative overflow-hidden">
                 <Image
                   src="/new_images/IMG_0108.webp"
                   alt="Tırmanış teknikleriyle palmiye bakımı"
@@ -124,11 +114,11 @@ export default function AboutPage() {
 
             <div className="space-y-6">
               <div>
-                <span className="inline-block text-sm font-semibold text-green-700 bg-green-50 border border-green-200 px-4 py-1.5 rounded-full mb-4">
+                <span className="inline-block page-kicker mb-4">
                   Biz Kimiz?
                 </span>
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
-                  Ağaç Bakımında <span className="text-green-700">Bilim ve Ustalık</span>
+                <h2 className="editorial-heading mb-6 leading-tight">
+                  Ağaç Bakımında <span className="text-[#466447]">Bilim ve Ustalık</span>
                 </h2>
               </div>
 
@@ -154,7 +144,7 @@ export default function AboutPage() {
               <div className="pt-4">
                 <Link
                   href="/contact"
-                  className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 hover:scale-105"
+                  className="inline-flex items-center gap-2 bg-[#172c22] hover:bg-[#294832] text-white font-bold py-3 px-8 rounded-full transition-all duration-300 hover:scale-105"
                 >
                   Ücretsiz Keşif Talep Et
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
@@ -168,12 +158,12 @@ export default function AboutPage() {
       </section>
 
       {/* Stats */}
-      <section className="bg-green-700 py-14">
+      <section className="about-facts py-14">
         <div className="container mx-auto px-6 max-w-5xl">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
             {STATS.map((s) => (
               <div key={s.label}>
-                <div className="text-4xl md:text-5xl font-extrabold mb-2">{s.value}</div>
+                <div className="font-serif text-5xl md:text-6xl text-[#ffd197] mb-2">{s.value}</div>
                 <div className="text-white/70 text-sm font-medium uppercase tracking-wide">{s.label}</div>
               </div>
             ))}
@@ -182,13 +172,13 @@ export default function AboutPage() {
       </section>
 
       {/* Values */}
-      <section className="bg-white py-16 md:py-24">
+      <section className="about-section py-16 md:py-24">
         <div className="container mx-auto px-6 max-w-6xl">
-          <div className="text-center mb-14">
-            <span className="inline-block text-sm font-semibold text-green-700 bg-green-50 border border-green-200 px-4 py-1.5 rounded-full mb-4">
+          <div className="mb-14">
+            <span className="inline-block page-kicker mb-4">
               Çalışma Felsefemiz
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+            <h2 className="editorial-heading">
               Bizi Farklı Kılan Değerler
             </h2>
           </div>
@@ -197,9 +187,9 @@ export default function AboutPage() {
             {VALUES.map((v) => (
               <div
                 key={v.title}
-                className="flex gap-5 bg-[#f5f2ed] rounded-2xl p-7 hover:shadow-md transition-shadow"
+                className="flex gap-5 border-t border-[#bdc5b6] py-7"
               >
-                <div className="w-14 h-14 bg-green-600/10 text-green-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="w-14 h-14 bg-[#e4e6d7] text-[#466447] rounded-xl flex items-center justify-center flex-shrink-0">
                   {v.icon}
                 </div>
                 <div>
@@ -213,20 +203,20 @@ export default function AboutPage() {
       </section>
 
       {/* Why arborist */}
-      <section className="bg-[#f5f2ed] py-16 md:py-24">
+      <section className="about-section py-16 md:py-24">
         <div className="container mx-auto px-6 max-w-4xl">
-          <div className="bg-white rounded-2xl p-10 md:p-14 shadow-sm">
+          <div className="border-t border-[#bdc5b6] pt-10">
             <div className="flex items-start gap-6 mb-8">
-              <div className="w-14 h-14 bg-green-600/10 text-green-700 rounded-xl flex items-center justify-center flex-shrink-0">
+              <div className="w-14 h-14 bg-[#e4e6d7] text-[#466447] rounded-xl flex items-center justify-center flex-shrink-0">
                 <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.5">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
                 </svg>
               </div>
               <div>
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+                <h2 className="editorial-heading mb-2">
                   Neden Sertifikalı Arborist?
                 </h2>
-                <p className="text-green-700 font-medium text-sm">ISA · ANSI A300 · CODIT</p>
+                <p className="text-[#466447] font-medium text-sm">ISA · ANSI A300 · CODIT</p>
               </div>
             </div>
 
@@ -251,30 +241,9 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-green-700 py-16">
-        <div className="container mx-auto px-6 text-center text-white">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Ağaçlarınız Güvenli Ellerde Olsun
-          </h2>
-          <p className="text-white/80 text-lg mb-8 max-w-xl mx-auto">
-            Ücretsiz keşif ve fiyat teklifi için hemen iletişime geçin.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:+905511672228"
-              className="bg-white text-green-700 font-bold py-4 px-10 rounded-full hover:bg-green-50 transition-all duration-300 text-lg"
-            >
-              +90 551 167 22 28
-            </a>
-            <Link
-              href="/contact"
-              className="border-2 border-white text-white font-bold py-4 px-10 rounded-full hover:bg-white hover:text-green-700 transition-all duration-300 text-lg"
-            >
-              Mesaj Gönder
-            </Link>
-          </div>
-        </div>
-      </section>
+      <ContactBand locale="tr" title="Ağaçlarınız Güvenli Ellerde Olsun" message="Mesaj Gönder">
+        Ücretsiz keşif ve fiyat teklifi için hemen iletişime geçin.
+      </ContactBand>
     </>
   )
 }

@@ -22,7 +22,7 @@ export function LanguageSwitcher() {
     <div className="fixed bottom-6 right-6 z-50 flex items-center gap-1 bg-white/95 backdrop-blur-sm border border-gray-200 rounded-full px-3 py-1.5 shadow-lg text-sm font-semibold">
       <button
         onClick={() => switchTo('tr')}
-        className={`px-2 py-0.5 rounded-full transition-colors ${isTr ? 'bg-green-600 text-white' : 'text-gray-400 hover:text-gray-700'}`}
+        className={`px-2 py-0.5 rounded-full transition-colors ${isTr ? 'bg-[#233b2d] text-white' : 'text-[#536452] hover:text-[#172c22]'}`}
         aria-label="Türkçe"
       >
         TR
@@ -30,7 +30,7 @@ export function LanguageSwitcher() {
       <span className="text-gray-300">|</span>
       <button
         onClick={() => switchTo('en')}
-        className={`px-2 py-0.5 rounded-full transition-colors ${isEn ? 'bg-green-600 text-white' : 'text-gray-400 hover:text-gray-700'}`}
+        className={`px-2 py-0.5 rounded-full transition-colors ${isEn ? 'bg-[#233b2d] text-white' : 'text-[#536452] hover:text-[#172c22]'}`}
         aria-label="English"
       >
         EN
@@ -38,7 +38,7 @@ export function LanguageSwitcher() {
       <span className="text-gray-300">|</span>
       <button
         onClick={() => switchTo('ru')}
-        className={`px-2 py-0.5 rounded-full transition-colors ${isRu ? 'bg-green-600 text-white' : 'text-gray-400 hover:text-gray-700'}`}
+        className={`px-2 py-0.5 rounded-full transition-colors ${isRu ? 'bg-[#233b2d] text-white' : 'text-[#536452] hover:text-[#172c22]'}`}
         aria-label="Русский"
       >
         RU

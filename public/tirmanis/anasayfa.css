@@ -1,0 +1,161 @@
+.field-home {
+  color-scheme: light;
+  --forest: #172c22;
+  --paper: #f4f1e8;
+  --gold: #ffd197;
+  --rust: #a94722;
+  --line: #c6c8b9;
+  --gutter: clamp(20px, 5.5vw, 100px);
+  font: 16px/1.55 Inter, "Helvetica Neue", Arial, sans-serif;
+  color: var(--forest);
+  background: var(--paper);
+}
+:where(.field-home) * { box-sizing: border-box }
+html:has(.field-home) { scroll-behavior: smooth }
+.field-home, :where(.field-home) h1, :where(.field-home) h2, :where(.field-home) p, :where(.field-home) figure, :where(.field-home) dl, :where(.field-home) dd { margin: 0 }
+:where(.field-home) img { display: block; max-width: 100% }
+:where(.field-home) a { text-decoration: none; color: inherit }
+:where(.field-home) button, :where(.field-home) summary { cursor: pointer }
+:where(.field-home) a:focus-visible, :where(.field-home) button:focus-visible, :where(.field-home) summary:focus-visible { outline: 3px solid #ed9247; outline-offset: 5px }
+:where(.field-home) .wrap { width: min(calc(100% - var(--gutter) * 2), 1480px); margin-inline: auto }
+:where(.field-home) .skip { position: absolute; z-index: 10; left: 1rem; top: -6rem; padding: .8rem; background: white }
+:where(.field-home) .skip:focus { top: .5rem }
+:where(.field-home) .opening { position: relative; background: #16231a; color: #fff9eb; isolation: isolate }
+:where(.field-home) header { position: absolute; z-index: 3; inset: 0 0 auto; height: 88px; display: flex; align-items: center; gap: 40px; border-bottom: 1px solid #fff6 }
+:where(.field-home) .brand { margin-right: auto }
+:where(.field-home) .brand img { filter: brightness(0) invert(1); height: auto }
+:where(.field-home) nav { display: flex; gap: 32px }
+:where(.field-home) nav a, :where(.field-home) .header-link, :where(.field-home) .action, :where(.field-home) .ink-link { font-size: .9rem; font-weight: 600 }
+:where(.field-home) nav a:hover, :where(.field-home) .ink-link:hover { text-decoration: underline; text-underline-offset: .35em }
+:where(.field-home) .header-link { border: 1px solid #fffc; padding: 9px 17px; border-radius: 40px; display: flex; align-items: center; gap: 16px }
+:where(.field-home) .header-link:hover, :where(.field-home) .controls button:hover { background: #fff2 }
+:where(.field-home) .hero { position: relative; isolation: isolate; min-height: clamp(600px, 84svh, 880px); display: grid; align-items: center; padding: 126px 0 110px }
+:where(.field-home) .landscape { position: absolute; inset: 0; z-index: -1; overflow: hidden }
+:where(.field-home) .scene { width: 73%; height: 100%; position: absolute; right: 0; top: 0; object-fit: cover; object-position: 50% 46%; opacity: 0; transition: opacity .55s ease }
+:where(.field-home) .scene:nth-child(2) { object-position: 64% 59% }
+:where(.field-home) .scene:nth-child(3) { object-position: 58% 43% }
+:where(.field-home) .scene.current { opacity: 1 }
+:where(.field-home) .landscape::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(0deg, #101e16ed, transparent 24%), linear-gradient(180deg, #0b1a13a8, transparent 28%), linear-gradient(90deg, #16231a 13%, #16231af7 27%, #16231aa6 45%, transparent 67%);
+}
+:where(.field-home) .hero-content { position: relative }
+:where(.field-home) .place, :where(.field-home) .kicker { font-size: .69rem; line-height: 1.5; font-weight: 700; letter-spacing: .14em; text-transform: uppercase }
+:where(.field-home) .place { display: flex; align-items: center; gap: 12px; color: #ffe0b7 }
+:where(.field-home) .place span { width: 30px; height: 2px; background: #f5a45d }
+:where(.field-home) h1, :where(.field-home) h2 { font-weight: 500; letter-spacing: -.068em; line-height: .96 }
+:where(.field-home) h1 { margin: 24px 0 20px; font-size: clamp(76px, 8.9vw, 157px) }
+:where(.field-home) em { font-family: Georgia, "Times New Roman", serif; font-weight: 400; letter-spacing: -.072em }
+:where(.field-home) h1 em { color: var(--gold) }
+:where(.field-home) .lead { max-width: 35ch; color: #f4f0e6; font-size: clamp(.97rem, 1.17vw, 1.18rem) }
+:where(.field-home) .action { display: inline-flex; align-items: center; gap: 28px; margin-top: 25px; padding: 9px 11px 9px 20px; border-radius: 30px; background: var(--gold); color: #1d291c }
+:where(.field-home) .action span { display: grid; place-items: center; width: 30px; height: 30px; background: #253729; border-radius: 50%; color: white; transition: transform .2s }
+:where(.field-home) .action:hover span { transform: translateY(2px) }
+:where(.field-home) .gallery-bar { position: absolute; bottom: 0; inset-inline: 0; min-height: 72px; border-top: 1px solid #fff5; display: flex; align-items: center; justify-content: space-between; gap: 14px }
+:where(.field-home) .photo-note, :where(.field-home) .controls { display: flex; align-items: center }
+:where(.field-home) .photo-note { gap: 18px; font-size: .86rem }
+:where(.field-home) #count { color: var(--gold); font: .72rem/1.2 ui-monospace, monospace; letter-spacing: .07em; border-right: 1px solid #fffa; padding-right: 18px }
+:where(.field-home) .controls { gap: 7px }
+:where(.field-home) .controls[hidden] { display: none }
+:where(.field-home) .controls button { background: #192b2080; color: white; border: 1px solid #fff8; border-radius: 50%; width: 40px; height: 40px; font-size: 19px }
+:where(.field-home) .facts { display: grid; grid-template-columns: repeat(3,1fr); padding-block: 34px; border-bottom: 1px solid var(--line) }
+:where(.field-home) .facts div { display: flex; flex-direction: row-reverse; align-items: center; gap: clamp(8px, 1.5vw, 24px); justify-content: center }
+:where(.field-home) .facts div + div { border-left: 1px solid var(--line) }
+:where(.field-home) dd { font: 400 clamp(36px, 4.2vw, 74px)/.95 Georgia, serif; letter-spacing: -.065em }
+:where(.field-home) dd span { color: var(--rust); font-size: .69em }
+:where(.field-home) dt { max-width: 11ch; font-size: .84rem; line-height: 1.3; color: #475646 }
+:where(.field-home) .services { padding-block: clamp(60px, 7.4vw, 125px) }
+:where(.field-home) .section-heading { display: flex; align-items: end; justify-content: space-between; gap: 20px; margin-bottom: clamp(30px, 3.5vw, 52px) }
+:where(.field-home) h2 { font-size: clamp(48px, 5.3vw, 90px) }
+:where(.field-home) h2 em { color: #52643e }
+:where(.field-home) .ink-link { display: inline-block; border-bottom: 1px solid currentColor; padding-bottom: 3px }
+:where(.field-home) .section-heading > a { flex-shrink: 0 }
+:where(.field-home) .service-grid { display: grid; grid-template-columns: .93fr 1fr; gap: clamp(34px, 6vw, 100px); align-items: start }
+:where(.field-home) .service-plate { position: relative; background: #dadecd; aspect-ratio: 1.37; overflow: hidden }
+:where(.field-home) .service-plate img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 42% }
+:where(.field-home) .service-list { border-top: 1px solid var(--line) }
+:where(.field-home) details { border-bottom: 1px solid var(--line) }
+:where(.field-home) summary { list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 12px; padding-block: clamp(18px, 2vw, 34px); font-size: clamp(23px, 2.35vw, 42px); line-height: 1.15; letter-spacing: -.05em }
+:where(.field-home) summary::-webkit-details-marker { display: none }
+:where(.field-home) .toggle { flex: none; display: grid; place-items: center; width: 33px; height: 33px; border: 1px solid var(--line); border-radius: 50%; font: 20px/1 Arial, sans-serif }
+:where(.field-home) .toggle::before { content: "+" }
+:where(.field-home) details[open] .toggle { color: var(--paper); background: var(--forest); border-color: var(--forest) }
+:where(.field-home) details[open] .toggle::before { content: "−" }
+:where(.field-home) .service-body { padding-bottom: 25px }
+:where(.field-home) .service-body p, :where(.field-home) .team-copy > p:not(.kicker) { max-width: 43ch; color: #485648; line-height: 1.65 }
+:where(.field-home) .service-body a, :where(.field-home) .team-copy a { margin-top: 17px }
+:where(.field-home) .service-body img { width: 100%; height: 230px; object-fit: cover; object-position: center 42%; margin-bottom: 18px }
+:where(.field-home) .service-grid:not(.interactive) .service-plate { display: none }
+:where(.field-home) .service-grid:not(.interactive) { grid-template-columns: 1fr }
+:where(.field-home) .interactive .service-body img { display: none }
+:where(.field-home) .team { background: #263c2f; color: var(--paper) }
+:where(.field-home) .team-inner { display: grid; grid-template-columns: 1fr .85fr; align-items: center; gap: 8vw; padding-block: clamp(40px, 5.5vw, 85px) }
+:where(.field-home) .team-copy { padding-left: 4vw }
+:where(.field-home) .kicker { margin-bottom: 17px }
+:where(.field-home) .team .kicker, :where(.field-home) .team em { color: var(--gold) }
+:where(.field-home) .team-copy > p:not(.kicker) { color: #e1e5d9; margin-top: 23px }
+:where(.field-home) .team figure { aspect-ratio: 1.35; overflow: hidden; border-radius: 46% 46% 0 0 }
+:where(.field-home) .team figure img { width: 100%; height: 100%; object-fit: cover; object-position: center 52% }
+:where(.field-home) :is(footer, .home-contact) { background: #ebbd8b; color: #262e20 }
+:where(.field-home) .foot-inner { display: flex; align-items: end; justify-content: space-between; gap: 36px; padding-block: clamp(50px, 6.5vw, 100px) }
+:where(.field-home) :is(footer, .home-contact) h2 { max-width: 9ch }
+:where(.field-home) :is(footer, .home-contact) h2 em { color: inherit }
+:where(.field-home) .contact { display: grid; justify-items: start; gap: 12px }
+:where(.field-home) .contact > a:first-child { font-size: clamp(25px, 2.8vw, 48px); letter-spacing: -.055em }
+@media (max-width: 760px) {
+  :where(.field-home) header { height: 69px; gap: 16px }
+  :where(.field-home) .brand img { width: 115px; height: auto }
+  :where(.field-home) nav { gap: 14px }
+  :where(.field-home) nav a, :where(.field-home) .header-link { font-size: .77rem }
+  :where(.field-home) .header-link { gap: 8px; padding: 8px 12px }
+  :where(.field-home) .hero { min-height: clamp(590px, 83svh, 765px); align-items: end; padding: 145px 0 88px }
+  :where(.field-home) .scene { width: 100%; object-position: 50% 40% }
+  :where(.field-home) .landscape::after { background: linear-gradient(180deg, #142219a8, transparent 22%), linear-gradient(0deg, #121e17 0%, #121e17e8 22%, #121e1799 48%, #121e1720 76%) }
+  :where(.field-home) h1 { font-size: clamp(66px, 13.5vw, 100px); margin: 15px 0 }
+  :where(.field-home) .place { font-size: .6rem }
+  :where(.field-home) .lead { font-size: .94rem; max-width: 34ch }
+  :where(.field-home) .action { margin-top: 18px }
+  :where(.field-home) .gallery-bar { min-height: 61px }
+  :where(.field-home) .facts { padding-block: 22px }
+  :where(.field-home) .facts div { flex-direction: column-reverse; gap: 7px; text-align: center }
+  :where(.field-home) dt { font-size: .72rem; max-width: none }
+  :where(.field-home) .section-heading { align-items: start; flex-direction: column; gap: 16px }
+  :where(.field-home) .service-grid { display: block }
+  :where(.field-home) .service-plate { display: none }
+  :where(.field-home) .interactive .service-body img { display: block }
+  :where(.field-home) .team-inner { grid-template-columns: 1fr; gap: 28px }
+  :where(.field-home) .team-copy { padding-left: 0 }
+  :where(.field-home) .team figure { aspect-ratio: 1.65 }
+  :where(.field-home) .foot-inner { align-items: start; flex-direction: column }
+}
+@media (max-width: 420px) {
+  :where(.field-home) header { gap: 12px }
+  :where(.field-home) nav a[href="#ekip"] { display: none }
+  :where(.field-home) .photo-note { gap: 9px; font-size: .78rem }
+  :where(.field-home) #count { padding-right: 9px }
+  :where(.field-home) .controls button { width: 36px; height: 36px }
+}
+@media (prefers-reduced-motion: reduce) {
+  html:has(.field-home) { scroll-behavior: auto }
+  :where(.field-home) *, :where(.field-home) *::after { transition: none !important }
+}
+
+@media (min-width: 761px) {
+  .field-home .native-services {
+    --service-gap: clamp(34px, 6vw, 100px);
+    --plate-width: calc((100% - var(--service-gap)) * .48);
+    position: relative;
+    grid-template-columns: var(--plate-width) minmax(0, 1fr);
+    gap: var(--service-gap);
+  }
+  .field-home .native-services details[open] .service-body img {
+    position: absolute;
+    inset: 0 auto auto 0;
+    display: block;
+    width: var(--plate-width);
+    aspect-ratio: 1.37;
+    height: auto;
+    margin: 0;
+    object-fit: cover;
+  }
+}

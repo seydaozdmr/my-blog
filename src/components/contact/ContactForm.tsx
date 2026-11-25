@@ -7,7 +7,7 @@ import type { Locale } from '@/lib/translations'
 export default function ContactForm({ locale = 'tr' }: { locale?: Locale }) {
   const t = contactCopy[locale]
   const [draftRequested, setDraftRequested] = useState(false)
-  const inputClass = 'w-full px-4 py-3 rounded-xl border border-gray-200 bg-[#f5f2ed] focus:bg-white focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all text-gray-800 placeholder:text-gray-400'
+  const inputClass = 'w-full px-4 py-3 rounded-md border border-[#b9c2b3] bg-[#fbfaf5] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#7c895c] focus:border-transparent transition-all text-gray-800 placeholder:text-gray-400'
   const labelClass = 'block text-sm font-semibold text-gray-700 mb-2'
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -52,8 +52,8 @@ export default function ContactForm({ locale = 'tr' }: { locale?: Locale }) {
         <textarea id="message" name="message" required rows={5} maxLength={2000} placeholder={t.messagePlaceholder} className={`${inputClass} resize-none`} />
       </div>
       {draftRequested && <p role="status" className="text-sm text-green-800 bg-green-50 rounded-xl p-4">{t.draft}</p>}
-      <button type="submit" className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-full transition-colors text-lg">{t.submit}</button>
-      <a href={`mailto:${contactEmail}`} className="block text-sm text-green-700 underline break-all">{contactEmail}</a>
+      <button type="submit" className="w-full bg-[#172c22] hover:bg-[#294832] text-white font-bold py-4 px-8 rounded-full transition-colors text-lg">{t.submit}</button>
+      <a href={`mailto:${contactEmail}`} className="block text-sm text-[#34513c] underline break-all">{contactEmail}</a>
     </form>
   )
 }
