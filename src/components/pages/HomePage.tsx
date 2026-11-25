@@ -42,7 +42,7 @@ export async function HomePage({ locale }: { locale: Locale }) {
         </HeroSlider>
       </div>
       <dl className="facts wrap">
-        <div><dt>{t.stats.experience}</dt><dd>10<span>+</span></dd></div>
+        <div><dt>{locale === 'ru' ? 'Года опыта' : t.stats.experience}</dt><dd>4</dd></div>
         <div><dt>{t.stats.projects}</dt><dd>500<span>+</span></dd></div>
         <div><dt>{t.stats.emergency}</dt><dd>{locale === 'tr' ? '7' : '24'}<span>/</span>{locale === 'tr' ? '24' : '7'}</dd></div>
       </dl>
